@@ -1,0 +1,220 @@
+EXERCICES DE CHIMIE CORRIGÉS
+LICENCE 2 - RÉVISION COMPLÈTE
+
+SÉRIE 1 : STŒCHIOMÉTRIE
+
+Exercice 1 : Calcul de masse molaire
+Calculer la masse molaire de H₂SO₄
+
+Solution :
+M(H₂SO₄) = 2×M(H) + M(S) + 4×M(O)
+M(H₂SO₄) = 2×1 + 32 + 4×16 = 98 g/mol
+
+Exercice 2 : Conversion moles-masse
+Combien de moles dans 49 g de H₂SO₄ ?
+
+Solution :
+n = m/M = 49/98 = 0,5 mol
+
+Exercice 3 : Équation chimique
+Équilibrer et calculer les quantités pour :
+C₃H₈ + O₂ → CO₂ + H₂O
+
+Solution :
+Équation équilibrée : C₃H₈ + 5O₂ → 3CO₂ + 4H₂O
+Si on a 1 mol de C₃H₈ :
+- Il faut 5 mol de O₂
+- On obtient 3 mol de CO₂
+- On obtient 4 mol de H₂O
+
+Exercice 4 : Réactif limitant
+On mélange 2 mol de H₂ et 1 mol de O₂ selon :
+2H₂ + O₂ → 2H₂O
+Quel est le réactif limitant ?
+
+Solution :
+Rapport stœchiométrique : 2H₂/1O₂
+Rapport disponible : 2H₂/1O₂ = 2
+Le rapport disponible = rapport stœchiométrique
+Donc les deux réactifs sont en proportions stœchiométriques.
+
+SÉRIE 2 : SOLUTIONS
+
+Exercice 5 : Concentration molaire
+Calculer la concentration d'une solution contenant 0,1 mol de NaCl dans 250 mL.
+
+Solution :
+C = n/V = 0,1/0,25 = 0,4 mol/L
+
+Exercice 6 : Dilution
+On dilue 50 mL d'une solution 2 M dans 200 mL d'eau.
+Calculer la nouvelle concentration.
+
+Solution :
+n₁ = C₁V₁ = 2×0,05 = 0,1 mol
+V₂ = 0,05 + 0,2 = 0,25 L
+C₂ = n₁/V₂ = 0,1/0,25 = 0,4 M
+
+Exercice 7 : Titrage
+On titre 20 mL d'acide chlorhydrique par une solution de NaOH 0,1 M.
+Il faut 15 mL de base pour atteindre l'équivalence.
+Calculer la concentration de l'acide.
+
+Solution :
+À l'équivalence : n(HCl) = n(NaOH)
+C(HCl)×V(HCl) = C(NaOH)×V(NaOH)
+C(HCl)×0,02 = 0,1×0,015
+C(HCl) = 0,1×0,015/0,02 = 0,075 M
+
+SÉRIE 3 : ÉQUILIBRES
+
+Exercice 8 : Constante d'équilibre
+Pour l'équilibre : N₂ + 3H₂ ⇌ 2NH₃
+À l'équilibre : [N₂] = 0,1 M, [H₂] = 0,3 M, [NH₃] = 0,2 M
+Calculer Kc.
+
+Solution :
+Kc = [NH₃]²/([N₂][H₂]³) = 0,2²/(0,1×0,3³) = 0,04/(0,1×0,027) = 14,8
+
+Exercice 9 : Principe de Le Chatelier
+Pour l'équilibre : 2SO₂ + O₂ ⇌ 2SO₃ (exothermique)
+Que se passe-t-il si on augmente la température ?
+
+Solution :
+L'équilibre se déplace vers la gauche (réactifs) car la réaction est exothermique.
+
+SÉRIE 4 : ACIDES ET BASES
+
+Exercice 10 : Calcul de pH
+Calculer le pH d'une solution [H₃O⁺] = 10⁻³ M.
+
+Solution :
+pH = -log[H₃O⁺] = -log(10⁻³) = 3
+
+Exercice 11 : Calcul de pOH
+Calculer le pOH d'une solution [OH⁻] = 10⁻⁵ M.
+
+Solution :
+pOH = -log[OH⁻] = -log(10⁻⁵) = 5
+
+Exercice 12 : pH d'un acide fort
+Calculer le pH d'une solution d'HCl 0,01 M.
+
+Solution :
+HCl est un acide fort : [H₃O⁺] = [HCl] = 0,01 M
+pH = -log(0,01) = 2
+
+Exercice 13 : pH d'une base forte
+Calculer le pH d'une solution de NaOH 0,001 M.
+
+Solution :
+NaOH est une base forte : [OH⁻] = [NaOH] = 0,001 M
+pOH = -log(0,001) = 3
+pH = 14 - pOH = 14 - 3 = 11
+
+SÉRIE 5 : THERMODYNAMIQUE
+
+Exercice 14 : Calcul d'enthalpie
+Pour la réaction : C + O₂ → CO₂
+ΔH°f(CO₂) = -393,5 kJ/mol
+Calculer ΔH°r.
+
+Solution :
+ΔH°r = ΣΔH°f(produits) - ΣΔH°f(réactifs)
+ΔH°r = ΔH°f(CO₂) - [ΔH°f(C) + ΔH°f(O₂)]
+ΔH°r = -393,5 - [0 + 0] = -393,5 kJ/mol
+
+Exercice 15 : Calcul d'entropie
+Pour la réaction : H₂ + ½O₂ → H₂O
+S°(H₂) = 130,7 J/mol·K, S°(O₂) = 205,0 J/mol·K, S°(H₂O) = 188,7 J/mol·K
+Calculer ΔS°r.
+
+Solution :
+ΔS°r = ΣS°(produits) - ΣS°(réactifs)
+ΔS°r = S°(H₂O) - [S°(H₂) + ½S°(O₂)]
+ΔS°r = 188,7 - [130,7 + ½×205,0] = 188,7 - [130,7 + 102,5] = -44,5 J/mol·K
+
+SÉRIE 6 : CINÉTIQUE
+
+Exercice 16 : Ordre de réaction
+Pour la réaction : A → B
+Les données expérimentales montrent que doubler [A] double la vitesse.
+Quel est l'ordre de la réaction ?
+
+Solution :
+v = k[A]^n
+Si [A] double et v double, alors 2 = 2^n
+Donc n = 1 (réaction du premier ordre)
+
+Exercice 17 : Temps de demi-réaction
+Pour une réaction du premier ordre avec k = 0,1 s⁻¹.
+Calculer le temps de demi-réaction.
+
+Solution :
+t₁/₂ = ln(2)/k = ln(2)/0,1 = 6,93 s
+
+SÉRIE 7 : ÉLECTROCHIMIE
+
+Exercice 18 : Pile
+Pile : Zn|Zn²⁺||Cu²⁺|Cu
+E°(Zn²⁺/Zn) = -0,76 V, E°(Cu²⁺/Cu) = +0,34 V
+Calculer la f.é.m. standard.
+
+Solution :
+E°cell = E°(cathode) - E°(anode)
+E°cell = E°(Cu²⁺/Cu) - E°(Zn²⁺/Zn)
+E°cell = 0,34 - (-0,76) = 1,10 V
+
+Exercice 19 : Électrolyse
+On fait passer un courant de 2 A pendant 1 heure dans une solution de CuSO₄.
+Calculer la masse de cuivre déposée.
+
+Solution :
+Q = It = 2×3600 = 7200 C
+n(e⁻) = Q/F = 7200/96500 = 0,0746 mol
+n(Cu) = n(e⁻)/2 = 0,0746/2 = 0,0373 mol
+m(Cu) = n×M = 0,0373×63,5 = 2,37 g
+
+MÉTHODES DE RÉSOLUTION
+
+1. Stœchiométrie :
+   - Équilibrer l'équation
+   - Convertir en moles
+   - Utiliser les coefficients stœchiométriques
+   - Convertir le résultat
+
+2. Solutions :
+   - Utiliser C = n/V
+   - Appliquer la loi de dilution
+   - Calculer les équivalences
+
+3. Équilibres :
+   - Écrire l'expression de K
+   - Utiliser le principe de Le Chatelier
+   - Calculer les concentrations
+
+4. Acides-bases :
+   - Identifier le type (fort/faible)
+   - Calculer [H₃O⁺] ou [OH⁻]
+   - Utiliser pH = -log[H₃O⁺]
+
+CONSEILS POUR LA RÉSOLUTION
+
+1. Identifier le type de problème
+2. Écrire les équations appropriées
+3. Faire attention aux unités
+4. Vérifier la cohérence des résultats
+5. Interpréter physiquement
+
+FORMULES DE RÉFÉRENCE
+
+- Moles : n = m/M
+- Concentration : C = n/V
+- pH : pH = -log[H₃O⁺]
+- pOH : pOH = -log[OH⁻]
+- pH + pOH = 14
+- Constante d'équilibre : K = [produits]/[réactifs]
+- Enthalpie : ΔH = ΣH(produits) - ΣH(réactifs)
+- Entropie : ΔS = ΣS(produits) - ΣS(réactifs)
+- Énergie libre : ΔG = ΔH - TΔS
+

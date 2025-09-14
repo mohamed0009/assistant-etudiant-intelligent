@@ -1,0 +1,147 @@
+TRAVAUX DIRIGÉS - ÉLECTRONIQUE
+
+SÉRIE 1 : AMPLIFICATEURS OPÉRATIONNELS
+
+Exercice 1 : Amplificateur inverseur
+Soit le montage suivant :
+- R1 = 10 kΩ (résistance d'entrée)
+- R2 = 100 kΩ (résistance de contre-réaction)
+- Ve = 1 V (tension d'entrée)
+
+Questions :
+1. Calculer le gain en tension Av
+2. Calculer la tension de sortie Vs
+3. Déterminer l'impédance d'entrée
+
+Solutions :
+1. Av = -R2/R1 = -100k/10k = -10
+2. Vs = Av × Ve = -10 × 1 = -10 V
+3. Zi = R1 = 10 kΩ
+
+Exercice 2 : Amplificateur non-inverseur
+- R1 = 5 kΩ
+- R2 = 25 kΩ
+- Ve = 2 V
+
+Calculer :
+1. Le gain Av
+2. La tension de sortie Vs
+
+Solutions :
+1. Av = 1 + R2/R1 = 1 + 25k/5k = 6
+2. Vs = Av × Ve = 6 × 2 = 12 V
+
+SÉRIE 2 : TRANSISTORS
+
+Exercice 3 : Transistor bipolaire
+Dans un montage émetteur commun :
+- Vcc = 12 V
+- Rc = 2 kΩ
+- Re = 1 kΩ
+- β = 100
+- Vbe = 0.7 V
+
+Calculer :
+1. Le point de repos (Ic, Vce)
+2. Le gain en tension
+
+Solutions :
+1. Ic ≈ (Vcc - Vbe) / (Re + Rc/β) ≈ 4.5 mA
+   Vce = Vcc - Ic(Rc + Re) ≈ 6.5 V
+2. Av ≈ -Rc/Re = -2
+
+Exercice 4 : Transistor MOS
+- Vdd = 10 V
+- Rd = 5 kΩ
+- Vt = 1 V (tension de seuil)
+- K = 0.5 mA/V²
+
+Calculer Id et Vds pour Vgs = 3 V.
+
+Solution :
+Id = K(Vgs - Vt)² = 0.5(3-1)² = 2 mA
+Vds = Vdd - Id×Rd = 10 - 2×5 = 0 V (saturation)
+
+SÉRIE 3 : CIRCUITS LOGIQUES
+
+Exercice 5 : Portes logiques
+Simplifier l'expression : F = A·B + A·B' + A'·B
+
+Solution :
+F = A·B + A·B' + A'·B
+  = A(B + B') + A'·B
+  = A·1 + A'·B
+  = A + A'·B
+  = A + B
+
+Exercice 6 : Table de vérité
+Compléter la table de vérité pour F = A ⊕ B (XOR)
+
+A | B | F
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 0
+
+SÉRIE 4 : FILTRES
+
+Exercice 7 : Filtre RC passe-bas
+- R = 1 kΩ
+- C = 1 μF
+
+Calculer :
+1. La fréquence de coupure fc
+2. Le gain à fc/10 et 10×fc
+
+Solutions :
+1. fc = 1/(2πRC) = 1/(2π×1000×10⁻⁶) = 159 Hz
+2. À fc/10 = 15.9 Hz : G = 1 (≈ 0 dB)
+   À 10×fc = 1.59 kHz : G = 0.1 (-20 dB)
+
+Exercice 8 : Filtre RLC série
+- R = 100 Ω
+- L = 10 mH
+- C = 1 μF
+
+Calculer :
+1. La fréquence de résonance fr
+2. Le facteur de qualité Q
+
+Solutions :
+1. fr = 1/(2π√(LC)) = 1/(2π√(0.01×10⁻⁶)) = 1.59 kHz
+2. Q = ωrL/R = 2π×1590×0.01/100 = 1
+
+SÉRIE 5 : OSCILLATEURS
+
+Exercice 9 : Oscillateur de Wien
+- R = 10 kΩ
+- C = 100 nF
+
+Calculer la fréquence d'oscillation.
+
+Solution :
+f = 1/(2πRC) = 1/(2π×10⁴×10⁻⁷) = 159 Hz
+
+Exercice 10 : Oscillateur à pont de Wien
+Conditions d'oscillation :
+1. Gain de boucle = 1
+2. Déphasage = 0°
+
+Pour R1 = R2 = R et C1 = C2 = C :
+- Fréquence : f = 1/(2πRC)
+- Gain minimum : Av = 3
+
+MÉTHODES DE RÉSOLUTION
+
+1. Analyse nodale : Écrire les équations aux nœuds
+2. Analyse de mailles : Écrire les équations de mailles
+3. Théorèmes : Thévenin, Norton, superposition
+4. Simulation : Utiliser des outils comme SPICE
+
+POINTS IMPORTANTS
+
+- Toujours vérifier les unités
+- Faire un schéma clair
+- Identifier les hypothèses
+- Vérifier la cohérence des résultats
+- Interpréter physiquement les résultats

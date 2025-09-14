@@ -1,0 +1,199 @@
+COURS DE GÉOLOGIE
+
+1. INTRODUCTION À LA GÉOLOGIE
+
+La géologie est la science qui étudie la Terre, sa structure, sa composition et son évolution.
+
+1.1 Branches de la géologie
+- Géologie structurale : étude des déformations
+- Pétrologie : étude des roches
+- Minéralogie : étude des minéraux
+- Paléontologie : étude des fossiles
+- Géomorphologie : étude des reliefs
+
+1.2 Temps géologique
+- Échelle des temps géologiques
+- Méthodes de datation
+- Fossiles stratigraphiques
+
+2. STRUCTURE INTERNE DE LA TERRE
+
+2.1 Croûte terrestre
+- Croûte continentale : 30-70 km d'épaisseur
+- Croûte océanique : 5-10 km d'épaisseur
+- Composition : roches silicatées
+
+2.2 Manteau
+- Manteau supérieur : 10-400 km
+- Manteau inférieur : 400-2900 km
+- Composition : péridotite
+
+2.3 Noyau
+- Noyau externe : 2900-5150 km (liquide)
+- Noyau interne : 5150-6370 km (solide)
+- Composition : fer et nickel
+
+3. TECTONIQUE DES PLAQUES
+
+3.1 Théorie de la dérive des continents
+- Alfred Wegener (1912)
+- Pangée : supercontinent
+- Preuves : fossiles, géologie, climat
+
+3.2 Plaques tectoniques
+- 7 plaques majeures
+- Mouvements : divergence, convergence, coulissage
+- Frontières de plaques
+
+3.3 Phénomènes associés
+- Séismes
+- Volcanisme
+- Formation des montagnes
+
+4. ROCHES ET MINÉRAUX
+
+4.1 Minéraux
+- Définition : substance naturelle cristallisée
+- Propriétés : dureté, clivage, couleur
+- Classification : silicates, carbonates, sulfures
+
+4.2 Roches ignées
+- Formation : solidification du magma
+- Types : plutoniques, volcaniques
+- Exemples : granite, basalte
+
+4.3 Roches sédimentaires
+- Formation : accumulation de sédiments
+- Types : détritiques, chimiques, organiques
+- Exemples : grès, calcaire, charbon
+
+4.4 Roches métamorphiques
+- Formation : transformation sous pression/température
+- Types : foliées, non foliées
+- Exemples : schiste, marbre
+
+5. PROCESSUS GÉOLOGIQUES
+
+5.1 Érosion
+- Agents : eau, vent, glace
+- Types : mécanique, chimique
+- Résultat : formation de sédiments
+
+5.2 Sédimentation
+- Transport des sédiments
+- Dépôt en couches
+- Diagenèse : transformation en roche
+
+5.3 Métamorphisme
+- Facteurs : température, pression, fluides
+- Types : régional, de contact
+- Minéraux indicateurs
+
+6. VOLCANISME
+
+6.1 Types de volcans
+- Volcans effusifs : coulées de lave
+- Volcans explosifs : éruptions violentes
+- Volcans mixtes : alternance
+
+6.2 Produits volcaniques
+- Lave : magma épanché
+- Cendres : fragments fins
+- Bombes : fragments grossiers
+
+6.3 Distribution géographique
+- Ceinture de feu du Pacifique
+- Dorsales océaniques
+- Points chauds
+
+7. SÉISMES
+
+7.1 Causes des séismes
+- Mouvement des plaques
+- Volcanisme
+- Activité humaine
+
+7.2 Propagation des ondes
+- Ondes P : compression
+- Ondes S : cisaillement
+- Ondes de surface
+
+7.3 Mesure des séismes
+- Échelle de Richter
+- Échelle de Mercalli
+- Sismographes
+
+8. RESSOURCES GÉOLOGIQUES
+
+8.1 Ressources énergétiques
+- Pétrole et gaz naturel
+- Charbon
+- Uranium
+
+8.2 Ressources minérales
+- Métaux : fer, cuivre, or
+- Matériaux de construction
+- Pierres précieuses
+
+8.3 Eau souterraine
+- Aquifères
+- Nappes phréatiques
+- Protection des ressources
+
+9. EXERCICES RÉSOLUS
+
+Exercice 1 : Calculer l'âge d'une roche contenant 50% d'uranium-238 restant (demi-vie = 4,5 milliards d'années).
+
+Solution :
+N = N0 × (1/2)^(t/T)
+0,5 = 1 × (1/2)^(t/4,5)
+t = 4,5 milliards d'années
+
+Exercice 2 : Une faille normale a un rejet vertical de 100 m. Si l'angle de pendage est de 60°, calculer le rejet horizontal.
+
+Solution :
+Rejet horizontal = Rejet vertical / tan(60°)
+Rejet horizontal = 100 / tan(60°) = 100 / √3 = 57,7 m
+
+10. FORMULES IMPORTANTES
+
+- Loi de Darcy : Q = -K × A × (dh/dl)
+- Équation de continuité : ∂ρ/∂t + ∇·(ρv) = 0
+- Vitesse des ondes P : Vp = √((K + 4G/3)/ρ)
+- Vitesse des ondes S : Vs = √(G/ρ)
+- Pression lithostatique : P = ρ × g × h
+
+11. APPLICATIONS PRATIQUES
+
+11.1 Exploration pétrolière
+- Géologie structurale
+- Pièges pétroliers
+- Forages d'exploration
+
+11.2 Génie civil
+- Études géotechniques
+- Stabilité des pentes
+- Fondations
+
+11.3 Protection de l'environnement
+- Gestion des déchets
+- Stockage géologique
+- Remédiation des sols
+
+12. OUTILS ET MÉTHODES
+
+12.1 Cartographie géologique
+- Levés de terrain
+- Photographies aériennes
+- Images satellites
+
+12.2 Analyses en laboratoire
+- Microscopie pétrographique
+- Analyses chimiques
+- Datations radiométriques
+
+12.3 Modélisation
+- Modèles numériques
+- Simulations de processus
+- Prévisions de risques
+

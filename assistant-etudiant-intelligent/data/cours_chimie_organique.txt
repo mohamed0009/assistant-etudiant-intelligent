@@ -1,0 +1,205 @@
+COURS DE CHIMIE ORGANIQUE - LICENCE 2
+CHIMIE DU CARBONE
+
+CHAPITRE 1 : FONDAMENTAUX
+
+1.1 PROPRIÉTÉS DU CARBONE
+- Tétravalent : 4 liaisons covalentes
+- Hybridation sp³, sp², sp
+- Formation de chaînes longues
+- Isomérie : même formule, structures différentes
+
+1.2 REPRÉSENTATION DES MOLÉCULES
+Formules :
+- Brute : C₄H₁₀
+- Développée : H₃C-CH₂-CH₂-CH₃
+- Semi-développée : CH₃-CH₂-CH₂-CH₃
+- Squelette : lignes représentant les liaisons C-C
+
+1.3 NOMENCLATURE IUPAC
+Alcanes : -ane (méthane, éthane, propane...)
+Alcènes : -ène (éthène, propène...)
+Alcynes : -yne (éthyne, propyne...)
+Alcools : -ol (méthanol, éthanol...)
+
+CHAPITRE 2 : HYDROCARBURES
+
+2.1 ALCANES
+Formule générale : CₙH₂ₙ₊₂
+Propriétés :
+- Liaisons simples C-C
+- Hybridation sp³
+- Forme tétraédrique
+- Rotation libre autour des liaisons
+
+Exemples :
+- Méthane : CH₄
+- Éthane : C₂H₆
+- Propane : C₃H₈
+- Butane : C₄H₁₀
+
+2.2 ALCÈNES
+Formule générale : CₙH₂ₙ
+Propriétés :
+- Double liaison C=C
+- Hybridation sp²
+- Forme trigonale plane
+- Pas de rotation autour de C=C
+
+Exemples :
+- Éthène (éthylène) : C₂H₄
+- Propène : C₃H₆
+- Butène : C₄H₈
+
+2.3 ALCOOLS
+Formule générale : R-OH
+Classification :
+- Primaire : R-CH₂-OH
+- Secondaire : R₂CH-OH
+- Tertiaire : R₃C-OH
+
+Propriétés :
+- Point d'ébullition élevé (liaisons H)
+- Solubilité dans l'eau
+- Acidité faible
+
+CHAPITRE 3 : GROUPES FONCTIONNELS
+
+3.1 ALDEHYDES ET CÉTONES
+Aldéhydes : R-CHO
+- Suffixe : -al
+- Exemple : éthanal (acétaldéhyde)
+
+Cétones : R-CO-R'
+- Suffixe : -one
+- Exemple : propanone (acétone)
+
+Réactivité :
+- Addition nucléophile
+- Oxydation (aldéhydes)
+- Réduction
+
+3.2 ACIDES CARBOXYLIQUES
+Formule : R-COOH
+Suffixe : -oïque
+Exemples :
+- Acide éthanoïque (acétique) : CH₃COOH
+- Acide propanoïque : C₂H₅COOH
+
+Propriétés :
+- Acidité (donne H⁺)
+- Formation de sels
+- Estérification
+
+3.3 ESTERS
+Formule : R-COO-R'
+Formation : Acide + alcool → ester + eau
+Exemple : CH₃COOH + C₂H₅OH → CH₃COOC₂H₅ + H₂O
+
+Propriétés :
+- Odeurs agréables
+- Hydrolyse en milieu acide ou basique
+
+CHAPITRE 4 : RÉACTIONS ORGANIQUES
+
+4.1 SUBSTITUTION
+Remplacement d'un atome par un autre
+Exemple : CH₄ + Cl₂ → CH₃Cl + HCl
+
+Mécanismes :
+- SN1 : unimoléculaire, carbocation
+- SN2 : bimoléculaire, inversion de configuration
+
+4.2 ADDITION
+Ajout d'atomes sur une double liaison
+Exemple : C₂H₄ + H₂ → C₂H₆
+
+Types :
+- Addition électrophile
+- Addition radicalaire
+- Addition nucléophile
+
+4.3 ÉLIMINATION
+Suppression d'atomes pour former une double liaison
+Exemple : C₂H₅OH → C₂H₄ + H₂O
+
+Mécanismes :
+- E1 : unimoléculaire
+- E2 : bimoléculaire
+
+CHAPITRE 5 : STÉRÉOCHIMIE
+
+5.1 ISOMÉRIE GÉOMÉTRIQUE
+Alcènes : cis/trans ou E/Z
+- Cis : groupes identiques du même côté
+- Trans : groupes identiques de côtés opposés
+
+5.2 CHIRALITÉ
+Molécules non superposables à leur image miroir
+Carbone asymétrique : 4 groupes différents
+Énantiomères : images miroir non superposables
+
+5.3 CONFIGURATION ABSOLUE
+Règles de Cahn-Ingold-Prelog :
+1. Priorité des substituants
+2. Orientation de la molécule
+3. Sens de rotation (R ou S)
+
+CHAPITRE 6 : BIOMOLÉCULES
+
+6.1 GLUCIDES
+Monosaccharides :
+- Glucose : C₆H₁₂O₆
+- Fructose : C₆H₁₂O₆
+- Galactose : C₆H₁₂O₆
+
+Disaccharides :
+- Saccharose : glucose + fructose
+- Lactose : glucose + galactose
+- Maltose : glucose + glucose
+
+6.2 LIPIDES
+Triglycérides : glycérol + 3 acides gras
+Phospholipides : constituants des membranes
+Stéroïdes : cholestérol, hormones
+
+6.3 PROTÉINES
+Acides aminés : 20 types différents
+Liaison peptidique : -CO-NH-
+Structure :
+- Primaire : séquence d'acides aminés
+- Secondaire : α-hélice, feuillet β
+- Tertiaire : repliement 3D
+- Quaternaire : association de chaînes
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Nommer CH₃-CH₂-CH₂-OH
+Solution : Propan-1-ol (alcool primaire)
+
+Exercice 2 : Écrire la formule de l'acide éthanoïque
+Solution : CH₃COOH
+
+Exercice 3 : Identifier le groupe fonctionnel dans CH₃-CO-CH₃
+Solution : Cétone (groupe carbonyle)
+
+FORMULES UTILES
+
+- Alcanes : CₙH₂ₙ₊₂
+- Alcènes : CₙH₂ₙ
+- Alcynes : CₙH₂ₙ₋₂
+- Alcools : R-OH
+- Aldéhydes : R-CHO
+- Cétones : R-CO-R'
+- Acides : R-COOH
+- Esters : R-COO-R'
+
+APPLICATIONS
+
+1. Pharmacie et médicaments
+2. Matériaux polymères
+3. Cosmétiques et parfums
+4. Agrochimie et pesticides
+5. Pétrochimie et carburants
+6. Biotechnologie
+

@@ -1,0 +1,197 @@
+COURS D'ASTRONOMIE
+
+1. INTRODUCTION À L'ASTRONOMIE
+
+L'astronomie est la science qui étudie les objets célestes et l'univers dans son ensemble.
+
+1.1 Branches de l'astronomie
+- Astronomie observationnelle : observation du ciel
+- Astrophysique : physique des objets célestes
+- Cosmologie : étude de l'univers
+- Planétologie : étude des planètes
+
+1.2 Histoire de l'astronomie
+- Astronomie antique : Babylone, Grèce
+- Révolution copernicienne
+- Astronomie moderne : télescopes, satellites
+
+2. SYSTÈME SOLAIRE
+
+2.1 Le Soleil
+- Étoile de type G2V
+- Température de surface : 5778 K
+- Composition : 73% H, 25% He, 2% autres
+- Âge : 4,6 milliards d'années
+
+2.2 Planètes telluriques
+- Mercure : plus proche du Soleil
+- Vénus : atmosphère dense de CO2
+- Terre : seule planète avec la vie
+- Mars : planète rouge
+
+2.3 Planètes géantes
+- Jupiter : plus grande planète
+- Saturne : célèbre pour ses anneaux
+- Uranus : inclinaison de 98°
+- Neptune : vents les plus rapides
+
+2.4 Objets mineurs
+- Astéroïdes : roches métalliques
+- Comètes : boules de glace et poussière
+- Planètes naines : Pluton, Cérès
+
+3. ÉTOILES
+
+3.1 Formation des étoiles
+- Effondrement gravitationnel
+- Nébuleuses protostellaires
+- Fusion nucléaire
+
+3.2 Classification des étoiles
+- Diagramme HR (Hertzsprung-Russell)
+- Types spectraux : O, B, A, F, G, K, M
+- Classes de luminosité : I, II, III, IV, V
+
+3.3 Évolution stellaire
+- Séquence principale
+- Géantes rouges
+- Naines blanches
+- Supernovae
+
+4. GALAXIES
+
+4.1 Structure des galaxies
+- Disque : étoiles jeunes
+- Bulbe : étoiles anciennes
+- Halo : matière sombre
+
+4.2 Types de galaxies
+- Spirales : bras spiraux
+- Elliptiques : forme ovale
+- Irrégulières : forme chaotique
+
+4.3 Voie lactée
+- Galaxie spirale barrée
+- 100 000 années-lumière de diamètre
+- 200-400 milliards d'étoiles
+
+5. COSMOLOGIE
+
+5.1 Expansion de l'univers
+- Loi de Hubble : v = H0 × d
+- Constante de Hubble : H0 ≈ 70 km/s/Mpc
+- Big Bang : origine de l'univers
+
+5.2 Fond diffus cosmologique
+- Rayonnement fossile
+- Température : 2,7 K
+- Preuve du Big Bang
+
+5.3 Matière sombre et énergie sombre
+- Matière sombre : 27% de l'univers
+- Énergie sombre : 68% de l'univers
+- Matière baryonique : 5% de l'univers
+
+6. INSTRUMENTS D'OBSERVATION
+
+6.1 Télescopes optiques
+- Télescopes réfracteurs : lentilles
+- Télescopes réflecteurs : miroirs
+- Résolution angulaire
+
+6.2 Télescopes radio
+- Interférométrie
+- Réseaux de radiotélescopes
+- Observations 24h/24
+
+6.3 Satellites et sondes
+- Télescopes spatiaux
+- Sondes planétaires
+- Stations au sol
+
+7. MÉCANIQUE CÉLESTE
+
+7.1 Lois de Kepler
+- 1ère loi : orbites elliptiques
+- 2ème loi : aires égales en temps égaux
+- 3ème loi : T² ∝ a³
+
+7.2 Loi de la gravitation universelle
+- F = G × m1 × m2 / r²
+- Constante gravitationnelle : G = 6,67×10^-11 N·m²/kg²
+- Masse et distance
+
+7.3 Vitesses cosmiques
+- 1ère vitesse cosmique : 7,9 km/s
+- 2ème vitesse cosmique : 11,2 km/s
+- 3ème vitesse cosmique : 16,7 km/s
+
+8. EXERCICES RÉSOLUS
+
+Exercice 1 : Calculer la période orbitale de Mars (a = 1,52 UA) en utilisant la 3ème loi de Kepler.
+
+Solution :
+T² = a³ (en années et UA)
+T² = (1,52)³ = 3,51
+T = √3,51 = 1,87 années
+
+Exercice 2 : Une étoile a une magnitude apparente de 5 et une magnitude absolue de 0. Calculer sa distance.
+
+Solution :
+m - M = 5 log(d) - 5
+5 - 0 = 5 log(d) - 5
+5 = 5 log(d)
+log(d) = 1
+d = 10 parsecs
+
+9. FORMULES IMPORTANTES
+
+- Loi de Hubble : v = H0 × d
+- Loi de Wien : λmax = b/T
+- Loi de Stefan-Boltzmann : L = 4πR²σT⁴
+- 3ème loi de Kepler : T² = (4π²/GM) × a³
+- Magnitude : m - M = 5 log(d) - 5
+- Vitesse de libération : v = √(2GM/r)
+
+10. UNITÉS ASTRONOMIQUES
+
+- Unité astronomique (UA) : 1,496×10¹¹ m
+- Année-lumière (al) : 9,461×10¹⁵ m
+- Parsec (pc) : 3,086×10¹⁶ m
+- Masse solaire (M☉) : 1,989×10³⁰ kg
+- Rayon solaire (R☉) : 6,96×10⁸ m
+
+11. APPLICATIONS PRATIQUES
+
+11.1 Navigation
+- GPS et satellites
+- Systèmes de positionnement
+- Cartographie céleste
+
+11.2 Calendriers
+- Calendrier grégorien
+- Calendrier lunaire
+- Éphémérides
+
+11.3 Exploration spatiale
+- Missions habitées
+- Rovers martiens
+- Télescopes spatiaux
+
+12. RECHERCHE ACTUELLE
+
+12.1 Exoplanètes
+- Méthodes de détection
+- Planètes habitables
+- Biosignatures
+
+12.2 Ondes gravitationnelles
+- Détection LIGO/Virgo
+- Fusion de trous noirs
+- Nouvelle astronomie
+
+12.3 Astrobiologie
+- Recherche de la vie
+- Conditions d'habitabilité
+- Missions futures
+

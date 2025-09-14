@@ -1,0 +1,197 @@
+COURS DE BIOLOGIE CELLULAIRE
+
+1. INTRODUCTION À LA BIOLOGIE CELLULAIRE
+
+La biologie cellulaire étudie la structure, le fonctionnement et les interactions des cellules, unités fondamentales de la vie.
+
+1.1 Théorie cellulaire
+- Tous les êtres vivants sont constitués de cellules
+- La cellule est l'unité de base de la vie
+- Toutes les cellules proviennent de cellules préexistantes
+
+1.2 Types de cellules
+- Procaryotes : sans noyau (bactéries, archées)
+- Eucaryotes : avec noyau (plantes, animaux, champignons)
+
+2. STRUCTURE DE LA CELLULE EUCARYOTE
+
+2.1 Membrane plasmique
+- Double couche lipidique
+- Protéines intégrées et périphériques
+- Contrôle des échanges avec l'extérieur
+
+2.2 Cytoplasme
+- Matrice aqueuse contenant les organites
+- Cytosol : solution aqueuse
+- Cytosquelette : réseau de filaments
+
+2.3 Noyau
+- Contient l'ADN
+- Enveloppe nucléaire
+- Nucléole : synthèse des ribosomes
+
+3. ORGANITES CELLULAIRES
+
+3.1 Réticulum endoplasmique
+- Réticulum endoplasmique rugueux (RER) : synthèse des protéines
+- Réticulum endoplasmique lisse (REL) : synthèse des lipides
+
+3.2 Appareil de Golgi
+- Modification et tri des protéines
+- Formation des vésicules de sécrétion
+
+3.3 Mitochondries
+- Production d'ATP (énergie)
+- Respiration cellulaire
+- ADN mitochondrial
+
+3.4 Chloroplastes (végétaux)
+- Photosynthèse
+- Pigments chlorophylliens
+- ADN chloroplastique
+
+3.5 Lysosomes
+- Digestion intracellulaire
+- Enzymes hydrolytiques
+- Recyclage des composants
+
+3.6 Vacuoles
+- Stockage de substances
+- Maintien de la turgescence (végétaux)
+- Digestion (animaux)
+
+4. CYTOSQUELETTE
+
+4.1 Microfilaments (actine)
+- Contraction musculaire
+- Mouvement cellulaire
+- Support structural
+
+4.2 Microtubules
+- Transport intracellulaire
+- Division cellulaire
+- Cils et flagelles
+
+4.3 Filaments intermédiaires
+- Support structural
+- Résistance mécanique
+- Spécificité tissulaire
+
+5. DIVISION CELLULAIRE
+
+5.1 Cycle cellulaire
+- Phase G1 : croissance
+- Phase S : réplication de l'ADN
+- Phase G2 : préparation à la division
+- Phase M : mitose
+
+5.2 Mitose
+- Prophase : condensation des chromosomes
+- Métaphase : alignement des chromosomes
+- Anaphase : séparation des chromatides
+- Télophase : formation de deux noyaux
+
+5.3 Méiose
+- Division réductionnelle
+- Formation des gamètes
+- Recombinaison génétique
+
+6. TRANSPORT MEMBRANAIRE
+
+6.1 Transport passif
+- Diffusion simple
+- Diffusion facilitée
+- Osmose
+
+6.2 Transport actif
+- Pompe sodium-potassium
+- Transport contre gradient
+- Consommation d'ATP
+
+6.3 Endocytose et exocytose
+- Phagocytose : ingestion de particules
+- Pinocytose : ingestion de liquide
+- Exocytose : sécrétion de substances
+
+7. MÉTABOLISME CELLULAIRE
+
+7.1 Respiration cellulaire
+- Glycolyse : dégradation du glucose
+- Cycle de Krebs : oxydation des métabolites
+- Chaîne respiratoire : production d'ATP
+
+7.2 Photosynthèse (végétaux)
+- Phase claire : capture de l'énergie lumineuse
+- Phase sombre : fixation du CO2
+- Production de glucose
+
+8. COMMUNICATION CELLULAIRE
+
+8.1 Signaux chimiques
+- Hormones
+- Neurotransmetteurs
+- Facteurs de croissance
+
+8.2 Récepteurs membranaires
+- Récepteurs couplés aux protéines G
+- Récepteurs à activité enzymatique
+- Canaux ioniques
+
+8.3 Transduction du signal
+- Amplification du signal
+- Cascades de phosphorylation
+- Réponse cellulaire
+
+9. APOPTOSE ET NÉCROSE
+
+9.1 Apoptose
+- Mort cellulaire programmée
+- Processus contrôlé
+- Pas d'inflammation
+
+9.2 Nécrose
+- Mort cellulaire accidentelle
+- Libération du contenu cellulaire
+- Inflammation
+
+10. EXERCICES RÉSOLUS
+
+Exercice 1 : Expliquer le rôle de la pompe sodium-potassium dans la cellule nerveuse.
+
+Solution :
+La pompe sodium-potassium maintient les concentrations ioniques :
+- Expulse 3 Na+ vers l'extérieur
+- Fait entrer 2 K+ vers l'intérieur
+- Consomme 1 ATP
+- Crée un potentiel de membrane de -70 mV
+
+Exercice 2 : Décrire les étapes de la mitose.
+
+Solution :
+1. Prophase : condensation des chromosomes, disparition de l'enveloppe nucléaire
+2. Métaphase : alignement des chromosomes sur la plaque équatoriale
+3. Anaphase : séparation des chromatides sœurs
+4. Télophase : formation de deux noyaux, cytocinèse
+
+11. FORMULES IMPORTANTES
+
+- Potentiel de Nernst : E = (RT/zF) ln([ion]ext/[ion]int)
+- Équation de Goldman : Vm = (RT/F) ln((PNa[Na]ext + PK[K]ext)/(PNa[Na]int + PK[K]int))
+- Rendement photosynthétique : η = (Énergie stockée/Énergie lumineuse) × 100
+- Taux de croissance : μ = (ln(Nt/N0))/t
+
+12. APPLICATIONS MÉDICALES
+
+12.1 Thérapie génique
+- Introduction de gènes thérapeutiques
+- Correction de maladies génétiques
+
+12.2 Médecine régénérative
+- Cellules souches
+- Ingénierie tissulaire
+
+12.3 Diagnostic moléculaire
+- PCR (Polymerase Chain Reaction)
+- Séquençage de l'ADN
+- Tests génétiques
+

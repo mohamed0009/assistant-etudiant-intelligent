@@ -1,0 +1,38 @@
+# Core RAG dependencies
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+
+# Vector database
+faiss-cpu>=1.8.0
+chromadb>=0.4.22
+
+# Document processing
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+pypdf>=4.0.1
+
+# Web interface
+streamlit>=1.29.0
+
+# API dependencies
+fastapi>=0.104.1
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# AI/ML
+openai>=1.6.1
+sentence-transformers>=2.2.2
+transformers>=4.36.2
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.3
+pandas>=2.0.3
+tiktoken>=0.5.2
+
+# Optional: for better PDF processing
+pdfplumber>=0.10.3
+
+# PDF generation
+reportlab>=4.0.0

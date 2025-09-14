@@ -1,0 +1,127 @@
+COURS DE THERMODYNAMIQUE
+
+1. INTRODUCTION À LA THERMODYNAMIQUE
+
+La thermodynamique est la branche de la physique qui étudie les relations entre la chaleur, le travail et l'énergie dans les systèmes physiques.
+
+1.1 Concepts fondamentaux
+- Système : portion de l'univers étudiée
+- Environnement : tout ce qui entoure le système
+- Frontière : surface qui sépare le système de l'environnement
+
+1.2 Types de systèmes
+- Système fermé : échange d'énergie mais pas de matière
+- Système ouvert : échange d'énergie et de matière
+- Système isolé : aucun échange avec l'environnement
+
+2. PREMIER PRINCIPE DE LA THERMODYNAMIQUE
+
+Le premier principe exprime la conservation de l'énergie :
+
+ΔU = Q - W
+
+Où :
+- ΔU : variation d'énergie interne
+- Q : chaleur reçue par le système
+- W : travail effectué par le système
+
+2.1 Applications du premier principe
+- Transformation isotherme : ΔU = 0, donc Q = W
+- Transformation adiabatique : Q = 0, donc ΔU = -W
+- Transformation isochore : W = 0, donc ΔU = Q
+
+3. DEUXIÈME PRINCIPE DE LA THERMODYNAMIQUE
+
+Le deuxième principe introduit la notion d'entropie et limite les transformations possibles.
+
+3.1 Énoncé de Clausius
+Il est impossible de construire une machine qui, fonctionnant de manière cyclique, ne ferait que transférer de la chaleur d'un corps froid vers un corps chaud.
+
+3.2 Énoncé de Kelvin-Planck
+Il est impossible de construire une machine qui, fonctionnant de manière cyclique, ne ferait que transformer de la chaleur en travail.
+
+4. ENTROPIE
+
+L'entropie S est une fonction d'état qui mesure le désordre d'un système.
+
+4.1 Définition
+dS = δQ_rev / T
+
+Où :
+- δQ_rev : chaleur échangée de manière réversible
+- T : température absolue
+
+4.2 Principe d'augmentation de l'entropie
+Pour un système isolé : ΔS ≥ 0
+
+5. CYCLES THERMODYNAMIQUES
+
+5.1 Cycle de Carnot
+Le cycle de Carnot est le cycle réversible le plus efficace entre deux sources de température.
+
+Rendement de Carnot : η = 1 - T_froid / T_chaud
+
+5.2 Cycle de Rankine
+Cycle utilisé dans les centrales thermiques pour la production d'électricité.
+
+6. PROPRIÉTÉS DES GAZ PARFAITS
+
+6.1 Équation d'état
+PV = nRT
+
+Où :
+- P : pression
+- V : volume
+- n : nombre de moles
+- R : constante des gaz parfaits (8,314 J/mol·K)
+- T : température absolue
+
+6.2 Transformations des gaz parfaits
+- Isotherme : PV = constante
+- Isobare : V/T = constante
+- Isochore : P/T = constante
+- Adiabatique : PV^γ = constante
+
+7. APPLICATIONS PRATIQUES
+
+7.1 Moteurs thermiques
+- Moteur à combustion interne
+- Turbines à gaz
+- Moteurs Stirling
+
+7.2 Réfrigérateurs et pompes à chaleur
+- Coefficient de performance (COP)
+- Cycle de réfrigération
+
+8. EXERCICES RÉSOLUS
+
+Exercice 1 : Calculer le travail effectué par un gaz parfait lors d'une expansion isotherme de 2 L à 5 L à 300 K.
+
+Solution :
+W = nRT ln(V2/V1)
+W = 1 × 8,314 × 300 × ln(5/2)
+W = 2,28 kJ
+
+Exercice 2 : Un moteur de Carnot fonctionne entre 500 K et 300 K. Calculer son rendement.
+
+Solution :
+η = 1 - T_froid / T_chaud
+η = 1 - 300 / 500
+η = 0,4 = 40%
+
+9. FORMULES IMPORTANTES
+
+- Premier principe : ΔU = Q - W
+- Entropie : dS = δQ_rev / T
+- Gaz parfait : PV = nRT
+- Rendement Carnot : η = 1 - T_froid / T_chaud
+- Travail isotherme : W = nRT ln(V2/V1)
+- Travail adiabatique : W = (P1V1 - P2V2) / (γ - 1)
+
+10. UNITÉS ET CONSTANTES
+
+- Constante des gaz parfaits : R = 8,314 J/mol·K
+- Constante de Boltzmann : k = 1,38 × 10^-23 J/K
+- Nombre d'Avogadro : NA = 6,022 × 10^23 mol^-1
+- Température absolue : T(K) = T(°C) + 273,15
+

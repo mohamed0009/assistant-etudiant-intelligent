@@ -1,0 +1,251 @@
+COURS DE PSYCHOLOGIE
+
+1. INTRODUCTION À LA PSYCHOLOGIE
+
+La psychologie est la science qui étudie le comportement et les processus mentaux.
+
+1.1 Définition et objectifs
+- Étude scientifique du comportement
+- Analyse des processus mentaux
+- Compréhension de l'être humain
+
+1.2 Branches de la psychologie
+- Psychologie cognitive : processus mentaux
+- Psychologie sociale : interactions
+- Psychologie clinique : troubles mentaux
+- Psychologie du développement : évolution
+
+2. MÉTHODES DE RECHERCHE
+
+2.1 Méthode expérimentale
+- Variables indépendantes et dépendantes
+- Groupe contrôle et expérimental
+- Randomisation
+
+2.2 Méthodes observationnelles
+- Observation naturelle
+- Observation participante
+- Études de cas
+
+2.3 Méthodes corrélationnelles
+- Coefficient de corrélation
+- Relation causale vs corrélation
+- Limites des études corrélatives
+
+3. NEUROBIOLOGIE DU COMPORTEMENT
+
+3.1 Système nerveux central
+- Cerveau : hémisphères cérébraux
+- Moelle épinière : transmission
+- Neurones : cellules nerveuses
+
+3.2 Neurotransmetteurs
+- Acétylcholine : mémoire
+- Dopamine : motivation
+- Sérotonine : humeur
+- GABA : inhibition
+
+3.3 Plasticité cérébrale
+- Apprentissage et mémoire
+- Récupération après lésion
+- Développement cérébral
+
+4. SENSATION ET PERCEPTION
+
+4.1 Processus sensoriels
+- Transduction : conversion d'énergie
+- Seuils absolus et différentiels
+- Adaptation sensorielle
+
+4.2 Perception visuelle
+- Système visuel
+- Constances perceptives
+- Illusions visuelles
+
+4.3 Perception auditive
+- Système auditif
+- Localisation sonore
+- Reconnaissance de la parole
+
+5. APPRENTISSAGE ET MÉMOIRE
+
+5.1 Conditionnement classique
+- Pavlov et les réflexes
+- Stimulus conditionné et inconditionné
+- Extinction et récupération
+
+5.2 Conditionnement opérant
+- Skinner et le renforcement
+- Renforcement positif et négatif
+- Punition et extinction
+
+5.3 Apprentissage social
+- Bandura et l'observation
+- Modélisation
+- Apprentissage vicariant
+
+5.4 Mémoire
+- Mémoire sensorielle
+- Mémoire à court terme
+- Mémoire à long terme
+- Oubli et interférence
+
+6. COGNITION ET INTELLIGENCE
+
+6.1 Pensée et résolution de problèmes
+- Heuristiques et biais
+- Créativité
+- Prise de décision
+
+6.2 Langage
+- Acquisition du langage
+- Structure du langage
+- Troubles du langage
+
+6.3 Intelligence
+- Définition de l'intelligence
+- Tests d'intelligence
+- Intelligence multiple
+
+7. DÉVELOPPEMENT HUMAIN
+
+7.1 Développement physique
+- Croissance et maturation
+- Puberté
+- Vieillissement
+
+7.2 Développement cognitif
+- Piaget et les stades
+- Développement moral
+- Théorie de l'esprit
+
+7.3 Développement social
+- Attachement
+- Relations avec les pairs
+- Identité et estime de soi
+
+8. MOTIVATION ET ÉMOTIONS
+
+8.1 Théories de la motivation
+- Besoins fondamentaux
+- Motivation intrinsèque vs extrinsèque
+- Théorie de l'autodétermination
+
+8.2 Émotions
+- Composantes des émotions
+- Théories des émotions
+- Régulation émotionnelle
+
+8.3 Stress et adaptation
+- Réponse au stress
+- Coping et résilience
+- Stress chronique
+
+9. PERSONNALITÉ
+
+9.1 Théories de la personnalité
+- Psychanalyse : Freud
+- Behaviorisme : Skinner
+- Humanisme : Maslow, Rogers
+
+9.2 Traits de personnalité
+- Big Five : OCEAN
+- Stabilité temporelle
+- Héritabilité
+
+9.3 Évaluation de la personnalité
+- Tests projectifs
+- Inventaires de personnalité
+- Observation comportementale
+
+10. PSYCHOLOGIE SOCIALE
+
+10.1 Cognition sociale
+- Attributions causales
+- Stéréotypes et préjugés
+- Formation d'impressions
+
+10.2 Influence sociale
+- Conformité
+- Obéissance
+- Influence minoritaire
+
+10.3 Relations interpersonnelles
+- Attraction interpersonnelle
+- Amour et relations
+- Conflits et résolution
+
+11. PSYCHOPATHOLOGIE
+
+11.1 Classification des troubles
+- DSM-5 : manuel diagnostique
+- Troubles de l'humeur
+- Troubles anxieux
+- Troubles de la personnalité
+
+11.2 Causes des troubles mentaux
+- Facteurs biologiques
+- Facteurs psychologiques
+- Facteurs sociaux
+
+11.3 Traitements
+- Psychothérapie
+- Médicaments psychotropes
+- Approches intégrées
+
+12. EXERCICES RÉSOLUS
+
+Exercice 1 : Un participant apprend une liste de 20 mots. Après 24h, il se souvient de 12 mots. Calculer le pourcentage de rétention.
+
+Solution :
+Pourcentage de rétention = (Mots rappelés / Mots appris) × 100
+Pourcentage de rétention = (12 / 20) × 100 = 60%
+
+Exercice 2 : Dans une expérience, le groupe expérimental (n=30) a une moyenne de 85 et le groupe contrôle (n=30) a une moyenne de 75. L'écart-type est de 10. Calculer la taille d'effet de Cohen.
+
+Solution :
+d = (M1 - M2) / σ
+d = (85 - 75) / 10 = 1,0 (effet large)
+
+13. FORMULES IMPORTANTES
+
+- Coefficient de corrélation : r = Σ[(X-X̄)(Y-Ȳ)] / √[Σ(X-X̄)²Σ(Y-Ȳ)²]
+- Taille d'effet de Cohen : d = (M1 - M2) / σ
+- Pourcentage de rétention : % = (Rappelé / Appris) × 100
+- Seuil différentiel : ΔI / I = constante (loi de Weber)
+- QI : QI = (Âge mental / Âge chronologique) × 100
+
+14. APPLICATIONS PRATIQUES
+
+14.1 Psychologie clinique
+- Évaluation psychologique
+- Psychothérapie
+- Prévention
+
+14.2 Psychologie du travail
+- Sélection du personnel
+- Formation
+- Ergonomie
+
+14.3 Psychologie de l'éducation
+- Apprentissage scolaire
+- Difficultés d'apprentissage
+- Motivation scolaire
+
+15. ÉTHIQUE EN PSYCHOLOGIE
+
+15.1 Principes éthiques
+- Consentement éclairé
+- Confidentialité
+- Bienfaisance et non-malfaisance
+
+15.2 Recherche avec des humains
+- Comité d'éthique
+- Débriefing
+- Protection des participants
+
+15.3 Pratique professionnelle
+- Code de déontologie
+- Supervision
+- Formation continue
+

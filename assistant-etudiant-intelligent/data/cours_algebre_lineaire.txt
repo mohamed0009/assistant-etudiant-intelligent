@@ -1,0 +1,122 @@
+COURS D'ALGÈBRE LINÉAIRE - LICENCE 2
+SEMESTRE 4
+
+CHAPITRE 1 : ESPACES VECTORIELS
+
+1.1 DÉFINITION D'UN ESPACE VECTORIEL
+Un espace vectoriel E sur un corps K est un ensemble muni de deux opérations :
+- Addition interne : E × E → E
+- Multiplication externe : K × E → E
+
+Propriétés requises :
+- (E,+) est un groupe abélien
+- λ(μv) = (λμ)v (associativité mixte)
+- (λ+μ)v = λv + μv (distributivité)
+- λ(v+w) = λv + λw (distributivité)
+- 1·v = v (élément neutre)
+
+1.2 SOUS-ESPACES VECTORIELS
+Un sous-ensemble F de E est un sous-espace vectoriel si :
+- F ≠ ∅
+- ∀u,v ∈ F, u+v ∈ F
+- ∀λ ∈ K, ∀v ∈ F, λv ∈ F
+
+CHAPITRE 2 : MATRICES
+
+2.1 DÉFINITIONS
+Une matrice A de taille m×n est un tableau de nombres :
+A = [a_ij] où i = 1,...,m et j = 1,...,n
+
+Types de matrices :
+- Matrice carrée : m = n
+- Matrice diagonale : a_ij = 0 si i ≠ j
+- Matrice identité : I_n = [δ_ij] où δ_ij = 1 si i=j, 0 sinon
+- Matrice triangulaire supérieure : a_ij = 0 si i > j
+
+2.2 OPÉRATIONS SUR LES MATRICES
+- Addition : (A+B)_ij = a_ij + b_ij
+- Multiplication par un scalaire : (λA)_ij = λa_ij
+- Multiplication : (AB)_ij = Σ(k=1→n) a_ik b_kj
+
+2.3 DÉTERMINANT
+Pour une matrice 2×2 : det(A) = ad - bc
+Pour une matrice 3×3 : règle de Sarrus
+Pour une matrice n×n : développement selon une ligne ou colonne
+
+CHAPITRE 3 : SYSTÈMES LINÉAIRES
+
+3.1 FORME MATRICIELLE
+Un système linéaire s'écrit : Ax = b
+où A est la matrice des coefficients, x le vecteur des inconnues, b le vecteur second membre.
+
+3.2 MÉTHODE DE GAUSS
+Étapes :
+1. Échelonner la matrice augmentée [A|b]
+2. Résoudre le système triangulaire obtenu
+3. Vérifier la solution
+
+3.3 RANG D'UNE MATRICE
+Le rang d'une matrice est le nombre de lignes non nulles après échelonnement.
+Un système Ax = b a une solution unique si et seulement si rang(A) = rang([A|b]) = n.
+
+CHAPITRE 4 : VALEURS PROPRES ET VECTEURS PROPRES
+
+4.1 DÉFINITIONS
+Un vecteur v ≠ 0 est vecteur propre de A si : Av = λv
+Le scalaire λ est la valeur propre associée.
+
+4.2 POLYNÔME CARACTÉRISTIQUE
+P(λ) = det(A - λI) = 0
+Les racines de ce polynôme sont les valeurs propres.
+
+4.3 DIAGONALISATION
+Une matrice A est diagonalisable si elle est semblable à une matrice diagonale :
+A = PDP^(-1)
+où P est la matrice des vecteurs propres et D la matrice diagonale des valeurs propres.
+
+CHAPITRE 5 : PRODUIT SCALAIRE ET NORME
+
+5.1 PRODUIT SCALAIRE
+Dans R^n : u·v = Σ(i=1→n) u_i v_i
+Propriétés :
+- Symétrie : u·v = v·u
+- Bilinéarité : (λu+μv)·w = λ(u·w) + μ(v·w)
+- Positivité : u·u ≥ 0 avec égalité si u = 0
+
+5.2 NORME EUCLIDIENNE
+||u|| = √(u·u) = √(Σ(i=1→n) u_i²)
+
+5.3 ORTHOGONALITÉ
+Deux vecteurs sont orthogonaux si u·v = 0
+Une base est orthonormée si tous les vecteurs sont de norme 1 et orthogonaux deux à deux.
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Calculer le déterminant de A = [[2,3],[1,4]]
+Solution : det(A) = 2×4 - 3×1 = 8 - 3 = 5
+
+Exercice 2 : Résoudre le système :
+x + 2y = 5
+3x - y = 1
+Solution : x = 1, y = 2
+
+Exercice 3 : Trouver les valeurs propres de A = [[3,1],[0,2]]
+Solution : λ₁ = 3, λ₂ = 2
+
+FORMULES UTILES
+
+- Déterminant 2×2 : det([[a,b],[c,d]]) = ad - bc
+- Déterminant 3×3 : règle de Sarrus
+- Inverse d'une matrice 2×2 : A^(-1) = (1/det(A))[[d,-b],[-c,a]]
+- Produit scalaire : u·v = ||u|| ||v|| cos(θ)
+- Norme : ||u|| = √(u·u)
+
+APPLICATIONS
+
+1. Résolution de systèmes d'équations
+2. Transformations géométriques
+3. Analyse de données (ACP)
+4. Graphiques et réseaux
+5. Cryptographie
+6. Traitement d'images
+

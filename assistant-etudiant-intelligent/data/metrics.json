@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Explique-moi les lois de Newton",
+    "response_time": 0.04769253730773926,
+    "confidence": 0.37786418199539185,
+    "question_type": "document_based",
+    "subject": "physics",
+    "timestamp": "2025-09-02 01:06:35.500279",
+    "user_id": "anonymous",
+    "sources_used": 3
+  },
+  {
+    "question": "Explique-moi les lois de Newton",
+    "response_time": 0.1779193878173828,
+    "confidence": 0.37786418199539185,
+    "question_type": "document_based",
+    "subject": "physics",
+    "timestamp": "2025-09-02 14:21:36.391860",
+    "user_id": "anonymous",
+    "sources_used": 3
+  }
+]

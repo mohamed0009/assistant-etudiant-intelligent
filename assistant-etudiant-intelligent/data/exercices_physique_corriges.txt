@@ -1,0 +1,193 @@
+EXERCICES DE PHYSIQUE CORRIGÉS
+LICENCE 2 - RÉVISION COMPLÈTE
+
+SÉRIE 1 : MÉCANIQUE
+
+Exercice 1 : Mouvement rectiligne
+Un mobile part du repos avec une accélération constante de 2 m/s².
+a) Quelle est sa vitesse après 5 secondes ?
+b) Quelle distance a-t-il parcourue ?
+
+Solution :
+a) v = v₀ + at = 0 + 2×5 = 10 m/s
+b) x = x₀ + v₀t + ½at² = 0 + 0×5 + ½×2×5² = 25 m
+
+Exercice 2 : Mouvement circulaire
+Un satellite orbite à 400 km d'altitude. Le rayon terrestre est 6400 km.
+Calculer sa vitesse orbitale.
+
+Solution :
+r = 6400 + 400 = 6800 km = 6,8×10⁶ m
+g = 9,81 m/s²
+v = √(gr) = √(9,81×6,8×10⁶) = 8,17×10³ m/s = 8,17 km/s
+
+Exercice 3 : Forces et mouvement
+Un bloc de 5 kg glisse sur un plan incliné à 30°.
+Le coefficient de frottement est 0,2. Calculer l'accélération.
+
+Solution :
+Forces : P = mg = 5×9,81 = 49,05 N
+P_x = P sin(30°) = 49,05×0,5 = 24,53 N
+P_y = P cos(30°) = 49,05×0,866 = 42,48 N
+N = P_y = 42,48 N
+f = μN = 0,2×42,48 = 8,50 N
+F_résultante = P_x - f = 24,53 - 8,50 = 16,03 N
+a = F/m = 16,03/5 = 3,21 m/s²
+
+SÉRIE 2 : ÉLECTRICITÉ
+
+Exercice 4 : Loi d'Ohm
+Une résistance de 100 Ω est traversée par un courant de 0,5 A.
+Calculer la tension à ses bornes et la puissance dissipée.
+
+Solution :
+U = RI = 100×0,5 = 50 V
+P = UI = 50×0,5 = 25 W
+
+Exercice 5 : Circuit RLC série
+Un circuit RLC série a R = 50 Ω, L = 0,1 H, C = 10 μF.
+Il est alimenté par une tension de 10 V à 50 Hz.
+Calculer l'impédance et l'intensité.
+
+Solution :
+ω = 2πf = 2π×50 = 314 rad/s
+X_L = ωL = 314×0,1 = 31,4 Ω
+X_C = 1/(ωC) = 1/(314×10×10⁻⁶) = 318,5 Ω
+Z = √(R² + (X_L - X_C)²) = √(50² + (31,4 - 318,5)²) = √(50² + 287,1²) = 291,4 Ω
+I = U/Z = 10/291,4 = 34,3 mA
+
+Exercice 6 : Transformateur
+Un transformateur a 1000 spires au primaire et 100 au secondaire.
+La tension primaire est 220 V. Calculer la tension secondaire.
+
+Solution :
+m = N₁/N₂ = 1000/100 = 10
+U₂ = U₁/m = 220/10 = 22 V
+
+SÉRIE 3 : MAGNÉTISME
+
+Exercice 7 : Force de Lorentz
+Un électron (q = -1,6×10⁻¹⁹ C) se déplace à 10⁶ m/s dans un champ magnétique de 0,1 T perpendiculaire à sa vitesse.
+Calculer la force magnétique.
+
+Solution :
+F = |q|vB sin(90°) = 1,6×10⁻¹⁹×10⁶×0,1×1 = 1,6×10⁻¹⁴ N
+
+Exercice 8 : Champ magnétique d'un fil
+Un fil rectiligne parcouru par un courant de 5 A.
+Calculer le champ magnétique à 2 cm du fil.
+
+Solution :
+B = μ₀I/(2πr) = 4π×10⁻⁷×5/(2π×0,02) = 5×10⁻⁵ T
+
+SÉRIE 4 : ONDES ET OSCILLATIONS
+
+Exercice 9 : Mouvement harmonique simple
+Un oscillateur a une période de 2 s et une amplitude de 5 cm.
+Écrire l'équation du mouvement.
+
+Solution :
+ω = 2π/T = 2π/2 = π rad/s
+x(t) = A cos(ωt + φ) = 0,05 cos(πt + φ) m
+
+Exercice 10 : Pendule simple
+Un pendule simple de longueur 1 m. Calculer sa période.
+
+Solution :
+T = 2π√(L/g) = 2π√(1/9,81) = 2,0 s
+
+SÉRIE 5 : THERMODYNAMIQUE
+
+Exercice 11 : Dilatation thermique
+Une barre de fer de 1 m à 20°C est chauffée à 100°C.
+Le coefficient de dilatation linéaire est 12×10⁻⁶ K⁻¹.
+Calculer l'allongement.
+
+Solution :
+ΔL = L₀αΔT = 1×12×10⁻⁶×(100-20) = 9,6×10⁻⁴ m = 0,96 mm
+
+Exercice 12 : Chaleur latente
+Quelle quantité de chaleur faut-il pour faire fondre 100 g de glace à 0°C ?
+La chaleur latente de fusion est 334 kJ/kg.
+
+Solution :
+Q = mL = 0,1×334×10³ = 33,4 kJ
+
+SÉRIE 6 : OPTIQUE
+
+Exercice 13 : Réflexion
+Un rayon lumineux frappe un miroir plan avec un angle de 30°.
+Calculer l'angle de réflexion.
+
+Solution :
+Angle de réflexion = angle d'incidence = 30°
+
+Exercice 14 : Réfraction
+Un rayon passe de l'air (n = 1) à l'eau (n = 1,33) avec un angle d'incidence de 45°.
+Calculer l'angle de réfraction.
+
+Solution :
+n₁ sin(i) = n₂ sin(r)
+1×sin(45°) = 1,33×sin(r)
+sin(r) = sin(45°)/1,33 = 0,707/1,33 = 0,532
+r = arcsin(0,532) = 32,1°
+
+MÉTHODES DE RÉSOLUTION
+
+1. Mécanique :
+   - Identifier les forces
+   - Appliquer les lois de Newton
+   - Utiliser les équations du mouvement
+   - Conserver l'énergie et le momentum
+
+2. Électricité :
+   - Appliquer la loi d'Ohm
+   - Utiliser les lois de Kirchhoff
+   - Calculer les impédances
+   - Analyser les circuits
+
+3. Magnétisme :
+   - Utiliser la force de Lorentz
+   - Appliquer la loi de Biot-Savart
+   - Calculer les champs magnétiques
+
+4. Ondes :
+   - Utiliser les équations d'onde
+   - Appliquer les conditions aux limites
+   - Analyser les interférences
+
+CONSEILS POUR LA RÉSOLUTION
+
+1. Faire un schéma clair
+2. Identifier les données et inconnues
+3. Choisir les formules appropriées
+4. Vérifier les unités
+5. Interpréter le résultat
+6. Vérifier la cohérence
+
+FORMULES DE RÉFÉRENCE
+
+Mécanique :
+- v = v₀ + at
+- x = x₀ + v₀t + ½at²
+- F = ma
+- E_c = ½mv²
+- E_p = mgh
+
+Électricité :
+- U = RI
+- P = UI
+- Z = √(R² + (X_L - X_C)²)
+- X_L = ωL
+- X_C = 1/(ωC)
+
+Magnétisme :
+- F = qvB sin(θ)
+- B = μ₀I/(2πr)
+- Φ = BA cos(θ)
+
+Ondes :
+- v = λf
+- T = 2π√(L/g)
+- n₁ sin(i) = n₂ sin(r)
+

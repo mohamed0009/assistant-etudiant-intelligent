@@ -1,0 +1,182 @@
+COURS DE CHIMIE GÉNÉRALE - LICENCE 2
+CHIMIE FONDAMENTALE
+
+CHAPITRE 1 : STRUCTURE DE L'ATOME
+
+1.1 MODÈLE ATOMIQUE
+Atome = noyau (protons + neutrons) + électrons
+- Numéro atomique Z = nombre de protons
+- Nombre de masse A = protons + neutrons
+- Isotopes : même Z, A différent
+
+1.2 CONFIGURATION ÉLECTRONIQUE
+Règle de Klechkowski : Ordre de remplissage des orbitales
+1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p < 5s < 4d < 5p...
+
+Règle de Hund : Les électrons se placent d'abord dans des orbitales différentes avec des spins parallèles
+
+Principe d'exclusion de Pauli : Deux électrons ne peuvent avoir les mêmes 4 nombres quantiques
+
+1.3 PÉRIODICITÉ
+Tableau périodique organisé par :
+- Périodes (lignes) : même nombre de couches électroniques
+- Groupes (colonnes) : même nombre d'électrons de valence
+
+Propriétés périodiques :
+- Rayon atomique : diminue de gauche à droite, augmente de haut en bas
+- Énergie d'ionisation : augmente de gauche à droite, diminue de haut en bas
+- Affinité électronique : augmente de gauche à droite
+
+CHAPITRE 2 : LIAISONS CHIMIQUES
+
+2.1 LIAISON IONIQUE
+Transfert d'électrons entre métal et non-métal
+Exemple : NaCl (Na⁺ + Cl⁻)
+Propriétés : Solides cristallins, hauts points de fusion, conducteurs en solution
+
+2.2 LIAISON COVALENTE
+Partage d'électrons entre non-métaux
+Types :
+- Covalente pure : différence d'électronégativité < 0,4
+- Covalente polaire : 0,4 < ΔEN < 1,7
+- Ionique : ΔEN > 1,7
+
+2.3 LIAISON MÉTALLIQUE
+Nuage d'électrons délocalisés entre cations métalliques
+Propriétés : Conducteurs, malléables, ductiles
+
+2.4 FORCES INTERMOLÉCULAIRES
+Forces de Van der Waals :
+- Dipôle-dipôle : entre molécules polaires
+- London : entre toutes les molécules
+- Liaison hydrogène : H avec F, O, N
+
+CHAPITRE 3 : STŒCHIOMÉTRIE
+
+3.1 MOLE ET MASSE MOLAIRE
+Mole : 6,022×10²³ entités (nombre d'Avogadro)
+Masse molaire M : masse d'une mole (g/mol)
+
+Calculs :
+- n = m/M (moles = masse/masse molaire)
+- m = n×M (masse = moles×masse molaire)
+- N = n×N_A (nombre d'entités = moles×Avogadro)
+
+3.2 ÉQUATIONS CHIMIQUES
+Équilibrage : Même nombre d'atomes de chaque élément
+Exemple : 2H₂ + O₂ → 2H₂O
+
+Calculs stœchiométriques :
+1. Écrire l'équation équilibrée
+2. Convertir en moles
+3. Utiliser les coefficients stœchiométriques
+4. Convertir le résultat
+
+3.3 RÉACTIF LIMITANT
+Le réactif qui est complètement consommé
+Détermination : Comparer les rapports molaires
+
+CHAPITRE 4 : THERMODYNAMIQUE CHIMIQUE
+
+4.1 ENTHALPIE
+Variation d'enthalpie ΔH :
+- Réaction exothermique : ΔH < 0 (libère de la chaleur)
+- Réaction endothermique : ΔH > 0 (absorbe de la chaleur)
+
+Loi de Hess : ΔH_réaction = ΣΔH_produits - ΣΔH_réactifs
+
+4.2 ENTROPIE
+Mesure du désordre
+ΔS > 0 : augmentation du désordre
+ΔS < 0 : diminution du désordre
+
+4.3 ÉNERGIE LIBRE DE GIBBS
+ΔG = ΔH - TΔS
+- ΔG < 0 : réaction spontanée
+- ΔG > 0 : réaction non spontanée
+- ΔG = 0 : équilibre
+
+CHAPITRE 5 : ÉQUILIBRES CHIMIQUES
+
+5.1 CONSTANTE D'ÉQUILIBRE
+Pour aA + bB ⇌ cC + dD :
+K_c = [C]^c[D]^d / [A]^a[B]^b
+
+K_p pour les gaz : K_p = (P_C^c × P_D^d) / (P_A^a × P_B^b)
+Relation : K_p = K_c(RT)^(Δn)
+
+5.2 PRINCIPE DE LE CHÂTELIER
+Un système à l'équilibre réagit aux perturbations :
+- Augmentation de concentration : déplacement vers l'autre côté
+- Augmentation de pression : déplacement vers le côté avec moins de moles
+- Augmentation de température : déplacement vers la réaction endothermique
+
+5.3 SOLUBILITÉ
+Produit de solubilité K_sp :
+Pour A_xB_y(s) ⇌ xA^y+(aq) + yB^x-(aq)
+K_sp = [A^y+]^x[B^x-]^y
+
+CHAPITRE 6 : ACIDES ET BASES
+
+6.1 DÉFINITIONS
+Arrhenius :
+- Acide : libère H⁺ en solution
+- Base : libère OH⁻ en solution
+
+Brønsted-Lowry :
+- Acide : donneur de protons
+- Base : accepteur de protons
+
+Lewis :
+- Acide : accepteur de doublet d'électrons
+- Base : donneur de doublet d'électrons
+
+6.2 CONSTANTES D'ACIDITÉ
+K_a = [H₃O⁺][A⁻] / [HA]
+pK_a = -log(K_a)
+
+K_b = [OH⁻][BH⁺] / [B]
+pK_b = -log(K_b)
+
+Relation : K_a × K_b = K_w = 10⁻¹⁴
+
+6.3 pH ET pOH
+pH = -log[H₃O⁺]
+pOH = -log[OH⁻]
+pH + pOH = 14
+
+Solutions :
+- Acides : pH < 7
+- Neutres : pH = 7
+- Basiques : pH > 7
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Calculer la masse molaire de H₂SO₄
+Solution : M = 2×1 + 32 + 4×16 = 98 g/mol
+
+Exercice 2 : Combien de moles dans 49 g de H₂SO₄ ?
+Solution : n = m/M = 49/98 = 0,5 mol
+
+Exercice 3 : Calculer le pH d'une solution [H₃O⁺] = 10⁻³ M
+Solution : pH = -log(10⁻³) = 3
+
+FORMULES UTILES
+
+- Moles : n = m/M
+- Masse : m = n×M
+- pH : pH = -log[H₃O⁺]
+- pOH : pOH = -log[OH⁻]
+- K_a : K_a = [H₃O⁺][A⁻]/[HA]
+- K_sp : K_sp = [A^y+]^x[B^x-]^y
+- ΔG : ΔG = ΔH - TΔS
+
+APPLICATIONS
+
+1. Synthèse de composés
+2. Contrôle de qualité
+3. Protection de l'environnement
+4. Pharmacie et médecine
+5. Matériaux et polymères
+6. Énergie et batteries
+

@@ -1,0 +1,126 @@
+EXAMEN DE PHYSIQUE - LICENCE 2
+Électricité et Magnétisme
+
+PARTIE 1 : QUESTIONS DE COURS (8 points)
+
+Question 1 (2 points) : Énoncer et expliquer la loi d'Ohm.
+Réponse : La loi d'Ohm établit que dans un conducteur ohmique, la tension U aux bornes est proportionnelle à l'intensité I qui le traverse : U = R × I, où R est la résistance du conducteur. Cette loi s'applique aux matériaux dont la résistance est constante (indépendante de la tension et de l'intensité).
+
+Question 2 (2 points) : Définir la puissance électrique et donner ses unités.
+Réponse : La puissance électrique P est le produit de la tension U par l'intensité I : P = U × I. Son unité est le Watt (W). Pour une résistance R, on a aussi P = R × I² = U²/R.
+
+Question 3 (2 points) : Expliquer le principe de fonctionnement d'un transformateur.
+Réponse : Un transformateur utilise l'induction électromagnétique pour transférer de l'énergie électrique d'un circuit primaire à un circuit secondaire. Le rapport des tensions est égal au rapport du nombre de spires : U₁/U₂ = N₁/N₂.
+
+Question 4 (2 points) : Qu'est-ce que l'impédance complexe ?
+Réponse : L'impédance complexe Z caractérise le comportement d'un circuit en régime sinusoïdal. Elle s'exprime sous la forme Z = R + jX, où R est la résistance et X la réactance. Son module |Z| = √(R² + X²) et son argument φ = arctan(X/R).
+
+PARTIE 2 : EXERCICES (12 points)
+
+Exercice 1 (6 points) : Circuit RLC série
+
+Soit un circuit RLC série alimenté par une tension sinusoïdale u(t) = 10√2 cos(ωt) V.
+Données : R = 100 Ω, L = 0.1 H, C = 10 μF, f = 50 Hz.
+
+1. Calculer l'impédance complexe Z du circuit.
+2. Calculer l'intensité efficace I.
+3. Calculer les tensions efficaces aux bornes de chaque composant.
+4. Calculer la puissance active P.
+
+Solutions :
+1. ω = 2πf = 314 rad/s
+   Z = R + j(ωL - 1/ωC) = 100 + j(31.4 - 318.5) = 100 - j287.1 Ω
+   |Z| = √(100² + 287.1²) = 304 Ω
+
+2. I = U/|Z| = 10/304 = 32.9 mA
+
+3. UR = RI = 100 × 32.9 = 3.29 V
+   UL = ωLI = 31.4 × 32.9 = 1.03 V
+   UC = I/ωC = 32.9/(314×10⁻⁵) = 10.5 V
+
+4. P = RI² = 100 × (32.9×10⁻³)² = 0.108 W
+
+Exercice 2 (6 points) : Théorème de Thévenin
+
+Soit le circuit suivant :
+- Source de tension E = 12 V
+- Résistances R1 = 4 Ω, R2 = 6 Ω, R3 = 3 Ω
+- Charge RL = 2 Ω
+
+1. Calculer la tension à vide Uoc entre A et B.
+2. Calculer la résistance équivalente Rth vue entre A et B.
+3. En déduire le courant dans la charge RL.
+
+Solutions :
+1. Uoc = E × R2/(R1 + R2) = 12 × 6/(4 + 6) = 7.2 V
+
+2. Rth = R3 + R1//R2 = 3 + 4×6/(4+6) = 3 + 2.4 = 5.4 Ω
+
+3. I = Uoc/(Rth + RL) = 7.2/(5.4 + 2) = 0.97 A
+
+PARTIE 3 : PROBLÈME (10 points)
+
+Problème : Étude d'un transformateur monophasé
+
+Un transformateur monophasé a les caractéristiques suivantes :
+- Tension primaire : U1 = 220 V
+- Tension secondaire : U2 = 22 V
+- Puissance nominale : Sn = 1 kVA
+- Fréquence : f = 50 Hz
+
+1. Calculer le rapport de transformation m.
+2. Calculer les courants nominaux I1n et I2n.
+3. Le transformateur alimente une charge résistive R = 1 Ω. Calculer le courant I2 et la puissance P2.
+4. Calculer le rendement η si les pertes fer sont de 20 W et les pertes cuivre de 30 W.
+
+Solutions :
+1. m = U1/U2 = 220/22 = 10
+
+2. I1n = Sn/U1 = 1000/220 = 4.55 A
+   I2n = Sn/U2 = 1000/22 = 45.5 A
+
+3. I2 = U2/R = 22/1 = 22 A
+   P2 = U2I2 = 22 × 22 = 484 W
+
+4. P1 = P2 + pertes = 484 + 20 + 30 = 534 W
+   η = P2/P1 = 484/534 = 90.6%
+
+BARÈME DE NOTATION
+
+Partie 1 : Questions de cours (8 points)
+- Question 1 : 2 points
+- Question 2 : 2 points
+- Question 3 : 2 points
+- Question 4 : 2 points
+
+Partie 2 : Exercices (12 points)
+- Exercice 1 : 6 points (1.5 + 1.5 + 2 + 1)
+- Exercice 2 : 6 points (2 + 2 + 2)
+
+Partie 3 : Problème (10 points)
+- Question 1 : 2 points
+- Question 2 : 2 points
+- Question 3 : 3 points
+- Question 4 : 3 points
+
+Total : 30 points
+
+Note sur 20 = (Total obtenu / 30) × 20
+
+CONSEILS POUR L'EXAMEN
+
+1. Lire attentivement l'énoncé
+2. Faire un schéma clair
+3. Vérifier les unités
+4. Justifier les calculs
+5. Interpréter les résultats
+6. Gérer le temps (1h30 pour 30 points)
+
+FORMULES UTILES
+
+- Loi d'Ohm : U = RI
+- Puissance : P = UI = RI² = U²/R
+- Impédance RLC série : Z = R + j(ωL - 1/ωC)
+- Transformateur : U₁/U₂ = N₁/N₂ = I₂/I₁
+- Théorème de Thévenin : Uoc et Rth
+- Puissance en alternatif : P = UI cos(φ)

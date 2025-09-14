@@ -1,0 +1,178 @@
+COURS DE CIRCUITS ÉLECTRONIQUES - LICENCE 2
+ÉLECTRONIQUE ANALOGIQUE
+
+CHAPITRE 1 : COMPOSANTS ÉLECTRONIQUES
+
+1.1 RÉSISTANCES
+Loi d'Ohm : V = RI
+Associations :
+- Série : R_eq = R₁ + R₂ + ... + Rₙ
+- Parallèle : 1/R_eq = 1/R₁ + 1/R₂ + ... + 1/Rₙ
+
+Codes de couleurs :
+- Noir : 0, Marron : 1, Rouge : 2, Orange : 3, Jaune : 4
+- Vert : 5, Bleu : 6, Violet : 7, Gris : 8, Blanc : 9
+
+1.2 CONDENSATEURS
+Relation courant-tension : i = C(dv/dt)
+Énergie stockée : W = ½CV²
+Associations :
+- Série : 1/C_eq = 1/C₁ + 1/C₂ + ... + 1/Cₙ
+- Parallèle : C_eq = C₁ + C₂ + ... + Cₙ
+
+1.3 BOBINES
+Relation courant-tension : v = L(di/dt)
+Énergie stockée : W = ½LI²
+Associations :
+- Série : L_eq = L₁ + L₂ + ... + Lₙ
+- Parallèle : 1/L_eq = 1/L₁ + 1/L₂ + ... + 1/Lₙ
+
+CHAPITRE 2 : DIODES
+
+2.1 DIODE À JONCTION
+Caractéristique I-V : I = Iₛ(e^(V/V_T) - 1)
+où V_T = kT/q ≈ 26 mV à 300 K
+
+Modèle simplifié :
+- Direct : V = 0,7 V (Si) ou 0,3 V (Ge)
+- Inverse : I = 0
+
+2.2 APPLICATIONS DES DIODES
+- Redressement : Conversion AC → DC
+- Limitation : Protection contre les surtensions
+- Détection : Détection d'enveloppe
+- Régulation : Diodes Zener
+
+2.3 DIODE ZENER
+Fonctionnement en avalanche inverse
+Tension de Zener : V_Z (constante)
+Régulation de tension : V_out = V_Z
+
+CHAPITRE 3 : TRANSISTORS
+
+3.1 TRANSISTOR BIPOLAIRE (BJT)
+Types : NPN et PNP
+Modes de fonctionnement :
+- Bloqué : I_C = 0
+- Actif : I_C = βI_B
+- Saturé : V_CE ≈ 0
+
+Paramètres :
+- β (h_FE) : gain en courant
+- V_BE : tension base-émetteur (≈ 0,7 V)
+- V_CE_sat : tension collecteur-émetteur en saturation
+
+3.2 TRANSISTOR MOS (MOSFET)
+Types : NMOS et PMOS
+Modes de fonctionnement :
+- Bloqué : V_GS < V_T
+- Triode : V_DS < V_GS - V_T
+- Saturation : V_DS > V_GS - V_T
+
+Caractéristique : I_D = K(V_GS - V_T)² en saturation
+
+3.3 AMPLIFICATEURS
+Gain en tension : A_v = v_out/v_in
+Gain en courant : A_i = i_out/i_in
+Gain en puissance : A_p = A_v × A_i
+
+CHAPITRE 4 : AMPLIFICATEURS OPÉRATIONNELS
+
+4.1 CARACTÉRISTIQUES IDÉALES
+- Gain différentiel infini : A_d = ∞
+- Impédance d'entrée infinie : Z_in = ∞
+- Impédance de sortie nulle : Z_out = 0
+- Bande passante infinie
+- Tension de décalage nulle
+
+4.2 MONTAGES FONDAMENTAUX
+Amplificateur inverseur :
+- Gain : A_v = -R₂/R₁
+- Impédance d'entrée : Z_in = R₁
+
+Amplificateur non-inverseur :
+- Gain : A_v = 1 + R₂/R₁
+- Impédance d'entrée : Z_in = ∞
+
+Suiveur de tension :
+- Gain : A_v = 1
+- Impédance d'entrée : Z_in = ∞
+
+4.3 APPLICATIONS
+- Amplification de signaux
+- Filtres actifs
+- Générateurs de fonctions
+- Comparateurs
+- Intégrateurs et dérivateurs
+
+CHAPITRE 5 : FILTRES
+
+5.1 FILTRES PASSIFS
+Filtre RC passe-bas :
+- Fonction de transfert : H(jω) = 1/(1 + jωRC)
+- Fréquence de coupure : f_c = 1/(2πRC)
+
+Filtre RC passe-haut :
+- Fonction de transfert : H(jω) = jωRC/(1 + jωRC)
+- Fréquence de coupure : f_c = 1/(2πRC)
+
+5.2 FILTRES ACTIFS
+Filtre de Sallen-Key :
+- Passe-bas du 2ème ordre
+- Gain : K = 1 + R₂/R₁
+- Fréquence de coupure : f_c = 1/(2π√(R₁R₂C₁C₂))
+
+5.3 FILTRES RLC
+Filtre passe-bande RLC série :
+- Fréquence de résonance : f_r = 1/(2π√(LC))
+- Facteur de qualité : Q = ω_rL/R
+- Bande passante : Δf = f_r/Q
+
+CHAPITRE 6 : OSCILLATEURS
+
+6.1 OSCILLATEUR DE WIEN
+Fréquence d'oscillation : f = 1/(2πRC)
+Condition d'oscillation : Gain ≥ 3
+Stabilisation par limitation d'amplitude
+
+6.2 OSCILLATEUR À CRISTAL
+Fréquence déterminée par le cristal
+Stabilité excellente (10⁻⁶ à 10⁻⁸)
+Applications : Horloges, émetteurs
+
+6.3 OSCILLATEUR RELAXATION
+Générateur de signaux carrés/triangulaires
+Fréquence : f = 1/(2RC ln(1 + 2R₁/R₂))
+Applications : Horloges, générateurs de fonctions
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Calculer la résistance équivalente de R₁ = 10 Ω et R₂ = 20 Ω en parallèle.
+Solution : R_eq = R₁R₂/(R₁ + R₂) = 10×20/(10+20) = 6,67 Ω
+
+Exercice 2 : Un amplificateur inverseur avec R₁ = 1 kΩ et R₂ = 10 kΩ. Calculer le gain.
+Solution : A_v = -R₂/R₁ = -10k/1k = -10
+
+Exercice 3 : Filtre RC passe-bas avec R = 1 kΩ et C = 1 μF. Calculer f_c.
+Solution : f_c = 1/(2πRC) = 1/(2π×1000×10⁻⁶) = 159 Hz
+
+FORMULES UTILES
+
+- Loi d'Ohm : V = RI
+- Condensateur : i = C(dv/dt)
+- Bobine : v = L(di/dt)
+- Diode : I = Iₛ(e^(V/V_T) - 1)
+- Transistor : I_C = βI_B
+- Amplificateur inverseur : A_v = -R₂/R₁
+- Amplificateur non-inverseur : A_v = 1 + R₂/R₁
+- Fréquence de coupure RC : f_c = 1/(2πRC)
+
+APPLICATIONS
+
+1. Amplification de signaux
+2. Filtrage de fréquences
+3. Génération de signaux
+4. Conversion de signaux
+5. Régulation de tension
+6. Détection et mesure
+

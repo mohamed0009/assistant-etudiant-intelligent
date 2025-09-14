@@ -1,0 +1,108 @@
+COURS D'ÉLECTRICITÉ - LICENCE 2
+
+CHAPITRE 1 : LOIS FONDAMENTALES
+
+1.1 LOI D'OHM
+La loi d'Ohm établit la relation entre la tension U, l'intensité I et la résistance R dans un circuit électrique :
+U = R × I
+
+Cette loi fondamentale s'applique aux conducteurs ohmiques. Elle permet de calculer :
+- La tension aux bornes d'une résistance : U = R × I
+- L'intensité traversant une résistance : I = U / R
+- La résistance d'un composant : R = U / I
+
+Exemple pratique : Si une résistance de 100 Ω est traversée par un courant de 0.5 A, la tension à ses bornes est :
+U = 100 × 0.5 = 50 V
+
+1.2 LOIS DE KIRCHHOFF
+
+Loi des nœuds : La somme des courants entrant dans un nœud est égale à la somme des courants sortant.
+Σ I_entrant = Σ I_sortant
+
+Loi des mailles : La somme algébrique des tensions dans une maille fermée est nulle.
+Σ U = 0
+
+CHAPITRE 2 : THÉORÈMES DE CIRCUITS
+
+2.1 THÉORÈME DE THÉVENIN
+Tout réseau linéaire à deux bornes peut être remplacé par un générateur de tension en série avec une résistance.
+
+Étapes pour appliquer le théorème de Thévenin :
+1. Calculer la tension à vide U_oc entre les bornes
+2. Calculer la résistance équivalente R_th en éteignant toutes les sources
+3. Remplacer le réseau par le générateur de Thévenin (U_oc, R_th)
+
+2.2 THÉORÈME DE NORTON
+Tout réseau linéaire à deux bornes peut être remplacé par un générateur de courant en parallèle avec une résistance.
+
+CHAPITRE 3 : PUISSANCE ÉLECTRIQUE
+
+3.1 DÉFINITION
+La puissance électrique P est le produit de la tension U par l'intensité I :
+P = U × I
+
+En régime continu, pour une résistance R :
+P = R × I² = U² / R
+
+3.2 UNITÉS
+- Puissance : Watt (W)
+- Tension : Volt (V)
+- Intensité : Ampère (A)
+- Résistance : Ohm (Ω)
+
+CHAPITRE 4 : CIRCUITS EN RÉGIME SINUSOÏDAL
+
+4.1 IMPÉDANCE COMPLEXE
+L'impédance Z d'un circuit RLC série est :
+Z = R + j(ωL - 1/ωC)
+
+Où :
+- R : résistance (Ω)
+- L : inductance (H)
+- C : capacité (F)
+- ω : pulsation (rad/s)
+
+4.2 PUISSANCE EN RÉGIME SINUSOÏDAL
+- Puissance active : P = U × I × cos(φ)
+- Puissance réactive : Q = U × I × sin(φ)
+- Puissance apparente : S = U × I
+
+CHAPITRE 5 : TRANSFORMATEURS
+
+5.1 TRANSFORMATEUR IDÉAL
+Dans un transformateur idéal :
+- Pas de pertes (rendement = 100%)
+- Pas de fuites magnétiques
+- Perméabilité magnétique infinie
+
+Relations :
+U₁/U₂ = N₁/N₂ = m (rapport de transformation)
+I₁/I₂ = N₂/N₁ = 1/m
+
+5.2 TRANSFORMATEUR RÉEL
+Le transformateur réel présente :
+- Des pertes fer (hystérésis et courants de Foucault)
+- Des pertes cuivre (résistance des enroulements)
+- Des fuites magnétiques
+- Une impédance de court-circuit
+
+Le rendement réel est inférieur à 100% :
+η = P₂ / P₁ = (P₁ - pertes) / P₁
+
+APPLICATIONS PRATIQUES
+
+1. Distribution électrique : Transport haute tension
+2. Électronique : Adaptation d'impédance
+3. Isolation galvanique : Sécurité électrique
+4. Mesures : Transformateurs de mesure
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Calculer la tension aux bornes d'une résistance de 220 Ω traversée par un courant de 0.1 A.
+Solution : U = R × I = 220 × 0.1 = 22 V
+
+Exercice 2 : Un transformateur a un rapport de transformation de 10. Si la tension primaire est 220 V, quelle est la tension secondaire ?
+Solution : U₂ = U₁ / m = 220 / 10 = 22 V
+
+Exercice 3 : Calculer la puissance dissipée dans une résistance de 100 Ω soumise à une tension de 50 V.
+Solution : P = U² / R = 50² / 100 = 25 W

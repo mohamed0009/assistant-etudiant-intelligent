@@ -1,0 +1,162 @@
+COURS D'OPTIQUE
+
+1. INTRODUCTION À L'OPTIQUE
+
+L'optique est la branche de la physique qui étudie la lumière et ses interactions avec la matière.
+
+1.1 Nature de la lumière
+- Modèle ondulatoire : la lumière est une onde électromagnétique
+- Modèle corpusculaire : la lumière est constituée de photons
+- Dualité onde-particule : la lumière présente les deux aspects
+
+1.2 Spectre électromagnétique
+- Rayons gamma : λ < 10^-12 m
+- Rayons X : 10^-12 m < λ < 10^-9 m
+- Ultraviolet : 10^-9 m < λ < 4×10^-7 m
+- Visible : 4×10^-7 m < λ < 7×10^-7 m
+- Infrarouge : 7×10^-7 m < λ < 10^-3 m
+- Micro-ondes : 10^-3 m < λ < 10^-1 m
+- Ondes radio : λ > 10^-1 m
+
+2. PROPAGATION DE LA LUMIÈRE
+
+2.1 Vitesse de la lumière
+Dans le vide : c = 3×10^8 m/s
+Dans un milieu : v = c/n
+
+Où n est l'indice de réfraction du milieu.
+
+2.2 Loi de Snell-Descartes
+n1 sin(i1) = n2 sin(i2)
+
+Où :
+- n1, n2 : indices de réfraction des milieux
+- i1, i2 : angles d'incidence et de réfraction
+
+3. RÉFLEXION ET RÉFRACTION
+
+3.1 Réflexion
+- Angle d'incidence = angle de réflexion
+- i = r
+- La réflexion peut être spéculaire ou diffuse
+
+3.2 Réfraction
+- Changement de direction lors du passage d'un milieu à un autre
+- Loi de Snell-Descartes
+- Réflexion totale : phénomène observé quand n1 > n2
+
+4. MIRROIRS
+
+4.1 Mirroir plan
+- Image virtuelle
+- Taille égale à l'objet
+- Distance image = distance objet
+
+4.2 Mirroir sphérique
+- Formule de conjugaison : 1/f = 1/p + 1/p'
+- Grandissement : γ = -p'/p
+- Foyer : F = f/2
+
+5. LENTILLES
+
+5.1 Lentilles convergentes
+- Foyer image réel
+- Formule de conjugaison : 1/f = 1/p + 1/p'
+- Grandissement : γ = -p'/p
+
+5.2 Lentilles divergentes
+- Foyer image virtuel
+- Même formule de conjugaison
+- Image toujours virtuelle
+
+6. INSTRUMENTS D'OPTIQUE
+
+6.1 Loupe
+- Grossissement : G = 25/f (en cm)
+- Image virtuelle agrandie
+
+6.2 Microscope
+- Objectif : grossissement élevé
+- Oculaire : grossissement modéré
+- Grossissement total : G = G_obj × G_oc
+
+6.3 Télescope
+- Objectif : collecte la lumière
+- Oculaire : grossit l'image
+- Grossissement : G = f_obj / f_oc
+
+7. INTERFÉRENCES
+
+7.1 Principe de superposition
+L'amplitude résultante est la somme des amplitudes des ondes individuelles.
+
+7.2 Interférences constructives
+- Différence de marche : δ = kλ (k entier)
+- Amplitude maximale
+
+7.3 Interférences destructives
+- Différence de marche : δ = (k + 1/2)λ
+- Amplitude minimale
+
+8. DIFFRACTION
+
+8.1 Principe de Huygens-Fresnel
+Chaque point d'un front d'onde devient une source d'ondes secondaires.
+
+8.2 Diffraction par une fente
+- Largeur de la tache centrale : a sin(θ) = λ
+- Intensité : I = I0 [sin(πa sin(θ)/λ) / (πa sin(θ)/λ)]²
+
+9. POLARISATION
+
+9.1 Lumière polarisée
+- Vibration dans un plan privilégié
+- Filtre polarisant : transmet une seule direction
+
+9.2 Loi de Malus
+I = I0 cos²(θ)
+
+Où θ est l'angle entre les directions de polarisation.
+
+10. EXERCICES RÉSOLUS
+
+Exercice 1 : Un rayon lumineux passe de l'air (n=1) au verre (n=1,5) avec un angle d'incidence de 30°. Calculer l'angle de réfraction.
+
+Solution :
+n1 sin(i1) = n2 sin(i2)
+1 × sin(30°) = 1,5 × sin(i2)
+sin(i2) = 0,5 / 1,5 = 0,333
+i2 = arcsin(0,333) = 19,5°
+
+Exercice 2 : Une lentille convergente de distance focale 20 cm forme l'image d'un objet situé à 30 cm. Calculer la position de l'image.
+
+Solution :
+1/f = 1/p + 1/p'
+1/20 = 1/30 + 1/p'
+1/p' = 1/20 - 1/30 = (3-2)/60 = 1/60
+p' = 60 cm
+
+11. FORMULES IMPORTANTES
+
+- Vitesse de la lumière : v = c/n
+- Loi de Snell-Descartes : n1 sin(i1) = n2 sin(i2)
+- Formule de conjugaison : 1/f = 1/p + 1/p'
+- Grandissement : γ = -p'/p
+- Grossissement loupe : G = 25/f
+- Loi de Malus : I = I0 cos²(θ)
+- Diffraction fente : a sin(θ) = λ
+
+12. APPLICATIONS PRATIQUES
+
+12.1 Fibres optiques
+- Transmission de données par réflexion totale
+- Indice de réfraction variable
+
+12.2 Lasers
+- Lumière cohérente et monochromatique
+- Applications médicales et industrielles
+
+12.3 Photographie
+- Formation d'images par lentilles
+- Contrôle de la profondeur de champ
+

@@ -1,0 +1,377 @@
+{
+  "export_date": "2025-09-08T22:59:23.394654",
+  "format": "json",
+  "conversations": [
+    {
+      "conversation_id": 26,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:57:16.767242",
+      "updated_at": "2025-09-08 21:57:16.767250",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Aide-moi avec les intégrales",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:57:20.832777"
+        },
+        {
+          "sender": "user",
+          "content": "Aide-moi avec les intégrales",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:57:20.863850"
+        },
+        {
+          "sender": "assistant",
+          "content": "**INTÉGRALES - EXPLICATION COMPLÈTE**\n\n**Définition :**\nL'intégrale définie de f sur [a,b] est :\n∫[a→b] f(x) dx = lim(n→∞) Σ(k=1→n) f(xk) · Δx\n\n**Théorème fondamental du calcul :**\nSi F est une primitive de f, alors :\n∫[a→b] f(x) dx = F(b) - F(a)\n\n**Primitives usuelles :**\n- ∫ x^n dx = x^(n+1)/(n+1) + C (n ≠ -1)\n- ∫ 1/x dx = ln |x| + C\n- ∫ e^x dx = e^x + C\n- ∫ sin x dx = -cos x + C\n- ∫ cos x dx = sin x + C\n\n**Techniques d'intégration :**\n1. **Intégration par parties :** ∫ u dv = uv - ∫ v du\n2. **Changement de variable :** ∫ f(g(x))·g'(x) dx = ∫ f(u) du\n3. **Décomposition en éléments simples**\n\n**Exemple pratique :**\nCalculer ∫[0→π] sin x dx\n\n**Solution étape par étape :**\n1. Primitive de sin x : -cos x\n2. ∫[0→π] sin x dx = [-cos x][0→π]\n3. = -cos π + cos 0\n4. = -(-1) + 1 = 1 + 1 = 2\n\n**Applications :**\n- Calcul d'aires\n- Calcul de volumes\n- Calcul de centres de gravité\n- Résolution d'équations différentielles\n\nL'intégration est l'opération inverse de la dérivation.",
+          "confidence": "0.3397483229637146",
+          "response_time": "0.08142971992492676",
+          "created_at": "2025-09-08 21:57:20.958023"
+        },
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:57:23.011887"
+        },
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:57:23.029811"
+        },
+        {
+          "sender": "assistant",
+          "content": "**THERMODYNAMIQUE - EXPLICATION COMPLÈTE**\n\n**Premier principe de la thermodynamique :**\nΔU = Q - W\n- ΔU : variation d'énergie interne\n- Q : chaleur reçue par le système\n- W : travail effectué par le système\n\n**Deuxième principe :**\nL'entropie d'un système isolé ne peut que croître : ΔS ≥ 0\n\n**Entropie :**\ndS = δQ_rev / T\n- δQ_rev : chaleur échangée de manière réversible\n- T : température absolue\n\n**Gaz parfait :**\nPV = nRT\n- P : pression (Pa)\n- V : volume (m³)\n- n : nombre de moles\n- R : constante des gaz parfaits (8,314 J/mol·K)\n- T : température absolue (K)\n\n**Exemple pratique :**\nCalculer le travail d'un gaz parfait lors d'une expansion isotherme de 2L à 5L à 300K.\n\n**Solution :**\n1. W = nRT ln(V2/V1)\n2. W = 1 × 8,314 × 300 × ln(5/2)\n3. W = 2,28 kJ\n\n**Applications :**\n- Moteurs thermiques\n- Réfrigérateurs\n- Centrales électriques\n- Thermodynamique industrielle\n\nLa thermodynamique est fondamentale en physique et ingénierie.",
+          "confidence": "0.48004502058029175",
+          "response_time": "0.0633702278137207",
+          "created_at": "2025-09-08 21:57:23.101906"
+        }
+      ]
+    },
+    {
+      "conversation_id": 25,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:57:16.750657",
+      "updated_at": "2025-09-08 21:57:16.750669",
+      "messages": []
+    },
+    {
+      "conversation_id": 24,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:50:48.845066",
+      "updated_at": "2025-09-08 21:50:48.845074",
+      "messages": []
+    },
+    {
+      "conversation_id": 23,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:50:48.830059",
+      "updated_at": "2025-09-08 21:50:48.830065",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:50:53.010427"
+        },
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:50:53.029885"
+        },
+        {
+          "sender": "assistant",
+          "content": "**THERMODYNAMIQUE - EXPLICATION COMPLÈTE**\n\n**Premier principe de la thermodynamique :**\nΔU = Q - W\n- ΔU : variation d'énergie interne\n- Q : chaleur reçue par le système\n- W : travail effectué par le système\n\n**Deuxième principe :**\nL'entropie d'un système isolé ne peut que croître : ΔS ≥ 0\n\n**Entropie :**\ndS = δQ_rev / T\n- δQ_rev : chaleur échangée de manière réversible\n- T : température absolue\n\n**Gaz parfait :**\nPV = nRT\n- P : pression (Pa)\n- V : volume (m³)\n- n : nombre de moles\n- R : constante des gaz parfaits (8,314 J/mol·K)\n- T : température absolue (K)\n\n**Exemple pratique :**\nCalculer le travail d'un gaz parfait lors d'une expansion isotherme de 2L à 5L à 300K.\n\n**Solution :**\n1. W = nRT ln(V2/V1)\n2. W = 1 × 8,314 × 300 × ln(5/2)\n3. W = 2,28 kJ\n\n**Applications :**\n- Moteurs thermiques\n- Réfrigérateurs\n- Centrales électriques\n- Thermodynamique industrielle\n\nLa thermodynamique est fondamentale en physique et ingénierie.",
+          "confidence": "0.48004502058029175",
+          "response_time": "0.06554698944091797",
+          "created_at": "2025-09-08 21:50:53.106919"
+        },
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:50:56.975590"
+        },
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:50:56.992904"
+        },
+        {
+          "sender": "assistant",
+          "content": "**RÉPONSE BASÉE SUR VOS DOCUMENTS**\n\nVoici une explication complète basée sur les informations disponibles dans vos documents :\n\n**Contexte :**\n2.2 OPÉRATIONS SUR LES MATRICES\n- Addition : (A+B)_ij = a_ij + b_ij\n- Multiplication par un scalaire : (λA)_ij = λa_ij\n- Multiplication : (AB)_ij = Σ(k=1→n) a_ik b_kj\n\n2.3 DÉTERMINANT\nPour une matrice 2×2 : det(A) = ad - bc\nPour une matrice 3×3 : règle de Sarrus\nPour une matrice n×n : développement selon une ligne ou colonne\n\nCHAPITRE 3 : SYSTÈMES LINÉAIRES\n\n3.1 FORME MATRICIELLE\nUn système linéaire s'écrit : Ax = b\noù A est la matrice des coefficients, x le vecteur des inconnues, b le vecteur s...\n\n**Explication détaillée :**\nLes informations ci-dessus proviennent directement de vos documents de cours et exercices. Cette réponse intègre les concepts théoriques, les formules, et les exemples pratiques contenus dans votre base de connaissances.\n\n**Points clés à retenir :**\n- Les concepts fondamentaux sont expliqués avec leurs applications\n- Les formules sont données avec leurs conditions d'utilisation\n- Des exemples pratiques illustrent les applications théoriques\n\nCette réponse complète vous donne toutes les informations nécessaires pour comprendre et appliquer le concept demandé.",
+          "confidence": "0.434498131275177",
+          "response_time": "0.03273272514343262",
+          "created_at": "2025-09-08 21:50:57.032191"
+        }
+      ]
+    },
+    {
+      "conversation_id": 22,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:46:53.188370",
+      "updated_at": "2025-09-08 21:46:53.188380",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:46:55.488937"
+        },
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:46:55.509357"
+        },
+        {
+          "sender": "assistant",
+          "content": "**THERMODYNAMIQUE - EXPLICATION COMPLÈTE**\n\n**Premier principe de la thermodynamique :**\nΔU = Q - W\n- ΔU : variation d'énergie interne\n- Q : chaleur reçue par le système\n- W : travail effectué par le système\n\n**Deuxième principe :**\nL'entropie d'un système isolé ne peut que croître : ΔS ≥ 0\n\n**Entropie :**\ndS = δQ_rev / T\n- δQ_rev : chaleur échangée de manière réversible\n- T : température absolue\n\n**Gaz parfait :**\nPV = nRT\n- P : pression (Pa)\n- V : volume (m³)\n- n : nombre de moles\n- R : constante des gaz parfaits (8,314 J/mol·K)\n- T : température absolue (K)\n\n**Exemple pratique :**\nCalculer le travail d'un gaz parfait lors d'une expansion isotherme de 2L à 5L à 300K.\n\n**Solution :**\n1. W = nRT ln(V2/V1)\n2. W = 1 × 8,314 × 300 × ln(5/2)\n3. W = 2,28 kJ\n\n**Applications :**\n- Moteurs thermiques\n- Réfrigérateurs\n- Centrales électriques\n- Thermodynamique industrielle\n\nLa thermodynamique est fondamentale en physique et ingénierie.",
+          "confidence": "0.48004502058029175",
+          "response_time": "0.043573617935180664",
+          "created_at": "2025-09-08 21:46:55.559214"
+        },
+        {
+          "sender": "user",
+          "content": "Concepts de base en électronique",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:47:01.022971"
+        },
+        {
+          "sender": "user",
+          "content": "Concepts de base en électronique",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:47:01.049535"
+        },
+        {
+          "sender": "assistant",
+          "content": "**BASES - EXPLICATION COMPLÈTE**\n\n**Définition :**\nUne base est une substance qui libère des ions OH⁻ en solution aqueuse.\n\n**Classification :**\n- **Bases fortes** : NaOH, KOH, Ca(OH)₂\n- **Bases faibles** : NH₃, CH₃NH₂\n\n**Propriétés :**\n- Goût amer\n- Conducteurs électriques\n- Réagissent avec les acides\n- Changent la couleur des indicateurs\n\n**Exemple pratique :**\nCalculer le pH d'une solution de soude 0.01 M\n\n**Solution :**\n1. NaOH est une base forte : [OH⁻] = [NaOH] = 0.01 M\n2. pOH = -log[OH⁻] = -log(0.01) = 2\n3. pH = 14 - pOH = 14 - 2 = 12\n4. Réponse : Le pH est 12\n\n**Applications :**\n- Industrie chimique\n- Biologie\n- Médecine\n- Agriculture\n\nLes bases sont fondamentales en chimie.",
+          "confidence": "0.4128689169883728",
+          "response_time": "0.0517885684967041",
+          "created_at": "2025-09-08 21:47:01.109154"
+        }
+      ]
+    },
+    {
+      "conversation_id": 21,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:46:53.178573",
+      "updated_at": "2025-09-08 21:46:53.178581",
+      "messages": []
+    },
+    {
+      "conversation_id": 20,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:44:37.624976",
+      "updated_at": "2025-09-08 21:44:37.624984",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:44:39.738378"
+        },
+        {
+          "sender": "user",
+          "content": "Qu'est-ce que la thermodynamique ?",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:44:39.761734"
+        },
+        {
+          "sender": "assistant",
+          "content": "**THERMODYNAMIQUE - EXPLICATION COMPLÈTE**\n\n**Premier principe de la thermodynamique :**\nΔU = Q - W\n- ΔU : variation d'énergie interne\n- Q : chaleur reçue par le système\n- W : travail effectué par le système\n\n**Deuxième principe :**\nL'entropie d'un système isolé ne peut que croître : ΔS ≥ 0\n\n**Entropie :**\ndS = δQ_rev / T\n- δQ_rev : chaleur échangée de manière réversible\n- T : température absolue\n\n**Gaz parfait :**\nPV = nRT\n- P : pression (Pa)\n- V : volume (m³)\n- n : nombre de moles\n- R : constante des gaz parfaits (8,314 J/mol·K)\n- T : température absolue (K)\n\n**Exemple pratique :**\nCalculer le travail d'un gaz parfait lors d'une expansion isotherme de 2L à 5L à 300K.\n\n**Solution :**\n1. W = nRT ln(V2/V1)\n2. W = 1 × 8,314 × 300 × ln(5/2)\n3. W = 2,28 kJ\n\n**Applications :**\n- Moteurs thermiques\n- Réfrigérateurs\n- Centrales électriques\n- Thermodynamique industrielle\n\nLa thermodynamique est fondamentale en physique et ingénierie.",
+          "confidence": "0.48004502058029175",
+          "response_time": "0.06491827964782715",
+          "created_at": "2025-09-08 21:44:39.835661"
+        }
+      ]
+    },
+    {
+      "conversation_id": 19,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:44:37.585846",
+      "updated_at": "2025-09-08 21:44:37.585854",
+      "messages": []
+    },
+    {
+      "conversation_id": 18,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:44:06.225839",
+      "updated_at": "2025-09-08 21:44:06.225844",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:44:16.464861"
+        },
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 21:44:16.489998"
+        },
+        {
+          "sender": "assistant",
+          "content": "**RÉPONSE BASÉE SUR VOS DOCUMENTS**\n\nVoici une explication complète basée sur les informations disponibles dans vos documents :\n\n**Contexte :**\n2.2 OPÉRATIONS SUR LES MATRICES\n- Addition : (A+B)_ij = a_ij + b_ij\n- Multiplication par un scalaire : (λA)_ij = λa_ij\n- Multiplication : (AB)_ij = Σ(k=1→n) a_ik b_kj\n\n2.3 DÉTERMINANT\nPour une matrice 2×2 : det(A) = ad - bc\nPour une matrice 3×3 : règle de Sarrus\nPour une matrice n×n : développement selon une ligne ou colonne\n\nCHAPITRE 3 : SYSTÈMES LINÉAIRES\n\n3.1 FORME MATRICIELLE\nUn système linéaire s'écrit : Ax = b\noù A est la matrice des coefficients, x le vecteur des inconnues, b le vecteur s...\n\n**Explication détaillée :**\nLes informations ci-dessus proviennent directement de vos documents de cours et exercices. Cette réponse intègre les concepts théoriques, les formules, et les exemples pratiques contenus dans votre base de connaissances.\n\n**Points clés à retenir :**\n- Les concepts fondamentaux sont expliqués avec leurs applications\n- Les formules sont données avec leurs conditions d'utilisation\n- Des exemples pratiques illustrent les applications théoriques\n\nCette réponse complète vous donne toutes les informations nécessaires pour comprendre et appliquer le concept demandé.",
+          "confidence": "0.434498131275177",
+          "response_time": "0.20139503479003906",
+          "created_at": "2025-09-08 21:44:16.704486"
+        }
+      ]
+    },
+    {
+      "conversation_id": 17,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:44:06.215716",
+      "updated_at": "2025-09-08 21:44:06.215726",
+      "messages": []
+    },
+    {
+      "conversation_id": 16,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:42:30.277008",
+      "updated_at": "2025-09-08 21:42:30.277019",
+      "messages": []
+    },
+    {
+      "conversation_id": 15,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:42:30.249742",
+      "updated_at": "2025-09-08 21:42:30.249746",
+      "messages": []
+    },
+    {
+      "conversation_id": 14,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:42:22.472262",
+      "updated_at": "2025-09-08 21:42:22.472266",
+      "messages": []
+    },
+    {
+      "conversation_id": 13,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:42:22.461439",
+      "updated_at": "2025-09-08 21:42:22.461445",
+      "messages": []
+    },
+    {
+      "conversation_id": 12,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:40:18.281666",
+      "updated_at": "2025-09-08 21:40:18.281677",
+      "messages": []
+    },
+    {
+      "conversation_id": 11,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:40:18.262829",
+      "updated_at": "2025-09-08 21:40:18.262833",
+      "messages": []
+    },
+    {
+      "conversation_id": 10,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:40:12.673236",
+      "updated_at": "2025-09-08 21:40:12.673241",
+      "messages": []
+    },
+    {
+      "conversation_id": 9,
+      "title": "Conversation",
+      "created_at": "2025-09-08 21:40:12.652975",
+      "updated_at": "2025-09-08 21:40:12.653039",
+      "messages": []
+    },
+    {
+      "conversation_id": 8,
+      "title": "Conversation",
+      "created_at": "2025-09-08 17:04:52.934700",
+      "updated_at": "2025-09-08 17:04:52.934726",
+      "messages": []
+    },
+    {
+      "conversation_id": 7,
+      "title": "Conversation",
+      "created_at": "2025-09-08 17:04:52.913313",
+      "updated_at": "2025-09-08 17:04:52.913333",
+      "messages": []
+    },
+    {
+      "conversation_id": 6,
+      "title": "Conversation",
+      "created_at": "2025-09-08 17:00:25.149392",
+      "updated_at": "2025-09-08 17:00:25.149412",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Explique-moi les lois de Newton",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 17:01:57.593578"
+        },
+        {
+          "sender": "user",
+          "content": "Explique-moi les lois de Newton",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 17:01:57.691056"
+        },
+        {
+          "sender": "assistant",
+          "content": "**LOIS DE NEWTON - EXPLICATION COMPLÈTE**\n\n**Première loi de Newton (Principe d'inertie) :**\nUn objet au repos reste au repos, et un objet en mouvement continue à se déplacer à vitesse constante, sauf si une force nette agit sur lui.\n\n**Deuxième loi de Newton (Principe fondamental) :**\nF = m × a\n- F : force nette (N)\n- m : masse (kg)\n- a : accélération (m/s²)\n\n**Troisième loi de Newton (Action-Réaction) :**\nPour chaque action, il y a une réaction égale et opposée.\n\n**Exemple pratique :**\nUn objet de 5 kg subit une force de 20 N. Calculer son accélération.\n\n**Solution :**\n1. Données : m = 5 kg, F = 20 N\n2. Formule : F = m × a\n3. Calcul : a = F/m = 20/5 = 4 m/s²\n4. Réponse : L'accélération est 4 m/s²\n\n**Applications :**\n- Mécanique classique\n- Ingénierie\n- Astronomie\n- Physique des particules\n\nLes lois de Newton sont fondamentales en mécanique.",
+          "confidence": "0.37786418199539185",
+          "response_time": "0.2588503360748291",
+          "created_at": "2025-09-08 17:01:57.980369"
+        },
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 17:04:01.885863"
+        },
+        {
+          "sender": "user",
+          "content": "Exercices sur les matrices",
+          "confidence": null,
+          "response_time": null,
+          "created_at": "2025-09-08 17:04:01.939963"
+        },
+        {
+          "sender": "assistant",
+          "content": "**RÉPONSE BASÉE SUR VOS DOCUMENTS**\n\nVoici une explication complète basée sur les informations disponibles dans vos documents :\n\n**Contexte :**\n2.2 OPÉRATIONS SUR LES MATRICES\n- Addition : (A+B)_ij = a_ij + b_ij\n- Multiplication par un scalaire : (λA)_ij = λa_ij\n- Multiplication : (AB)_ij = Σ(k=1→n) a_ik b_kj\n\n2.3 DÉTERMINANT\nPour une matrice 2×2 : det(A) = ad - bc\nPour une matrice 3×3 : règle de Sarrus\nPour une matrice n×n : développement selon une ligne ou colonne\n\nCHAPITRE 3 : SYSTÈMES LINÉAIRES\n\n3.1 FORME MATRICIELLE\nUn système linéaire s'écrit : Ax = b\noù A est la matrice des coefficients, x le vecteur des inconnues, b le vecteur s...\n\n**Explication détaillée :**\nLes informations ci-dessus proviennent directement de vos documents de cours et exercices. Cette réponse intègre les concepts théoriques, les formules, et les exemples pratiques contenus dans votre base de connaissances.\n\n**Points clés à retenir :**\n- Les concepts fondamentaux sont expliqués avec leurs applications\n- Les formules sont données avec leurs conditions d'utilisation\n- Des exemples pratiques illustrent les applications théoriques\n\nCette réponse complète vous donne toutes les informations nécessaires pour comprendre et appliquer le concept demandé.",
+          "confidence": "0.434498131275177",
+          "response_time": "0.3167755603790283",
+          "created_at": "2025-09-08 17:04:02.281173"
+        }
+      ]
+    },
+    {
+      "conversation_id": 5,
+      "title": "Conversation",
+      "created_at": "2025-09-08 17:00:25.124887",
+      "updated_at": "2025-09-08 17:00:25.124951",
+      "messages": []
+    }
+  ],
+  "total_conversations": 22
+}

@@ -1,0 +1,192 @@
+COURS D'INFORMATIQUE - ALGORITHMES ET STRUCTURES DE DONNÉES
+LICENCE 2 - INFORMATIQUE
+
+CHAPITRE 1 : COMPLEXITÉ ALGORITHMIQUE
+
+1.1 NOTATION BIG-O
+Définition : f(n) = O(g(n)) s'il existe c > 0 et n₀ tels que f(n) ≤ c·g(n) pour n ≥ n₀
+
+Complexités courantes :
+- O(1) : Temps constant
+- O(log n) : Temps logarithmique
+- O(n) : Temps linéaire
+- O(n log n) : Temps quasi-linéaire
+- O(n²) : Temps quadratique
+- O(2ⁿ) : Temps exponentiel
+
+1.2 ANALYSE DE COMPLEXITÉ
+Cas optimal : Meilleur cas possible
+Cas moyen : Complexité attendue
+Cas pire : Pire cas possible
+
+1.3 ESPACE MÉMOIRE
+Complexité spatiale : Quantité de mémoire utilisée
+Trade-off temps/espace : Échanger du temps contre de l'espace
+
+CHAPITRE 2 : TRI ET RECHERCHE
+
+2.1 ALGORITHMES DE TRI
+Tri par sélection :
+- Complexité : O(n²)
+- Principe : Sélectionner le minimum et l'échanger
+
+Tri par insertion :
+- Complexité : O(n²) pire cas, O(n) meilleur cas
+- Principe : Insérer chaque élément à sa place
+
+Tri rapide (Quicksort) :
+- Complexité : O(n log n) moyen, O(n²) pire cas
+- Principe : Diviser pour régner avec pivot
+
+Tri par fusion (Mergesort) :
+- Complexité : O(n log n) dans tous les cas
+- Principe : Diviser pour régner avec fusion
+
+2.2 RECHERCHE
+Recherche linéaire :
+- Complexité : O(n)
+- Principe : Parcourir tous les éléments
+
+Recherche binaire :
+- Complexité : O(log n)
+- Principe : Diviser l'espace de recherche par 2
+
+CHAPITRE 3 : STRUCTURES DE DONNÉES
+
+3.1 TABLEAUX
+Avantages :
+- Accès direct en O(1)
+- Localité spatiale
+- Simplicité
+
+Inconvénients :
+- Taille fixe
+- Insertion/suppression coûteuse
+
+3.2 LISTES CHAÎNÉES
+Types :
+- Liste simplement chaînée
+- Liste doublement chaînée
+- Liste circulaire
+
+Opérations :
+- Insertion : O(1) si position connue
+- Suppression : O(1) si position connue
+- Recherche : O(n)
+
+3.3 PILES ET FILES
+Pile (LIFO) :
+- Opérations : push, pop, top
+- Applications : Évaluation d'expressions, récursion
+
+File (FIFO) :
+- Opérations : enqueue, dequeue, front
+- Applications : Traitement par ordre d'arrivée
+
+CHAPITRE 4 : ARBRES
+
+4.1 ARBRES BINAIRES
+Définition : Chaque nœud a au plus 2 enfants
+Parcours :
+- Préfixe : racine → gauche → droite
+- Infixe : gauche → racine → droite
+- Postfixe : gauche → droite → racine
+
+4.2 ARBRES BINAIRES DE RECHERCHE (ABR)
+Propriété : Pour tout nœud, clé(gauche) < clé(nœud) < clé(droite)
+Opérations :
+- Recherche : O(log n) équilibré, O(n) dégénéré
+- Insertion : O(log n) équilibré
+- Suppression : O(log n) équilibré
+
+4.3 ARBRES ÉQUILIBRÉS
+AVL : Hauteur des sous-arbres diffère d'au plus 1
+Red-Black : Propriétés de coloration pour équilibrage
+B-trees : Arbres multi-niveaux pour bases de données
+
+CHAPITRE 5 : GRAPHES
+
+5.1 REPRÉSENTATION
+Matrice d'adjacence :
+- Complexité espace : O(V²)
+- Recherche d'arête : O(1)
+
+Liste d'adjacence :
+- Complexité espace : O(V + E)
+- Recherche d'arête : O(deg(v))
+
+5.2 PARCOURS DE GRAPHES
+Parcours en largeur (BFS) :
+- Complexité : O(V + E)
+- Utilise une file
+- Trouve le plus court chemin (graphes non pondérés)
+
+Parcours en profondeur (DFS) :
+- Complexité : O(V + E)
+- Utilise la récursion ou une pile
+- Détection de cycles
+
+5.3 ALGORITHMES DE PLUS COURT CHEMIN
+Algorithme de Dijkstra :
+- Complexité : O((V + E) log V)
+- Graphes avec poids positifs
+- Trouve le plus court chemin depuis une source
+
+Algorithme de Floyd-Warshall :
+- Complexité : O(V³)
+- Trouve tous les plus courts chemins
+- Gère les poids négatifs
+
+CHAPITRE 6 : PROGRAMMATION DYNAMIQUE
+
+6.1 PRINCIPE
+Résoudre un problème en résolvant des sous-problèmes plus petits
+Mémorisation des résultats pour éviter les recalculs
+
+6.2 EXEMPLES CLASSIQUES
+Suite de Fibonacci :
+- Récursif naïf : O(2ⁿ)
+- Programmation dynamique : O(n)
+
+Problème du sac à dos :
+- Optimisation : Maximiser la valeur
+- Contrainte : Poids limité
+
+Plus longue sous-séquence commune :
+- Comparaison de deux séquences
+- Complexité : O(mn)
+
+6.3 TECHNIQUES
+Mémoïsation : Stocker les résultats des appels récursifs
+Tableau : Construire la solution de bas en haut
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Analyser la complexité de l'algorithme de tri par sélection.
+Solution : O(n²) - deux boucles imbriquées de 1 à n
+
+Exercice 2 : Implémenter la recherche binaire sur un tableau trié.
+Solution : Diviser l'intervalle par 2 à chaque itération
+
+Exercice 3 : Calculer la complexité du parcours BFS.
+Solution : O(V + E) - chaque sommet et arête visités une fois
+
+FORMULES UTILES
+
+- Tri par sélection : O(n²)
+- Tri rapide : O(n log n) moyen
+- Tri par fusion : O(n log n)
+- Recherche binaire : O(log n)
+- BFS/DFS : O(V + E)
+- Dijkstra : O((V + E) log V)
+- Fibonacci DP : O(n)
+
+APPLICATIONS
+
+1. Bases de données et indexation
+2. Moteurs de recherche
+3. Réseaux et routage
+4. Intelligence artificielle
+5. Compression de données
+6. Optimisation combinatoire
+

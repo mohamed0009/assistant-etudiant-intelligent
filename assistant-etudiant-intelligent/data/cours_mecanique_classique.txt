@@ -1,0 +1,142 @@
+COURS DE MÉCANIQUE CLASSIQUE - LICENCE 2
+PHYSIQUE GÉNÉRALE
+
+CHAPITRE 1 : CINÉMATIQUE
+
+1.1 MOUVEMENT RECTILIGNE
+Position : x(t)
+Vitesse : v(t) = dx/dt
+Accélération : a(t) = dv/dt = d²x/dt²
+
+Mouvement uniforme : v = constante, x = x₀ + vt
+Mouvement uniformément accéléré : a = constante, v = v₀ + at, x = x₀ + v₀t + ½at²
+
+1.2 MOUVEMENT EN DEUX DIMENSIONS
+Vecteur position : r⃗(t) = x(t)î + y(t)ĵ
+Vecteur vitesse : v⃗(t) = dr⃗/dt = vₓî + vᵧĵ
+Vecteur accélération : a⃗(t) = dv⃗/dt = aₓî + aᵧĵ
+
+1.3 MOUVEMENT CIRCULAIRE
+Coordonnées polaires : r, θ
+Vitesse angulaire : ω = dθ/dt
+Accélération angulaire : α = dω/dt
+
+Accélération centripète : a_c = v²/r = ω²r
+Accélération tangentielle : a_t = rα
+
+CHAPITRE 2 : DYNAMIQUE
+
+2.1 LOIS DE NEWTON
+Première loi (inertie) : Un corps au repos ou en mouvement rectiligne uniforme reste dans cet état si aucune force ne s'exerce sur lui.
+
+Deuxième loi : F⃗ = ma⃗
+La force résultante est égale au produit de la masse par l'accélération.
+
+Troisième loi (action-réaction) : Si un corps A exerce une force F⃗ sur un corps B, alors B exerce une force -F⃗ sur A.
+
+2.2 FORCES USUELLES
+- Poids : P⃗ = mg⃗ (g = 9,81 m/s²)
+- Force de frottement : f⃗ = -μN (μ : coefficient de frottement)
+- Force élastique : F⃗ = -kx (loi de Hooke)
+- Force centripète : F_c = mv²/r
+
+2.3 TRAVAIL ET ÉNERGIE
+Travail d'une force : W = F⃗·d⃗ = Fd cos(θ)
+Puissance : P = dW/dt = F⃗·v⃗
+
+Énergie cinétique : K = ½mv²
+Énergie potentielle gravitationnelle : U = mgh
+Énergie potentielle élastique : U = ½kx²
+
+Théorème de l'énergie cinétique : W = ΔK
+Conservation de l'énergie mécanique : E = K + U = constante
+
+CHAPITRE 3 : MOMENTUM ET COLLISIONS
+
+3.1 MOMENTUM LINÉAIRE
+Momentum : p⃗ = mv⃗
+Deuxième loi de Newton : F⃗ = dp⃗/dt
+
+Conservation du momentum : Si F⃗_ext = 0, alors p⃗_total = constante
+
+3.2 COLLISIONS
+Collision élastique : Conservation de l'énergie cinétique et du momentum
+Collision inélastique : Conservation du momentum seulement
+
+Coefficient de restitution : e = (v₂ - v₁)/(u₁ - u₂)
+- e = 1 : collision parfaitement élastique
+- e = 0 : collision parfaitement inélastique
+
+CHAPITRE 4 : MOUVEMENT ROTATIONNEL
+
+4.1 GRANDEURS ROTATIONNELLES
+Position angulaire : θ
+Vitesse angulaire : ω = dθ/dt
+Accélération angulaire : α = dω/dt
+
+Moment d'inertie : I = Σmr²
+Moment cinétique : L = Iω
+Moment de force : τ = r × F
+
+4.2 DYNAMIQUE ROTATIONNELLE
+Deuxième loi de Newton pour la rotation : τ = Iα
+Conservation du moment cinétique : Si τ_ext = 0, alors L = constante
+
+4.3 ÉNERGIE ROTATIONNELLE
+Énergie cinétique rotationnelle : K = ½Iω²
+Travail rotationnel : W = τθ
+Puissance rotationnelle : P = τω
+
+CHAPITRE 5 : OSCILLATIONS
+
+5.1 MOUVEMENT HARMONIQUE SIMPLE
+Équation différentielle : d²x/dt² + ω²x = 0
+Solution : x(t) = A cos(ωt + φ)
+où A est l'amplitude, ω la pulsation, φ la phase initiale
+
+Période : T = 2π/ω
+Fréquence : f = 1/T = ω/(2π)
+
+5.2 OSCILLATEUR HARMONIQUE
+Masse-ressort : ω = √(k/m)
+Pendule simple : ω = √(g/L)
+Pendule de torsion : ω = √(κ/I)
+
+5.3 OSCILLATIONS AMORTIES
+Équation : d²x/dt² + 2γ(dx/dt) + ω₀²x = 0
+Solution selon le régime :
+- Sous-amorti : γ < ω₀
+- Critique : γ = ω₀
+- Sur-amorti : γ > ω₀
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Un objet de masse 2 kg se déplace à 10 m/s. Calculer son énergie cinétique.
+Solution : K = ½mv² = ½ × 2 × 10² = 100 J
+
+Exercice 2 : Un ressort de constante k = 100 N/m est comprimé de 0,1 m. Calculer l'énergie potentielle.
+Solution : U = ½kx² = ½ × 100 × 0,1² = 0,5 J
+
+Exercice 3 : Un pendule simple de longueur 1 m. Calculer sa période.
+Solution : T = 2π√(L/g) = 2π√(1/9,81) = 2,0 s
+
+FORMULES UTILES
+
+- Vitesse : v = v₀ + at
+- Position : x = x₀ + v₀t + ½at²
+- Force : F = ma
+- Énergie cinétique : K = ½mv²
+- Énergie potentielle : U = mgh
+- Momentum : p = mv
+- Moment cinétique : L = Iω
+- Période du pendule : T = 2π√(L/g)
+
+APPLICATIONS
+
+1. Mouvement des planètes
+2. Oscillations des structures
+3. Collisions de particules
+4. Gyroscopes et stabilisateurs
+5. Analyse des vibrations
+6. Mécanique des fluides
+

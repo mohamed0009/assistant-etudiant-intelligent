@@ -1,0 +1,103 @@
+COURS DE MATHÉMATIQUES - CALCUL DIFFÉRENTIEL
+LICENCE 2 - SEMESTRE 3
+
+CHAPITRE 1 : DÉRIVÉES
+
+1.1 DÉFINITION DE LA DÉRIVÉE
+La dérivée d'une fonction f en un point a est définie par :
+f'(a) = lim(h→0) [f(a+h) - f(a)] / h
+
+Cette limite, si elle existe, représente le coefficient directeur de la tangente à la courbe de f au point d'abscisse a.
+
+1.2 RÈGLES DE DÉRIVATION
+- Dérivée d'une constante : (c)' = 0
+- Dérivée d'une puissance : (x^n)' = n·x^(n-1)
+- Dérivée d'une somme : (f + g)' = f' + g'
+- Dérivée d'un produit : (f·g)' = f'·g + f·g'
+- Dérivée d'un quotient : (f/g)' = (f'·g - f·g') / g²
+- Dérivée d'une composée : (f∘g)' = f'(g)·g'
+
+1.3 DÉRIVÉES DES FONCTIONS USUELLES
+- (sin x)' = cos x
+- (cos x)' = -sin x
+- (tan x)' = 1/cos²x = 1 + tan²x
+- (ln x)' = 1/x
+- (e^x)' = e^x
+- (a^x)' = a^x · ln a
+
+CHAPITRE 2 : APPLICATIONS DES DÉRIVÉES
+
+2.1 ÉTUDE DE FONCTIONS
+Pour étudier une fonction f :
+1. Déterminer le domaine de définition
+2. Calculer f'(x) et résoudre f'(x) = 0
+3. Étudier le signe de f'(x) pour les variations
+4. Calculer les limites aux bornes
+5. Déterminer les asymptotes
+6. Tracer la courbe représentative
+
+2.2 OPTIMISATION
+Pour trouver les extrema d'une fonction :
+- f'(a) = 0 et f''(a) > 0 → minimum local en a
+- f'(a) = 0 et f''(a) < 0 → maximum local en a
+- f'(a) = 0 et f''(a) = 0 → point d'inflexion possible
+
+CHAPITRE 3 : INTÉGRALES
+
+3.1 DÉFINITION DE L'INTÉGRALE
+L'intégrale définie de f sur [a,b] est :
+∫[a→b] f(x) dx = lim(n→∞) Σ(k=1→n) f(xk) · Δx
+
+où Δx = (b-a)/n et xk = a + k·Δx
+
+3.2 THÉORÈME FONDAMENTAL DU CALCUL
+Si F est une primitive de f, alors :
+∫[a→b] f(x) dx = F(b) - F(a)
+
+3.3 TECHNIQUES D'INTÉGRATION
+- Intégration par parties : ∫ u dv = uv - ∫ v du
+- Changement de variable : ∫ f(g(x))·g'(x) dx = ∫ f(u) du
+- Décomposition en éléments simples
+- Intégration de fonctions rationnelles
+
+CHAPITRE 4 : ÉQUATIONS DIFFÉRENTIELLES
+
+4.1 ÉQUATIONS DIFFÉRENTIELLES DU PREMIER ORDRE
+Forme générale : dy/dx + P(x)y = Q(x)
+
+Solution générale : y = e^(-∫P(x)dx) [∫Q(x)e^(∫P(x)dx)dx + C]
+
+4.2 ÉQUATIONS À VARIABLES SÉPARABLES
+Forme : dy/dx = f(x)g(y)
+Solution : ∫ dy/g(y) = ∫ f(x) dx + C
+
+4.3 ÉQUATIONS HOMOGÈNES
+Forme : dy/dx = f(y/x)
+Solution : substitution u = y/x
+
+EXERCICES CORRIGÉS
+
+Exercice 1 : Calculer la dérivée de f(x) = x³ + 2x² - 5x + 1
+Solution : f'(x) = 3x² + 4x - 5
+
+Exercice 2 : Résoudre l'équation différentielle dy/dx + 2y = 4x
+Solution : y = 2x - 1 + Ce^(-2x)
+
+Exercice 3 : Calculer ∫[0→π] sin x dx
+Solution : ∫[0→π] sin x dx = [-cos x][0→π] = -cos π + cos 0 = 1 + 1 = 2
+
+FORMULES UTILES
+
+- Dérivée d'une fonction composée : (f(g(x)))' = f'(g(x))·g'(x)
+- Intégration par parties : ∫ u dv = uv - ∫ v du
+- Changement de variable : ∫ f(g(x))g'(x) dx = ∫ f(u) du
+- Équation différentielle linéaire : y' + P(x)y = Q(x)
+- Solution générale : y = e^(-∫P dx)[∫Qe^(∫P dx)dx + C]
+
+APPLICATIONS PRATIQUES
+
+1. Physique : Mouvement, forces, énergie
+2. Économie : Optimisation des profits, coûts marginaux
+3. Biologie : Croissance des populations, modèles épidémiologiques
+4. Ingénierie : Calculs de structures, flux de chaleur
+
