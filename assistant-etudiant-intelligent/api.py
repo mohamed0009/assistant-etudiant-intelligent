@@ -2,13 +2,25 @@
 API for Ollama RAG System
 """
 
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, File, UploadFile, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 import logging
 from datetime import datetime
 from sqlalchemy.orm import Session
+from contextlib import asynccontextmanager
+import time
+import uvicorn
+
+# Custom exception classes
+class RAGSystemError(Exception):
+    """Base exception for RAG system errors."""
+    pass
+
+# Global tracking variables
+error_counts = {"total": 0, "rag_errors": 0, "api_errors": 0, "db_errors": 0}
+metrics_service = None
 
 # Configure logging
 logging.basicConfig(
@@ -22,11 +34,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Import local modules
-from src.rag_engine import RAGEngine
-from src.vector_store import VectorStore
-from src.database import get_db
+from src.rag_engine import ProfessionalRAGEngine as RAGEngine, create_professional_rag_engine
+from src.vector_store import EnhancedVectorStore as VectorStore
+from src.database import get_db, init_db
 from src.crud import CRUDOperations
 from src.models import QuestionType, SubjectType
+from src.document_loader import EnhancedDocumentLoader
+
+# Global variables
+rag_engine = None
+vector_store = None
+document_loader = None
+documents_loaded = False
 
 # Initialize FastAPI app
 app = FastAPI(title="Ollama RAG API")
@@ -41,8 +60,12 @@ app.add_middleware(
 )
 
 # Initialize RAG system
-vector_store = VectorStore(index_path="faiss_index", texts_dir="data")
-rag_engine = RAGEngine(vector_store=vector_store, model_name="mistral")
+vector_store = VectorStore(
+    embeddings_model="all-MiniLM-L6-v2",
+    index_type="flat",
+    store_path="faiss_index"
+)
+rag_engine = RAGEngine(vector_store=vector_store, model_type="ollama")
 
 # Pydantic models
 class QuestionRequest(BaseModel):
@@ -91,10 +114,34 @@ class DocumentProcessingConfig(BaseModel):
     use_enhanced_extraction: bool = True
 
 class ModelConfig(BaseModel):
-    model_type: str = Field("auto", regex="^(auto|ollama|huggingface)$")
+    model_type: str = Field("auto", pattern=r"^(auto|ollama|huggingface)$")
     use_reranking: bool = True
     max_sources: int = Field(5, ge=1, le=10)
     min_confidence: float = Field(0.3, ge=0.0, le=1.0)
+
+class EnhancedQuestionRequest(BaseModel):
+    """Enhanced request model for professional RAG questions."""
+    question: str = Field(..., min_length=1, max_length=1000)
+    subject_filter: Optional[str] = None
+    student_id: Optional[int] = None
+    conversation_id: Optional[int] = None
+    save: bool = False
+    create_conversation: bool = False
+    title: Optional[str] = None
+
+class EnhancedQuestionResponse(BaseModel):
+    """Enhanced response model for professional RAG answers."""
+    answer: str
+    confidence: float
+    sources: List[Dict[str, Any]] = []
+    processing_time: float
+    query: str
+    model_used: str
+    source_scores: List[float] = []
+    metadata: Dict[str, Any] = {}
+    conversation_id: Optional[int] = None
+    user_message_id: Optional[int] = None
+    assistant_message_id: Optional[int] = None
 
 # FastAPI app with lifespan management
 @asynccontextmanager

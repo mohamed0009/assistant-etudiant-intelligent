@@ -136,38 +136,45 @@ class ApiService {
 
   // Vérifier le statut du système
   async getStatus(): Promise<SystemStatus> {
-    return this.request<SystemStatus>('/api/status');
+    return this.request<SystemStatus>('/rag/status');
   }
 
   // Obtenir les statistiques des documents
   async getStats(): Promise<DocumentStats> {
-    return this.request<DocumentStats>('/api/stats');
+    return this.request<DocumentStats>('/rag/stats');
   }
 
   // Poser une question
   async askQuestion(request: QuestionRequest): Promise<QuestionResponse> {
-    return this.request<QuestionResponse>('/api/ask', {
+    // Map frontend request to backend format
+    const backendRequest = {
+      question: request.question,
+      subject: request.subject_filter,
+      conversation_id: request.conversation_id
+    };
+    
+    return this.request<QuestionResponse>('/rag/question', {
       method: 'POST',
-      body: JSON.stringify(request),
+      body: JSON.stringify(backendRequest),
     });
   }
 
   // Obtenir les questions suggérées
   async getSuggestions(subject?: string): Promise<string[]> {
     const params = subject ? `?subject=${encodeURIComponent(subject)}` : '';
-    return this.request<string[]>(`/api/suggestions${params}`);
+    return this.request<string[]>(`/rag/suggestions${params}`);
   }
 
   // Recharger les documents
   async reloadDocuments(): Promise<{ message: string }> {
-    return this.request<{ message: string }>('/api/reload', {
+    return this.request<{ message: string }>('/rag/reload', {
       method: 'POST',
     });
   }
 
   // Vérification de santé
   async healthCheck(): Promise<{ status: string; documents_loaded: boolean; rag_engine_ready: boolean }> {
-    return this.request('/api/health');
+    return this.request('/rag/health');
   }
 
   // -------- Students / Conversations / Messages --------

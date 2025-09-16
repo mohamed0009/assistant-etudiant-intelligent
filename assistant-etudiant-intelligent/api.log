@@ -8,3 +8,902 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
 ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
 2025-09-15 16:32:09,631 - faiss.loader - INFO - Loading faiss with AVX2 support.
 2025-09-15 16:32:09,934 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:15:20,349 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:15:20,350 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:15:20,350 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:15:20,443 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:17:15,476 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:17:15,476 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:17:15,477 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:17:15,501 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:18:08,061 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:18:08,061 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:18:08,062 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:18:08,079 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:18:22,033 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:18:22,034 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:18:22,034 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:18:22,088 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:18:59,317 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:18:59,318 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:18:59,318 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:18:59,345 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:18:59,758 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:21:22,941 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:21:22,943 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:21:22,944 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:21:22,973 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:21:23,385 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:21:43,224 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:21:43,225 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:21:43,225 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:21:43,268 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:21:43,703 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:22:49,093 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:22:49,094 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:22:49,094 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:22:49,117 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:22:49,403 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:23:12,779 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:23:12,780 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:23:12,780 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:23:12,823 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:23:13,306 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:24:49,934 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:24:49,935 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:24:49,935 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:24:49,961 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:24:50,188 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 17:25:04,153 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 17:25:04,154 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 17:25:04,154 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 17:25:04,172 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 17:25:04,354 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:01:46,800 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:01:46,802 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:01:46,803 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:01:46,847 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:01:47,444 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:01:53,587 - src.api - ERROR - Error processing question: '_GeneratorContextManager' object has no attribute 'add'
+2025-09-15 18:07:36,202 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:07:36,203 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:07:36,204 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:07:36,296 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:07:37,208 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:08:21,923 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:08:21,926 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:08:21,927 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:08:22,031 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:08:22,871 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:11:45,371 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:11:45,372 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:11:45,372 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:11:45,422 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:11:46,028 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:12:34,823 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:12:34,825 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:12:34,826 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:12:34,873 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:12:35,505 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:17:05,946 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:17:05,947 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:17:05,948 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:17:06,016 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:17:35,408 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:17:35,410 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:17:35,410 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:17:35,451 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:17:35,983 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:18:45,021 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:18:45,022 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:18:45,022 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:18:45,070 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:18:45,653 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:58:27,333 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:58:27,335 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:58:27,336 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:58:27,452 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:58:28,116 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:59:05,976 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:59:05,977 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:59:05,978 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:59:06,045 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:59:06,725 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 18:59:34,641 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 18:59:34,642 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 18:59:34,642 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 18:59:34,666 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 18:59:34,965 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:00:17,177 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:00:17,177 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:00:17,177 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:00:17,203 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:00:17,484 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:00:39,269 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:00:39,270 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:00:39,271 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:00:39,295 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:00:39,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:01:48,785 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:01:48,800 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:01:48,807 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:01:48,882 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:01:50,334 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:16:50,874 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:16:50,876 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:16:50,876 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:16:50,939 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:17:36,571 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:17:36,572 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:17:36,572 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:17:36,628 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:19:20,382 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:19:20,383 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:19:20,383 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:19:20,431 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:19:21,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:20:10,464 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:20:10,466 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:20:10,466 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:20:10,541 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:20:11,180 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:21:02,320 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:21:02,322 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:21:02,323 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:21:02,370 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:21:03,025 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:22:03,418 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:22:03,420 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:22:03,420 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:22:03,479 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:22:04,088 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 19:23:31,974 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-15 19:23:31,974 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-15 19:23:31,975 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-15 19:23:31,999 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-15 19:23:32,352 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:24:33,284 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:24:33,285 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:24:33,285 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:24:33,594 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:24:34,258 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:25:07,505 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:25:07,506 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:25:07,506 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:25:07,532 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:25:07,881 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:25:34,610 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:25:34,610 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:25:34,610 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:25:34,636 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:25:35,009 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:30:17,623 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:30:17,624 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:30:17,625 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:30:17,668 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:30:18,232 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:30:49,110 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:30:49,111 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:30:49,111 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:30:49,144 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:30:49,675 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:36:18,886 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:36:18,887 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:36:18,887 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:36:18,931 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:36:19,527 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:36:34,224 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:36:34,225 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:36:34,226 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:36:34,259 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:36:34,710 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:36:36,580 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:38,001 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:38,012 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:36:38,353 - watchfiles.main - INFO - 6 changes detected
+2025-09-16 18:36:41,859 - src.database - INFO - Database initialized successfully
+2025-09-16 18:36:42,744 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:46,632 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:47,347 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:51,945 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:56,596 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:36:56,962 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:01,406 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:06,014 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:06,874 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:11,476 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:16,090 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:17,022 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:21,619 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:26,223 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:27,090 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:31,688 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:36,337 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:37,198 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:41,804 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:46,453 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:47,310 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:51,913 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:56,540 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:37:57,406 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:02,010 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:06,611 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:07,517 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:12,162 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:16,747 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:18,540 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:21,321 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:25,966 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:28,693 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:30,589 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:35,247 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:38,823 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:39,837 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:46,829 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:48,924 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:51,215 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:55,862 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:38:59,019 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:00,483 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:05,125 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:09,212 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:09,729 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:14,326 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:18,952 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:19,310 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:24,056 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:28,703 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:29,426 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:34,079 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:39,090 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:39,598 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:44,304 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:48,952 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:49,709 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:54,314 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:58,916 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:39:59,824 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:04,457 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:09,057 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:09,971 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:14,577 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:19,227 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:20,137 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:24,753 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:29,355 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:30,316 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:34,922 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:39,522 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:40,443 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:45,099 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:49,698 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:50,609 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:55,215 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:40:59,866 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:00,774 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:05,404 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:10,014 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:10,879 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:15,477 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:20,078 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:20,950 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:25,595 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:30,199 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:31,057 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:35,710 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:36,125 - api - ERROR - Error processing question: 'PrecomputedResponses' object has no attribute 'get_ohm_law_response'
+2025-09-16 18:41:36,169 - watchfiles.main - INFO - 5 changes detected
+2025-09-16 18:41:40,772 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:41,134 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:45,536 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:50,113 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:50,974 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:41:55,563 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:00,171 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:01,029 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:05,674 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:10,780 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:11,134 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:15,811 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:20,415 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:21,273 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:25,876 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:30,472 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:31,411 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:36,013 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:40,586 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:41,457 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:46,081 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:50,681 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:51,545 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:42:56,189 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:00,779 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:01,636 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:06,278 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:10,895 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:11,757 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:16,349 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:20,942 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:21,905 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:26,509 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:31,100 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:32,016 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:36,613 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:41,228 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:42,089 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:46,704 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:51,355 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:52,212 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:43:56,816 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:01,416 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:02,275 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:06,933 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:11,515 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:12,423 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:17,019 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:21,626 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:22,535 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:27,134 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:31,732 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:32,648 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:37,244 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:42,195 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:42,760 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:47,367 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:52,020 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:52,890 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:53,607 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:44:56,055 - watchfiles.main - INFO - 2 changes detected
+2025-09-16 18:44:58,416 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:00,332 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:03,001 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:04,965 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:09,552 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:11,442 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:45:11,443 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:45:11,443 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:45:11,475 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:45:11,984 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:45:13,137 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:14,147 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:15,363 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:15,371 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:45:15,721 - watchfiles.main - INFO - 6 changes detected
+2025-09-16 18:45:17,785 - src.database - INFO - Database initialized successfully
+2025-09-16 18:45:20,124 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:23,215 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:24,730 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:27,816 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:32,408 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:33,326 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:37,935 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:42,530 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:43,441 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:48,027 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:52,675 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:57,232 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:45:59,873 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:01,920 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:02,486 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:03,515 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:04,072 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:04,981 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:05,487 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:06,799 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:11,430 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:13,601 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:16,031 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:16,858 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:46:16,860 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:46:16,860 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:46:16,880 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:46:17,217 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:46:20,296 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:46:20,332 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:20,695 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:22,718 - src.database - INFO - Database initialized successfully
+2025-09-16 18:46:23,720 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:25,291 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:29,890 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:33,781 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:34,491 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:39,089 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:43,696 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:44,051 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:48,546 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:53,146 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:53,967 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:46:58,559 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:03,175 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:04,031 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:08,637 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:13,229 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:14,099 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:18,702 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:23,325 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:24,190 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:28,790 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:33,401 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:34,322 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:38,932 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:43,511 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:44,420 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:49,028 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:53,625 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:54,486 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:47:59,089 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:14,906 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:48:14,907 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:48:14,907 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:48:14,932 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:48:15,276 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:48:27,972 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-09-16 18:48:27,973 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-16 18:48:27,974 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-09-16 18:48:27,992 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-16 18:48:28,346 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:48:31,155 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 18:48:31,167 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:33,682 - src.database - INFO - Database initialized successfully
+2025-09-16 18:48:34,852 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:35,762 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:40,360 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:44,969 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:49,540 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:54,140 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:55,051 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:48:59,655 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:04,263 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:05,127 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:09,722 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:14,327 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:15,196 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:19,802 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:24,403 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:25,317 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:29,911 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:34,479 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:35,394 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:39,997 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:45,103 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:45,508 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:50,150 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:54,747 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:49:55,606 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:00,188 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:04,837 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:05,753 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:10,358 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:14,614 - api - ERROR - Error processing question: 'PrecomputedResponses' object has no attribute 'get_ohm_law_response'
+2025-09-16 18:50:15,006 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:15,882 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:20,485 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:25,079 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:25,998 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:30,604 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:35,196 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:36,102 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:40,700 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:45,308 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:46,168 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:50,763 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:55,363 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:50:56,282 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:00,927 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:05,526 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:06,383 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:11,038 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:15,635 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:16,497 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:21,095 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:25,750 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:26,608 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:31,188 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:35,795 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:36,702 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:41,300 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:45,892 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:46,801 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:51,455 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:56,034 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:51:56,895 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:01,531 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:06,142 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:07,008 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:11,614 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:16,206 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:17,063 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:21,704 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:26,307 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:27,485 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:32,092 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:34,618 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:36,695 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:41,301 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:44,682 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:45,894 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:50,488 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:54,810 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:55,168 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:52:59,754 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:04,354 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:04,859 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:09,503 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:14,103 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:14,971 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:19,611 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:24,212 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:25,072 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:29,632 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:34,282 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:35,154 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:39,758 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:44,352 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:45,210 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:49,805 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:54,396 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:55,306 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:53:59,897 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:04,485 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:05,395 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:09,946 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:14,590 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:15,450 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:20,041 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:24,638 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:25,554 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:30,146 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:34,736 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:35,644 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:40,236 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:44,837 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:45,750 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:50,752 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:55,343 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:54:55,795 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:00,487 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:05,088 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:05,900 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:10,495 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:15,067 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:16,030 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:20,625 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:25,231 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:26,138 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:30,740 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:35,647 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:36,256 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:40,864 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:45,464 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:46,322 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:50,919 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:55,537 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:55:56,417 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:01,018 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:05,623 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:06,493 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:11,088 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:16,735 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:18,555 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:23,146 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:26,677 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:27,734 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:32,328 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:36,779 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:37,134 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:41,627 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:46,223 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:56:46,836 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:06,212 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:08,863 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:13,475 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:16,279 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:18,099 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:22,713 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:26,410 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:27,318 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:31,917 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:36,566 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:36,939 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:41,455 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:46,082 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:46,737 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:51,339 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:55,902 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:58:56,870 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:01,467 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:06,081 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:07,066 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:11,715 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:16,313 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:17,323 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:21,925 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:26,521 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:27,484 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:32,071 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:36,728 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:37,702 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:42,345 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:46,961 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:47,980 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:52,936 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:57,535 - watchfiles.main - INFO - 1 change detected
+2025-09-16 18:59:58,205 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:02,858 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:07,551 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:08,466 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:13,051 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:17,657 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:18,577 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:23,229 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:27,841 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:28,764 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:33,393 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:37,988 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:38,952 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:43,545 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:48,129 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:49,148 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:53,746 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:58,374 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:00:59,289 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:03,873 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:08,505 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:09,477 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:14,098 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:18,726 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:19,638 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:24,241 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:28,849 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:29,862 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:34,490 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:39,105 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:40,073 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:44,681 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:49,286 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:50,204 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:54,815 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:01:59,416 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:00,333 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:05,000 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:09,629 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:10,606 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:15,203 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:19,915 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:20,828 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:25,475 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:30,095 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:30,960 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:35,646 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:40,225 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:41,197 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:45,944 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:50,566 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:51,415 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:02:56,041 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:03:00,662 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:03:01,920 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:03:06,586 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:03:11,203 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:16,559 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:19,853 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:22,270 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:27,081 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:28,012 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:32,752 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:38,034 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:38,570 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:43,538 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:48,367 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:48,778 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:53,480 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:58,073 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:10:59,039 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:03,641 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:08,300 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:09,397 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:14,002 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:18,650 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:19,664 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:24,318 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:28,947 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:30,007 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:34,715 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:39,317 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:40,493 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:45,138 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:49,788 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:50,757 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:55,364 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:11:59,963 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:00,984 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:05,636 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:10,237 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:11,197 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:15,847 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:20,444 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:21,560 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:26,260 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:30,865 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:31,790 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:36,449 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:41,041 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:41,972 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:46,579 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:51,192 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:52,226 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:12:56,816 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:01,419 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:02,389 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:06,993 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:11,621 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:12,587 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:17,201 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:21,782 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:22,702 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:27,316 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:31,921 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:32,887 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:37,547 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:42,151 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:43,168 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:47,824 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:52,442 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:53,411 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:13:58,070 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:02,680 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:03,696 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:08,312 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:12,912 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:13,929 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:18,622 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:23,219 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:24,129 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:28,784 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:33,397 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:34,313 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:38,924 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:43,548 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:44,513 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:49,169 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:53,777 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:54,742 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:14:59,344 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:03,992 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:04,907 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:09,558 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:14,149 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:15,159 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:19,768 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:24,734 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:25,396 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:30,037 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:34,632 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:35,604 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:40,262 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:45,006 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:45,962 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:50,670 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:55,278 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:15:56,192 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:00,841 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:05,443 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:06,408 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:11,062 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:15,690 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:16,652 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:21,298 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:25,933 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:26,896 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:31,545 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:36,195 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:37,111 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:41,719 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:46,322 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:47,288 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:51,952 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:56,546 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:16:57,519 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:02,157 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:06,756 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:07,776 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:12,381 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:16,988 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:18,011 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:22,621 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:27,273 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:28,236 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:32,884 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:37,486 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:38,509 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:43,229 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:47,890 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:48,899 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:53,496 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:58,109 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:17:59,127 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:03,725 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:08,426 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:09,856 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:14,512 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:19,118 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:20,090 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:24,701 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:29,356 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:30,405 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:35,052 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:39,652 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:41,340 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:44,257 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:48,866 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:51,904 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:53,476 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:18:56,514 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:01,138 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:02,148 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:06,755 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:11,411 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:12,378 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:17,031 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:21,643 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:22,665 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:27,276 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:32,255 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:32,917 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:37,568 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:42,194 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:43,198 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:47,800 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:53,455 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:19:57,808 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:02,439 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:06,494 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:07,503 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:13,146 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:17,568 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:18,217 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:18,899 - watchfiles.main - INFO - 1 change detected
+2025-09-16 19:20:19,549 - watchfiles.main - INFO - 1 change detected

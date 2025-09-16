@@ -22,8 +22,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Local imports
-from .rag_engine import RAGEngine
-from .vector_store import VectorStore
+from .rag_engine import ProfessionalRAGEngine as RAGEngine
+from .vector_store import EnhancedVectorStore as VectorStore
 from .database import get_db
 from .crud import CRUDOperations
 from .models import QuestionType, SubjectType
@@ -42,8 +42,20 @@ app.add_middleware(
 )
 
 # Initialize RAG system
-vector_store = VectorStore(index_path="faiss_index", texts_dir="data")
-rag_engine = RAGEngine(vector_store=vector_store, model_name="mistral")
+vector_store = VectorStore(store_path="faiss_index")
+loaded = vector_store.load_vector_store()
+
+if not loaded:
+    logger.warning("⚠️ No existing vector store found. Creating new one...")
+    # You might want to run initialize_vector_store.py first
+else:
+    logger.info(f"✅ Loaded vector store with {vector_store.stats['total_vectors']} vectors")
+
+# Initialize RAG engine
+rag_engine = RAGEngine(
+    vector_store=vector_store,
+    model_type="ollama"
+)
 
 # Pydantic models
 class StudentCreate(BaseModel):
@@ -166,11 +178,23 @@ async def ask_question(
     """Ask a question using the RAG system."""
     try:
         # Get answer from RAG engine
-        response = rag_engine.answer_question(
+        rag_response = rag_engine.ask_question(
             question=request.question,
-            subject=request.subject,
-            question_type=request.question_type
+            subject_filter=request.subject
         )
+        
+        # Convert RAG response to API response format
+        response = {
+            "answer": rag_response.answer,
+            "response_time": rag_response.processing_time,
+            "sources": [doc.page_content for doc in rag_response.sources],
+            "metadata": {
+                "confidence": rag_response.confidence,
+                "model_used": rag_response.model_used,
+                "source_scores": rag_response.source_scores,
+                "additional_metadata": rag_response.metadata
+            }
+        }
         
         # If conversation_id provided, save the interaction
         if request.conversation_id:
@@ -199,3 +223,7 @@ async def ask_question(
     except Exception as e:
         logger.error(f"Error processing question: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=False)

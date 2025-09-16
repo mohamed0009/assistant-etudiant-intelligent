@@ -1,0 +1,47 @@
+{
+  "general": {
+    "greeting": {
+      "patterns": [
+        "bonjour",
+        "salut",
+        "hello",
+        "hi",
+        "hey"
+      ],
+      "response": "Bonjour! Je suis votre assistant étudiant. Comment puis-je vous aider aujourd'hui?",
+      "metadata": {
+        "confidence": 1.0,
+        "category": "greeting"
+      }
+    },
+    "farewell": {
+      "patterns": [
+        "au revoir",
+        "bye",
+        "à bientôt",
+        "à plus tard"
+      ],
+      "response": "Au revoir! N'hésitez pas à revenir si vous avez d'autres questions.",
+      "metadata": {
+        "confidence": 1.0,
+        "category": "farewell"
+      }
+    }
+  },
+  "fallback": {
+    "unclear_question": {
+      "response": "Je ne suis pas sûr de comprendre votre question. Pourriez-vous la reformuler différemment?",
+      "metadata": {
+        "confidence": 0.3,
+        "category": "clarification"
+      }
+    },
+    "no_context": {
+      "response": "Je ne trouve pas assez de contexte pour répondre à cette question. Pourriez-vous fournir plus de détails?",
+      "metadata": {
+        "confidence": 0.3,
+        "category": "clarification"
+      }
+    }
+  }
+}
