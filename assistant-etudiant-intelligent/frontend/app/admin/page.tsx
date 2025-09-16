@@ -165,23 +165,17 @@ export default function AdminDashboard() {
       const [
         status,
         stats,
-        metricsData,
-        recentMetricsData,
-        adminStatsData
+        metricsData
       ] = await Promise.allSettled([
         apiService.getStatus(),
         apiService.getStats(),
-        fetch('http://localhost:8000/api/metrics').then(res => res.json()),
-        fetch('http://localhost:8000/api/metrics/recent').then(res => res.json()),
-        fetch('http://localhost:8000/api/admin/stats').then(res => res.json())
+        fetch('http://localhost:8000/api/metrics').then(res => res.json())
       ])
 
       // Set the data if successful
       if (status.status === 'fulfilled') setSystemStatus(status.value)
       if (stats.status === 'fulfilled') setDocumentStats(stats.value)
       if (metricsData.status === 'fulfilled') setMetrics(metricsData.value)
-      if (recentMetricsData.status === 'fulfilled') setRecentMetrics(recentMetricsData.value)
-      if (adminStatsData.status === 'fulfilled') setAdminStats(adminStatsData.value)
       
       // Load students
       await loadStudents()
@@ -310,7 +304,7 @@ export default function AdminDashboard() {
       setIsReloadingDocuments(true)
       setError(null)
       
-      const response = await fetch('http://localhost:8000/api/reload', {
+      const response = await fetch('http://localhost:8000/api/documents/validate', {
         method: 'POST'
       })
       
@@ -342,7 +336,7 @@ export default function AdminDashboard() {
       const formData = new FormData()
       formData.append('file', uploadedFile)
 
-      const response = await fetch('http://localhost:8000/api/admin/documents/upload', {
+      const response = await fetch('http://localhost:8000/api/documents/upload', {
         method: 'POST',
         body: formData
       })

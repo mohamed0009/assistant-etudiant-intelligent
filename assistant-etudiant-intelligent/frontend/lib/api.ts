@@ -136,12 +136,12 @@ class ApiService {
 
   // Vérifier le statut du système
   async getStatus(): Promise<SystemStatus> {
-    return this.request<SystemStatus>('/rag/status');
+    return this.request<SystemStatus>('/api/status');
   }
 
   // Obtenir les statistiques des documents
   async getStats(): Promise<DocumentStats> {
-    return this.request<DocumentStats>('/rag/stats');
+    return this.request<DocumentStats>('/api/documents/stats');
   }
 
   // Poser une question
@@ -149,11 +149,15 @@ class ApiService {
     // Map frontend request to backend format
     const backendRequest = {
       question: request.question,
-      subject: request.subject_filter,
-      conversation_id: request.conversation_id
+      subject_filter: request.subject_filter,
+      conversation_id: request.conversation_id,
+      student_id: request.student_id,
+      save: request.save,
+      create_conversation: request.create_conversation,
+      title: request.title
     };
     
-    return this.request<QuestionResponse>('/rag/question', {
+    return this.request<QuestionResponse>('/api/ask', {
       method: 'POST',
       body: JSON.stringify(backendRequest),
     });
@@ -161,20 +165,26 @@ class ApiService {
 
   // Obtenir les questions suggérées
   async getSuggestions(subject?: string): Promise<string[]> {
-    const params = subject ? `?subject=${encodeURIComponent(subject)}` : '';
-    return this.request<string[]>(`/rag/suggestions${params}`);
+    // This endpoint doesn't exist in the backend API yet
+    // Fallback to some default suggestions
+    return Promise.resolve([
+      "Qu'est-ce que la loi d'Ohm?",
+      "Comment calculer une dérivée?",
+      "Expliquez le théorème de Pythagore",
+      "Qu'est-ce qu'un transistor?"
+    ]);
   }
 
   // Recharger les documents
   async reloadDocuments(): Promise<{ message: string }> {
-    return this.request<{ message: string }>('/rag/reload', {
+    return this.request<{ message: string }>('/api/documents/validate', {
       method: 'POST',
     });
   }
 
   // Vérification de santé
   async healthCheck(): Promise<{ status: string; documents_loaded: boolean; rag_engine_ready: boolean }> {
-    return this.request('/rag/health');
+    return this.request('/api/status');
   }
 
   // -------- Students / Conversations / Messages --------
