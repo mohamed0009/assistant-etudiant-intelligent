@@ -14,15 +14,39 @@ export interface QuestionResponse {
   answer: string;
   confidence: number;
   sources: Array<{
+    title: string;
     content: string;
-    source: string;
-    subject: string;
+    score: number;
+    metadata: {
+      subject: string;
+      type: string;
+      source?: string;
+      model?: string;
+    };
   }>;
   processing_time: number;
   query: string;
   conversation_id?: number;
   user_message_id?: number;
   assistant_message_id?: number;
+  model_used?: string;
+  ollama_response_time?: number;
+  tokens_generated?: number;
+  source_scores?: number[];
+  metadata?: {
+    subject: string;
+    timestamp: string;
+    ollama_used: boolean;
+    model: string;
+    course_documents_used: number;
+    has_course_content: boolean;
+  };
+  response_quality?: {
+    relevance: number;
+    completeness: number;
+    clarity: number;
+  };
+  fallback_used?: boolean;
 }
 
 export interface SystemStatus {
@@ -146,21 +170,28 @@ class ApiService {
 
   // Poser une question
   async askQuestion(request: QuestionRequest): Promise<QuestionResponse> {
-    // Map frontend request to backend format
+    // Map frontend request to backend format - the backend expects a simple dict
     const backendRequest = {
       question: request.question,
-      subject_filter: request.subject_filter,
-      conversation_id: request.conversation_id,
-      student_id: request.student_id,
-      save: request.save,
-      create_conversation: request.create_conversation,
-      title: request.title
+      subject_filter: request.subject_filter
     };
     
-    return this.request<QuestionResponse>('/api/ask', {
+    const response = await this.request<any>('/api/ask', {
       method: 'POST',
       body: JSON.stringify(backendRequest),
     });
+    
+    // Map backend response to frontend format
+    return {
+      answer: response.answer,
+      confidence: response.confidence,
+      sources: response.sources || [],
+      processing_time: response.processing_time,
+      query: response.query,
+      conversation_id: response.conversation_id,
+      user_message_id: response.user_message_id,
+      assistant_message_id: response.assistant_message_id,
+    };
   }
 
   // Obtenir les questions suggérées

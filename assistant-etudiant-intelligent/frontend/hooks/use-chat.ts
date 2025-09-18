@@ -9,11 +9,28 @@ export interface Message {
   metadata?: {
     confidence?: number;
     sources?: Array<{
+      title: string;
       content: string;
-      source: string;
-      subject: string;
+      score: number;
+      metadata: {
+        subject: string;
+        type: string;
+        source?: string;
+        model?: string;
+      };
     }>;
     processing_time?: number;
+    model_used?: string;
+    ollama_response_time?: number;
+    tokens_generated?: number;
+    course_documents_used?: number;
+    has_course_content?: boolean;
+    fallback_used?: boolean;
+    response_quality?: {
+      relevance: number;
+      completeness: number;
+      clarity: number;
+    };
   };
 }
 
@@ -64,11 +81,16 @@ export function useChat() {
 
   // Generate dynamic welcome message based on system status
   const generateWelcomeMessage = useCallback((status: any) => {
-    if (status?.documents_loaded && status?.total_vectors > 0) {
-      return `Bonjour ! Je suis votre assistant IA universitaire. J'ai accès à ${status.total_vectors} documents de cours et je peux vous aider avec vos questions académiques. Posez-moi n'importe quelle question !`;
-    } else {
-      return `Bonjour ! Je suis votre assistant IA universitaire. Actuellement, je n'ai pas encore accès à vos documents de cours, mais je peux vous aider avec des questions générales sur les matières universitaires. Utilisez le bouton "Recharger" pour mettre à jour la base de connaissances.`;
-    }
+    return `Bonjour ! Je suis votre assistant IA universitaire avec accès à vos documents de cours. Je peux vous aider avec des questions sur :
+    
+📚 **Mathématiques** : Calcul différentiel, algèbre linéaire, exercices corrigés
+⚡ **Physique** : Électricité, mécanique, électromagnétisme, optique, thermodynamique  
+🧪 **Chimie** : Chimie générale, chimie organique, exercices corrigés
+💻 **Informatique** : Algorithmes et programmation
+🧬 **Biologie** : Biologie cellulaire
+🔬 **Autres** : Astronomie, géologie, psychologie, électronique
+
+Posez-moi n'importe quelle question sur vos cours !`;
   }, []);
 
   // Charger le statut du système
@@ -146,6 +168,13 @@ export function useChat() {
           confidence: response.confidence,
           sources: response.sources,
           processing_time: response.processing_time,
+          model_used: response.model_used,
+          ollama_response_time: response.ollama_response_time,
+          tokens_generated: response.tokens_generated,
+          course_documents_used: response.metadata?.course_documents_used,
+          has_course_content: response.metadata?.has_course_content,
+          fallback_used: response.fallback_used,
+          response_quality: response.response_quality,
         },
       };
 
@@ -185,14 +214,14 @@ export function useChat() {
       messages: [
         {
           id: '1',
-          content: 'Bonjour ! Je suis votre assistant IA universitaire. Posez-moi n\'importe quelle question sur vos études, même si je n\'ai pas encore accès à vos documents de cours.',
+          content: generateWelcomeMessage(prev.systemStatus),
           sender: 'assistant',
           timestamp: new Date(),
         },
       ],
       error: null,
     }));
-  }, []);
+  }, [generateWelcomeMessage]);
 
   // Recharger les documents
   const reloadDocuments = useCallback(async () => {

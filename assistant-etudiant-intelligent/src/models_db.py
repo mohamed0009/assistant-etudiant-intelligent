@@ -13,8 +13,9 @@ class Student(Base):
     __tablename__ = "students"
 
     id = Column(Integer, primary_key=True)
-    username = Column(String(50), unique=True, nullable=False)
-    email = Column(String(100), unique=True)
+    name = Column(String(50), nullable=False)
+    email = Column(String(100), unique=True, nullable=False)
+    role = Column(String(20), default='student')
     created_at = Column(DateTime, server_default=func.now())
     last_login = Column(DateTime)
     
@@ -22,7 +23,7 @@ class Student(Base):
     conversations = relationship("Conversation", back_populates="student")
     
     def __repr__(self):
-        return f"<Student {self.username}>"
+        return f"<Student {self.name}>"
 
 class Conversation(Base):
     """Conversation model for chat history."""

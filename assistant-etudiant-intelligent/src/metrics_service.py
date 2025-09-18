@@ -110,3 +110,50 @@ class MetricsService:
             "average_response_time": sum(metrics.get("response_times", [])) / len(metrics.get("response_times", [1])),
             "average_confidence": sum(metrics.get("confidence_scores", [])) / len(metrics.get("confidence_scores", [1]))
         }
+
+    def detect_subject(self, question: str) -> str:
+        """
+        Detect the subject of a question based on keywords.
+        Returns the detected subject or 'general' if no specific subject is detected.
+        """
+        question_lower = question.lower()
+        
+        # Subject detection logic
+        if any(keyword in question_lower for keyword in [
+            'math', 'maths', 'mathématique', 'calcul', 'dérivée', 'intégrale', 'fonction', 'équation', 'limite',
+            'algèbre', 'géométrie', 'trigonométrie', 'probabilité', 'statistique'
+        ]):
+            return "mathématiques"
+        
+        elif any(keyword in question_lower for keyword in [
+            'physique', 'mécanique', 'cinématique', 'dynamique', 'énergie', 'force', 'mouvement', 'thermodynamique',
+            'électromagnétisme', 'optique', 'quantique', 'relativité', 'newton', 'einstein'
+        ]):
+            return "physique"
+        
+        elif any(keyword in question_lower for keyword in [
+            'chimie', 'molécule', 'atome', 'réaction', 'acide', 'base', 'ph', 'solution', 'équilibre',
+            'stoechiométrie', 'thermochimie', 'cinétique', 'organique', 'inorganique'
+        ]):
+            return "chimie"
+        
+        elif any(keyword in question_lower for keyword in [
+            'électricité', 'électronique', 'circuit', 'résistance', 'tension', 'courant', 'puissance',
+            'ohm', 'thévenin', 'norton', 'transistor', 'diode', 'amplificateur', 'condensateur', 'inductance'
+        ]):
+            return "électricité/électronique"
+        
+        elif any(keyword in question_lower for keyword in [
+            'programmation', 'code', 'python', 'java', 'c++', 'javascript', 'algorithme', 'structure de données',
+            'base de données', 'sql', 'html', 'css', 'web', 'développement', 'logiciel'
+        ]):
+            return "informatique"
+        
+        elif any(keyword in question_lower for keyword in [
+            'biologie', 'bio', 'cellule', 'adn', 'gène', 'évolution', 'écologie', 'anatomie', 'physiologie',
+            'microbiologie', 'génétique', 'botanique', 'zoologie', 'médical', 'santé'
+        ]):
+            return "biologie"
+        
+        else:
+            return "général"

@@ -1,0 +1,22 @@
+{
+  "student_id": 1,
+  "exported_at": "2025-09-17T21:18:41.511107",
+  "conversations": [
+    {
+      "conversation_id": 1,
+      "title": "Conversation de l'étudiant 1",
+      "messages": [
+        {
+          "sender": "user",
+          "content": "Bonjour, pouvez-vous m'aider avec les mathématiques ?",
+          "timestamp": "2025-09-17T21:18:41.511114"
+        },
+        {
+          "sender": "assistant",
+          "content": "Bien sûr ! Je peux vous aider avec les mathématiques. Que souhaitez-vous savoir ?",
+          "timestamp": "2025-09-17T21:18:41.511115"
+        }
+      ]
+    }
+  ]
+}

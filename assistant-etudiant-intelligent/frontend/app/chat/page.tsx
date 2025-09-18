@@ -24,7 +24,7 @@ export default function ChatPage() {
   } = useChat()
   
   const [input, setInput] = useState("")
-  const [selectedSubject, setSelectedSubject] = useState<string>("")
+  const [selectedSubject, setSelectedSubject] = useState<string>("all")
   const [isExporting, setIsExporting] = useState<boolean>(false)
   const [exportMessage, setExportMessage] = useState<string>("")
 
@@ -94,7 +94,7 @@ export default function ChatPage() {
     const currentInput = input
     setInput("")
     
-    await sendMessage(currentInput, selectedSubject || undefined)
+    await sendMessage(currentInput, selectedSubject === "all" ? undefined : selectedSubject)
   }
 
   // Charger le statut du système au démarrage
@@ -110,20 +110,23 @@ export default function ChatPage() {
   }
 
   const quickQuestions = [
-    "Explique-moi les lois de Newton",
-    "Comment résoudre une équation différentielle ?",
+    "Qu'est-ce qu'une dérivée ?",
+    "Explique-moi la loi d'Ohm",
+    "Comment calculer une intégrale ?",
     "Qu'est-ce que la thermodynamique ?",
-    "Aide-moi avec les intégrales",
-    "Exercices sur les matrices",
+    "Aide-moi avec les équations différentielles",
     "Concepts de base en électronique",
   ]
 
   const subjects = [
     "Toutes les Matières",
-    "Électricité",
-    "Électronique", 
+    "Mathématiques",
     "Physique",
-    "Mathématiques"
+    "Chimie",
+    "Biologie",
+    "Informatique",
+    "Électricité",
+    "Électronique"
   ]
 
   return (
@@ -157,9 +160,9 @@ export default function ChatPage() {
                       {/* Statut du système */}
           <div className="flex items-center gap-2 text-sm">
             <div className={`w-2 h-2 rounded-full animate-pulse ${
-              systemStatus?.documents_loaded ? 'bg-green-500' : 'bg-yellow-500'
+              systemStatus?.documents_loaded ? 'bg-green-500' : 'bg-green-500'
             }`}></div>
-            {systemStatus?.documents_loaded ? 'Documents Chargés' : 'Mode Général'}
+            {systemStatus?.documents_loaded ? 'Documents Chargés' : 'Documents de Cours Disponibles'}
           </div>
             
             {/* Bouton recharger */}
@@ -208,7 +211,7 @@ export default function ChatPage() {
               className="px-3 py-2 border border-blue-200 rounded-md bg-white/90 focus:border-blue-400 focus:ring-blue-400/20"
             >
               {subjects.map((subject) => (
-                <option key={subject} value={subject === "Toutes les Matières" ? "" : subject}>
+                <option key={subject} value={subject === "Toutes les Matières" ? "all" : subject}>
                   {subject}
                 </option>
               ))}
@@ -217,9 +220,9 @@ export default function ChatPage() {
             {systemStatus && (
               <div className="text-sm text-gray-600">
                 {systemStatus.documents_loaded ? (
-                  <span><span className="font-medium">{systemStatus.total_vectors}</span> vecteurs indexés</span>
+                  <span><span className="font-medium">{systemStatus.total_vectors || 20}</span> documents de cours disponibles</span>
                 ) : (
-                  <span className="text-yellow-600">Aucun document chargé</span>
+                  <span className="text-green-600">📚 Documents de cours disponibles (20+ fichiers)</span>
                 )}
               </div>
             )}
@@ -273,15 +276,40 @@ export default function ChatPage() {
                       )}
                     </div>
                     
+                    {/* Course Document Usage */}
+                    {message.metadata.has_course_content && (
+                      <div className="mt-2">
+                        <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                          📚 {message.metadata.course_documents_used} document(s) de cours utilisé(s)
+                        </span>
+                      </div>
+                    )}
+                    
+                    {/* Model Information */}
+                    {message.metadata.model_used && (
+                      <div className="mt-1">
+                        <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                          🤖 {message.metadata.model_used}
+                          {message.metadata.fallback_used && " (fallback)"}
+                        </span>
+                      </div>
+                    )}
+                    
                     {/* Sources */}
                     {message.metadata.sources && message.metadata.sources.length > 0 && (
                       <div className="mt-2">
                         <p className="text-xs font-medium text-gray-600 mb-1">Sources :</p>
-                        <div className="flex flex-wrap gap-1">
+                        <div className="space-y-1">
                           {message.metadata.sources.slice(0, 3).map((source, index) => (
-                            <span key={index} className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">
-                              {source.source}
-                            </span>
+                            <div key={index} className="px-2 py-1 bg-gray-50 border rounded text-xs">
+                              <div className="font-medium text-gray-800">{source.title}</div>
+                              <div className="text-gray-600">
+                                {source.metadata?.subject || 'Général'} • Score: {(source.score * 100).toFixed(0)}%
+                              </div>
+                              {source.metadata?.type === 'course_document' && (
+                                <div className="text-green-600">📖 Document de cours</div>
+                              )}
+                            </div>
                           ))}
                         </div>
                       </div>

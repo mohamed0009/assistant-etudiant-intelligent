@@ -179,6 +179,99 @@ class PrecomputedResponses:
             logger.error(f"Error adding response: {e}")
             return False
             
+    def get_ohm_law_response(self) -> str:
+        """Get precomputed response for Ohm's Law."""
+        return """La loi d'Ohm est une loi fondamentale en électricité qui décrit la relation entre la tension (U), le courant (I) et la résistance (R) dans un circuit électrique.
+
+**Formule**: U = R × I
+
+Où:
+- U est la tension en volts (V)
+- R est la résistance en ohms (Ω)
+- I est l'intensité du courant en ampères (A)
+
+**Exemple pratique**:
+Si une résistance de 100Ω est traversée par un courant de 0.5A,
+la tension à ses bornes sera: U = 100Ω × 0.5A = 50V"""
+
+    def get_thevenin_response(self) -> str:
+        """Get precomputed response for Thévenin's theorem."""
+        return """Le théorème de Thévenin permet de simplifier un circuit électrique complexe en un circuit équivalent simple.
+
+**Principe**: 
+Tout circuit linéaire peut être remplacé par:
+1. Une source de tension (Eth)
+2. Une résistance en série (Rth)
+
+**Étapes de calcul**:
+1. Calculer Eth en circuit ouvert
+2. Calculer Rth en court-circuitant les sources
+3. Le circuit équivalent donne les mêmes résultats"""
+
+    def get_transistor_response(self) -> str:
+        """Get precomputed response for transistors."""
+        return """Un transistor est un composant électronique semi-conducteur utilisé pour amplifier ou commuter des signaux électriques.
+
+**Principaux types**:
+1. Bipolaire (BJT)
+   - NPN et PNP
+   - Utilisé pour l'amplification
+   
+2. Effet de champ (FET)
+   - MOSFET, JFET
+   - Utilisé pour la commutation
+
+**Paramètres clés**:
+- Gain en courant (β)
+- Tension collecteur-émetteur (Vce)
+- Courant collecteur (Ic)"""
+
+    def get_derivative_response(self) -> str:
+        """Get precomputed response for derivatives."""
+        return """La dérivée mesure le taux de variation instantané d'une fonction.
+
+**Règles principales**:
+1. Dérivée d'une constante = 0
+2. Dérivée de x^n = n×x^(n-1)
+3. Règle du produit: (u×v)' = u'×v + u×v'
+4. Règle de la chaîne: (f∘g)' = (f'∘g)×g'
+
+**Exemple**:
+Pour f(x) = x², f'(x) = 2x
+Pour g(x) = sin(x), g'(x) = cos(x)"""
+
+    def get_integral_response(self) -> str:
+        """Get precomputed response for integrals."""
+        return """L'intégrale calcule l'aire sous une courbe ou l'accumulation d'une quantité.
+
+**Règles principales**:
+1. Intégrale d'une constante: ∫a dx = ax + C
+2. Intégrale de x^n: ∫x^n dx = x^(n+1)/(n+1) + C (n ≠ -1)
+3. Intégrale de 1/x: ∫1/x dx = ln|x| + C
+4. Intégrale de fonctions trigonométriques: ∫sin(x) dx = -cos(x) + C
+
+**Exemple**:
+∫(3x² + 2x) dx = x³ + x² + C"""
+
+    def get_ph_response(self) -> str:
+        """Get precomputed response for pH."""
+        return """Le pH mesure l'acidité ou la basicité d'une solution.
+
+**Définition**: pH = -log[H⁺]
+
+**Échelle**:
+- pH < 7: solution acide
+- pH = 7: solution neutre
+- pH > 7: solution basique
+
+**Calcul**:
+Pour une solution avec [H⁺] = 10⁻³ mol/L, pH = -log(10⁻³) = 3
+
+**Applications**:
+- Chimie analytique
+- Biologie
+- Industrie alimentaire"""
+
     def get_fallback_response(self) -> Tuple[str, Dict]:
         """Get a general fallback response."""
         fallback = self.responses.get("fallback", {}).get("unclear_question", {})

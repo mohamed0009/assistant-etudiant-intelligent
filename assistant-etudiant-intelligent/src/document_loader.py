@@ -13,7 +13,7 @@ from datetime import datetime
 
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import (
+from langchain_community.document_loaders import (
     PyPDFLoader,
     DirectoryLoader,
     TextLoader,
@@ -57,7 +57,7 @@ class EnhancedDocumentLoader:
     
     def load_documents(self) -> List[Document]:
         """Load all documents from the data directory with caching."""
-        self.logger.info("📚 Loading documents...")
+        self.logger.info("Loading documents...")
         
         try:
             all_documents = []
@@ -90,12 +90,12 @@ class EnhancedDocumentLoader:
                     )
             
             self.stats["total_documents"] = len(all_documents)
-            self.logger.info(f"✅ Loaded {len(all_documents)} documents")
+            self.logger.info(f"Loaded {len(all_documents)} documents")
             
             return all_documents
             
         except Exception as e:
-            self.logger.error(f"❌ Error loading documents: {e}")
+            self.logger.error(f"Error loading documents: {e}")
             raise
     
     def _load_with_cache(self, loader, pattern: str) -> List[Document]:
@@ -157,7 +157,7 @@ class EnhancedDocumentLoader:
         custom_chunk_overlap: Optional[int] = None
     ) -> List[Document]:
         """Split documents into chunks with metadata preservation."""
-        self.logger.info("✂️ Splitting documents...")
+        self.logger.info("Splitting documents...")
         
         chunk_size = custom_chunk_size or self.chunk_size
         chunk_overlap = custom_chunk_overlap or self.chunk_overlap
@@ -194,12 +194,12 @@ class EnhancedDocumentLoader:
                     )
             
             self.stats["total_chunks"] = len(chunks)
-            self.logger.info(f"✅ Created {len(chunks)} chunks")
+            self.logger.info(f"Created {len(chunks)} chunks")
             
             return chunks
             
         except Exception as e:
-            self.logger.error(f"❌ Error splitting documents: {e}")
+            self.logger.error(f"Error splitting documents: {e}")
             raise
     
     def validate_documents(self, documents: List[Document]) -> Dict[str, Any]:

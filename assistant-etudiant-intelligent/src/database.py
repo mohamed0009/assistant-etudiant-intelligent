@@ -26,7 +26,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 # Base class for models
 Base = declarative_base()
 
-@contextmanager
 def get_db() -> Generator[Session, None, None]:
     """Get database session with context management."""
     db = SessionLocal()

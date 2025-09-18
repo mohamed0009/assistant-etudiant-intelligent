@@ -11,7 +11,8 @@ from datetime import datetime
 import time
 
 from langchain.docstore.document import Document
-from langchain_community.llms import HuggingFacePipeline, Ollama
+from langchain_community.llms import HuggingFacePipeline
+from langchain_ollama import OllamaLLM
 from langchain.prompts import PromptTemplate
 from transformers import pipeline
 
@@ -168,15 +169,43 @@ Réponse:""",
                 return self._setup_auto()
                 
         except Exception as e:
-            self.logger.error(f"❌ Error initializing LLM: {e}")
+            self.logger.error(f"Error initializing LLM: {e}")
             return None
     
-    def _setup_ollama(self) -> Ollama:
-        """Setup Ollama LLM."""
+    def _setup_ollama(self) -> OllamaLLM:
+        """Setup Ollama LLM with improved error handling."""
         try:
-            return Ollama(model="llama2")
-        except:
-            self.logger.warning("⚠️ Ollama not available")
+            # First check if Ollama is available
+            import requests
+            try:
+                response = requests.get("http://localhost:11434/api/tags", timeout=5)
+                if response.status_code != 200:
+                    self.logger.warning("Ollama service not available")
+                    return None
+            except Exception:
+                self.logger.warning("Ollama service not running or not accessible")
+                return None
+            
+            # Try different models in order of preference
+            models_to_try = ["mistral:latest", "llama2:7b", "qwen2.5:0.5b"]
+            
+            for model in models_to_try:
+                try:
+                    self.logger.info(f"Trying Ollama model: {model}")
+                    llm = OllamaLLM(model=model, temperature=0.7, timeout=30)
+                    
+                    # Test the model with a simple query using invoke method
+                    test_response = llm.invoke("Hello")
+                    self.logger.info(f"Successfully connected to Ollama model: {model}")
+                    return llm
+                except Exception as e:
+                    self.logger.warning(f"Failed to connect to {model}: {e}")
+                    continue
+            
+            self.logger.warning("No Ollama models available")
+            return None
+        except Exception as e:
+            self.logger.error(f"Error setting up Ollama: {e}")
             return None
     
     def _setup_huggingface(self) -> HuggingFacePipeline:
@@ -189,7 +218,7 @@ Réponse:""",
             )
             return HuggingFacePipeline(pipeline=pipe)
         except:
-            self.logger.warning("⚠️ HuggingFace model not available")
+            self.logger.warning("HuggingFace model not available")
             return None
     
     def _setup_auto(self) -> Any:
@@ -202,7 +231,7 @@ Réponse:""",
         if llm:
             return llm
         
-        self.logger.warning("⚠️ No LLM available, using fallback")
+        self.logger.warning("No LLM available, using fallback")
         return None
     
     def ask_question(
@@ -241,7 +270,8 @@ Réponse:""",
                     sources=sources_text,
                     question=question
                 )
-                answer = self.llm(prompt)
+                # Use invoke method for newer LangChain versions
+                answer = self.llm.invoke(prompt)
                 model_used = self.model_type
                 confidence = max(s for _, s in results)
             else:
@@ -270,7 +300,7 @@ Réponse:""",
             )
             
         except Exception as e:
-            self.logger.error(f"❌ Error processing question: {e}")
+            self.logger.error(f"Error processing question: {e}")
             
             # Return fallback response
             return RAGResponse(
