@@ -2603,3 +2603,891 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
 2025-09-18 13:34:26,123 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
 2025-09-18 13:34:26,125 - api - INFO - [api.py:2157] - Using course content from 3 documents
 2025-09-18 13:34:26,129 - api - INFO - [api.py:267] - Response [7b049f7a-0d1f-41ba-bca0-374d73841b73]: 200 - 17.070s
+2025-09-19 08:15:35,563 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 08:15:35,563 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 08:15:35,563 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 08:15:35,835 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 08:16:07,790 - __main__ - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 08:16:08,047 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 08:16:08,101 - api - INFO - [api.py:212] - 🚀 Starting Professional Ollama RAG System...
+2025-09-19 08:16:08,104 - api - ERROR - [api.py:361] - ❌ System startup failed: name 'ConfigManager' is not defined
+2025-09-19 08:30:51,310 - api - INFO - [api.py:254] - Request [6358e716-198a-4fbd-9e2c-3ca5ea1eac73]: OPTIONS /api/students
+2025-09-19 08:30:51,313 - api - INFO - [api.py:254] - Request [83f68693-467d-410e-b20c-a6d212add3ef]: OPTIONS /api/students
+2025-09-19 08:30:51,313 - api - INFO - [api.py:267] - Response [6358e716-198a-4fbd-9e2c-3ca5ea1eac73]: 200 - 0.004s
+2025-09-19 08:30:51,316 - api - INFO - [api.py:267] - Response [83f68693-467d-410e-b20c-a6d212add3ef]: 200 - 0.003s
+2025-09-19 08:30:51,318 - api - INFO - [api.py:254] - Request [1675c4e1-dc17-4e26-a30a-3d5c72fae178]: POST /api/students
+2025-09-19 08:30:51,321 - api - INFO - [api.py:254] - Request [b87d0b1f-0100-4993-aad5-5185312c0762]: POST /api/students
+2025-09-19 08:30:51,325 - api - INFO - [api.py:267] - Response [1675c4e1-dc17-4e26-a30a-3d5c72fae178]: 200 - 0.008s
+2025-09-19 08:30:51,327 - api - INFO - [api.py:267] - Response [b87d0b1f-0100-4993-aad5-5185312c0762]: 200 - 0.006s
+2025-09-19 08:30:51,333 - api - INFO - [api.py:254] - Request [0a2b9b9b-efe8-4ef7-9e29-baae08882789]: OPTIONS /api/status
+2025-09-19 08:30:51,334 - api - INFO - [api.py:254] - Request [5a55640f-7edf-4e53-aaf1-f1719439acd6]: OPTIONS /api/documents/stats
+2025-09-19 08:30:51,334 - api - INFO - [api.py:267] - Response [0a2b9b9b-efe8-4ef7-9e29-baae08882789]: 200 - 0.002s
+2025-09-19 08:30:51,336 - api - INFO - [api.py:267] - Response [5a55640f-7edf-4e53-aaf1-f1719439acd6]: 200 - 0.002s
+2025-09-19 08:30:51,337 - api - INFO - [api.py:254] - Request [62a0d494-669a-4f30-a640-5a5535d2bb15]: OPTIONS /api/student/subjects
+2025-09-19 08:30:51,338 - api - INFO - [api.py:267] - Response [62a0d494-669a-4f30-a640-5a5535d2bb15]: 200 - 0.001s
+2025-09-19 08:30:51,339 - api - INFO - [api.py:254] - Request [5a8170c6-50cc-49ec-b55e-1a8abf3dc261]: OPTIONS /api/student/1/usage-stats
+2025-09-19 08:30:51,340 - api - INFO - [api.py:267] - Response [5a8170c6-50cc-49ec-b55e-1a8abf3dc261]: 200 - 0.001s
+2025-09-19 08:30:51,342 - api - INFO - [api.py:254] - Request [fcb0ee35-1e7a-489c-b2e9-64cf87ddc608]: OPTIONS /api/status
+2025-09-19 08:30:51,343 - api - INFO - [api.py:267] - Response [fcb0ee35-1e7a-489c-b2e9-64cf87ddc608]: 200 - 0.001s
+2025-09-19 08:30:51,344 - api - INFO - [api.py:254] - Request [d2192d2b-2067-471c-92a7-8ce217c87caa]: OPTIONS /api/documents/stats
+2025-09-19 08:30:51,345 - api - INFO - [api.py:267] - Response [d2192d2b-2067-471c-92a7-8ce217c87caa]: 200 - 0.001s
+2025-09-19 08:30:51,346 - api - INFO - [api.py:254] - Request [84ee3a82-c3c1-41fd-b893-0df4a0ad1dc9]: OPTIONS /api/student/subjects
+2025-09-19 08:30:51,347 - api - INFO - [api.py:267] - Response [84ee3a82-c3c1-41fd-b893-0df4a0ad1dc9]: 200 - 0.001s
+2025-09-19 08:30:51,348 - api - INFO - [api.py:254] - Request [59b7e943-1dff-4490-9f0e-0a243ab8845b]: OPTIONS /api/student/1/usage-stats
+2025-09-19 08:30:51,350 - api - INFO - [api.py:267] - Response [59b7e943-1dff-4490-9f0e-0a243ab8845b]: 200 - 0.001s
+2025-09-19 08:30:51,353 - api - INFO - [api.py:254] - Request [0a22d994-9d07-4bd8-8fda-f36e91a36034]: GET /api/status
+2025-09-19 08:30:51,364 - api - INFO - [api.py:267] - Response [0a22d994-9d07-4bd8-8fda-f36e91a36034]: 200 - 0.011s
+2025-09-19 08:30:51,365 - api - INFO - [api.py:254] - Request [9435880c-2d72-4b41-a33b-e01270e1be52]: GET /api/documents/stats
+2025-09-19 08:30:51,369 - api - INFO - [api.py:267] - Response [9435880c-2d72-4b41-a33b-e01270e1be52]: 200 - 0.003s
+2025-09-19 08:30:51,370 - api - INFO - [api.py:254] - Request [bee30086-c85f-4308-a551-419d28fa61df]: GET /api/student/subjects
+2025-09-19 08:30:51,374 - api - INFO - [api.py:267] - Response [bee30086-c85f-4308-a551-419d28fa61df]: 200 - 0.005s
+2025-09-19 08:30:51,376 - api - INFO - [api.py:254] - Request [3cb875b7-3628-4ce4-b09e-be3dfea4c211]: GET /api/student/1/usage-stats
+2025-09-19 08:30:51,380 - api - INFO - [api.py:267] - Response [3cb875b7-3628-4ce4-b09e-be3dfea4c211]: 200 - 0.005s
+2025-09-19 08:30:51,382 - api - INFO - [api.py:254] - Request [1bb67f82-bb32-4244-b503-a91e07bc5a4c]: GET /api/status
+2025-09-19 08:30:51,385 - api - INFO - [api.py:267] - Response [1bb67f82-bb32-4244-b503-a91e07bc5a4c]: 200 - 0.003s
+2025-09-19 08:30:51,386 - api - INFO - [api.py:254] - Request [63ca6adb-aaad-4927-80b1-af87a8b0dba4]: GET /api/documents/stats
+2025-09-19 08:30:51,388 - api - INFO - [api.py:267] - Response [63ca6adb-aaad-4927-80b1-af87a8b0dba4]: 200 - 0.003s
+2025-09-19 08:30:51,390 - api - INFO - [api.py:254] - Request [0cf4c418-e408-4f5f-85e7-0de8c89a1a05]: GET /api/student/subjects
+2025-09-19 08:30:51,396 - api - INFO - [api.py:267] - Response [0cf4c418-e408-4f5f-85e7-0de8c89a1a05]: 200 - 0.006s
+2025-09-19 08:30:51,397 - api - INFO - [api.py:254] - Request [e319c8fc-2644-42e5-bcc3-2bb6086589d2]: GET /api/student/1/usage-stats
+2025-09-19 08:30:51,399 - api - INFO - [api.py:267] - Response [e319c8fc-2644-42e5-bcc3-2bb6086589d2]: 200 - 0.002s
+2025-09-19 08:31:21,595 - api - INFO - [api.py:254] - Request [5a8b87e7-0e51-4148-9252-987d52e25d0a]: POST /api/students
+2025-09-19 08:31:21,596 - api - INFO - [api.py:254] - Request [009f5bbc-dc96-4062-ac2b-86da7196e54b]: GET /api/status
+2025-09-19 08:31:21,597 - api - INFO - [api.py:254] - Request [e7cc1f76-a0ff-4ed1-aff3-e0fd60efcecf]: POST /api/students
+2025-09-19 08:31:21,600 - api - INFO - [api.py:267] - Response [009f5bbc-dc96-4062-ac2b-86da7196e54b]: 200 - 0.004s
+2025-09-19 08:31:21,601 - api - INFO - [api.py:267] - Response [5a8b87e7-0e51-4148-9252-987d52e25d0a]: 200 - 0.007s
+2025-09-19 08:31:21,604 - api - INFO - [api.py:267] - Response [e7cc1f76-a0ff-4ed1-aff3-e0fd60efcecf]: 200 - 0.007s
+2025-09-19 08:31:21,605 - api - INFO - [api.py:254] - Request [56f22c0a-132a-4c4f-9e6f-e62b309814a3]: GET /api/status
+2025-09-19 08:31:21,607 - api - INFO - [api.py:267] - Response [56f22c0a-132a-4c4f-9e6f-e62b309814a3]: 200 - 0.003s
+2025-09-19 08:31:21,618 - api - INFO - [api.py:254] - Request [848cccfa-ced9-4492-8176-3148bbb5fa12]: OPTIONS /api/conversations
+2025-09-19 08:31:21,620 - api - INFO - [api.py:254] - Request [c29050d3-9d84-435c-9958-a7e545703475]: OPTIONS /api/conversations
+2025-09-19 08:31:21,621 - api - INFO - [api.py:267] - Response [848cccfa-ced9-4492-8176-3148bbb5fa12]: 200 - 0.002s
+2025-09-19 08:31:21,624 - api - INFO - [api.py:267] - Response [c29050d3-9d84-435c-9958-a7e545703475]: 200 - 0.004s
+2025-09-19 08:31:21,630 - api - INFO - [api.py:254] - Request [9d3c1296-ce7f-4e0e-87ae-cd8fb960666b]: POST /api/conversations
+2025-09-19 08:31:21,632 - api - INFO - [api.py:254] - Request [abec4647-c9b8-433e-bc45-d7c8df508042]: POST /api/conversations
+2025-09-19 08:31:21,634 - api - INFO - [api.py:267] - Response [9d3c1296-ce7f-4e0e-87ae-cd8fb960666b]: 200 - 0.004s
+2025-09-19 08:31:21,635 - api - INFO - [api.py:267] - Response [abec4647-c9b8-433e-bc45-d7c8df508042]: 200 - 0.003s
+2025-09-19 08:31:36,088 - api - INFO - [api.py:254] - Request [fe7bad72-3868-4f35-8283-4edb5d0180f8]: OPTIONS /api/messages
+2025-09-19 08:31:36,089 - api - INFO - [api.py:267] - Response [fe7bad72-3868-4f35-8283-4edb5d0180f8]: 200 - 0.001s
+2025-09-19 08:31:36,093 - api - INFO - [api.py:254] - Request [b29b3f14-f30b-4c4c-98ed-0a7831f22da3]: POST /api/messages
+2025-09-19 08:31:36,094 - api - INFO - [api.py:267] - Response [b29b3f14-f30b-4c4c-98ed-0a7831f22da3]: 200 - 0.001s
+2025-09-19 08:31:36,100 - api - INFO - [api.py:254] - Request [ed351750-8601-45ed-86fa-6c96e2c9f9ff]: OPTIONS /api/ask
+2025-09-19 08:31:36,101 - api - INFO - [api.py:267] - Response [ed351750-8601-45ed-86fa-6c96e2c9f9ff]: 200 - 0.001s
+2025-09-19 08:31:36,104 - api - INFO - [api.py:254] - Request [fef96a93-0663-4bc7-a895-1ef61c0d826f]: POST /api/ask
+2025-09-19 08:31:36,122 - api - INFO - [api.py:2044] - ✅ Found 2 relevant course documents
+2025-09-19 08:31:53,202 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:31:53,228 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:31:53,244 - api - INFO - [api.py:2157] - Using course content from 2 documents
+2025-09-19 08:31:53,250 - api - INFO - [api.py:267] - Response [fef96a93-0663-4bc7-a895-1ef61c0d826f]: 200 - 17.147s
+2025-09-19 08:32:06,578 - api - INFO - [api.py:254] - Request [3fc8c632-4d86-4e02-8215-a5ec42baa375]: GET /api/status
+2025-09-19 08:32:06,581 - api - INFO - [api.py:254] - Request [b42cb6ad-1da6-4642-9b6c-1656a5025ad1]: POST /api/students
+2025-09-19 08:32:06,582 - api - INFO - [api.py:254] - Request [175b68a9-6727-4f02-ade1-02d678d65e54]: POST /api/students
+2025-09-19 08:32:06,582 - api - INFO - [api.py:267] - Response [3fc8c632-4d86-4e02-8215-a5ec42baa375]: 200 - 0.005s
+2025-09-19 08:32:06,586 - api - INFO - [api.py:267] - Response [b42cb6ad-1da6-4642-9b6c-1656a5025ad1]: 200 - 0.004s
+2025-09-19 08:32:06,587 - api - INFO - [api.py:267] - Response [175b68a9-6727-4f02-ade1-02d678d65e54]: 200 - 0.005s
+2025-09-19 08:32:06,591 - api - INFO - [api.py:254] - Request [fd297e82-6d16-4808-a611-36defef97b91]: GET /api/status
+2025-09-19 08:32:06,594 - api - INFO - [api.py:267] - Response [fd297e82-6d16-4808-a611-36defef97b91]: 200 - 0.004s
+2025-09-19 08:32:06,639 - api - INFO - [api.py:254] - Request [3e472525-582e-45c0-8deb-bc62aeff1652]: POST /api/conversations
+2025-09-19 08:32:06,643 - api - INFO - [api.py:267] - Response [3e472525-582e-45c0-8deb-bc62aeff1652]: 200 - 0.005s
+2025-09-19 08:32:06,646 - api - INFO - [api.py:254] - Request [50e74e45-30da-42fe-b737-2b86ea8c417c]: POST /api/conversations
+2025-09-19 08:32:06,654 - api - INFO - [api.py:267] - Response [50e74e45-30da-42fe-b737-2b86ea8c417c]: 200 - 0.008s
+2025-09-19 08:32:09,943 - api - INFO - [api.py:254] - Request [3b687054-1268-4866-afd1-8d6acd5b6232]: POST /api/messages
+2025-09-19 08:32:09,944 - api - INFO - [api.py:267] - Response [3b687054-1268-4866-afd1-8d6acd5b6232]: 200 - 0.001s
+2025-09-19 08:32:09,975 - api - INFO - [api.py:254] - Request [11cca156-de6b-4353-9b54-8c602cf4efdf]: POST /api/ask
+2025-09-19 08:32:10,002 - api - INFO - [api.py:2044] - ✅ Found 3 relevant course documents
+2025-09-19 08:32:27,053 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:32:27,054 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:32:27,054 - api - INFO - [api.py:2157] - Using course content from 3 documents
+2025-09-19 08:32:27,058 - api - INFO - [api.py:267] - Response [11cca156-de6b-4353-9b54-8c602cf4efdf]: 200 - 17.083s
+2025-09-19 08:33:16,711 - api - INFO - [api.py:254] - Request [0d9a8148-0027-4df0-b8f5-2ddfe79828fc]: GET /api/status
+2025-09-19 08:33:16,714 - api - INFO - [api.py:254] - Request [9a9d9eda-ec51-4f5a-871c-e550d73dd16d]: POST /api/students
+2025-09-19 08:33:16,715 - api - INFO - [api.py:254] - Request [d1781d1e-d157-4332-9757-108e67c414a5]: POST /api/students
+2025-09-19 08:33:16,715 - api - INFO - [api.py:267] - Response [0d9a8148-0027-4df0-b8f5-2ddfe79828fc]: 200 - 0.004s
+2025-09-19 08:33:16,717 - api - INFO - [api.py:267] - Response [9a9d9eda-ec51-4f5a-871c-e550d73dd16d]: 200 - 0.003s
+2025-09-19 08:33:16,717 - api - INFO - [api.py:267] - Response [d1781d1e-d157-4332-9757-108e67c414a5]: 200 - 0.003s
+2025-09-19 08:33:16,719 - api - INFO - [api.py:254] - Request [06d16d8c-be60-4693-b729-72f0900b4809]: GET /api/status
+2025-09-19 08:33:16,721 - api - INFO - [api.py:267] - Response [06d16d8c-be60-4693-b729-72f0900b4809]: 200 - 0.002s
+2025-09-19 08:33:16,755 - api - INFO - [api.py:254] - Request [daefc260-4dc6-4e74-8198-eb0963eceb96]: POST /api/conversations
+2025-09-19 08:33:16,757 - api - INFO - [api.py:254] - Request [141d3591-47a3-4628-be61-8a0650fa759b]: POST /api/conversations
+2025-09-19 08:33:16,759 - api - INFO - [api.py:267] - Response [daefc260-4dc6-4e74-8198-eb0963eceb96]: 200 - 0.004s
+2025-09-19 08:33:16,760 - api - INFO - [api.py:267] - Response [141d3591-47a3-4628-be61-8a0650fa759b]: 200 - 0.003s
+2025-09-19 08:33:36,962 - api - INFO - [api.py:254] - Request [7802e08c-a39c-4c27-8508-9e58013af721]: GET /api/status
+2025-09-19 08:33:36,964 - api - INFO - [api.py:267] - Response [7802e08c-a39c-4c27-8508-9e58013af721]: 200 - 0.002s
+2025-09-19 08:33:37,095 - api - INFO - [api.py:254] - Request [e7550a03-7789-4fac-82f9-637f50c5f58e]: GET /api/status
+2025-09-19 08:33:37,098 - api - INFO - [api.py:267] - Response [e7550a03-7789-4fac-82f9-637f50c5f58e]: 200 - 0.003s
+2025-09-19 08:33:38,055 - api - INFO - [api.py:254] - Request [22af8aec-1583-4c3c-8786-a12a5428c3a9]: POST /api/students
+2025-09-19 08:33:38,057 - api - INFO - [api.py:254] - Request [a3d1ff5c-763a-4747-879a-9cacf10c0028]: GET /api/status
+2025-09-19 08:33:38,060 - api - INFO - [api.py:267] - Response [a3d1ff5c-763a-4747-879a-9cacf10c0028]: 200 - 0.003s
+2025-09-19 08:33:38,062 - api - INFO - [api.py:267] - Response [22af8aec-1583-4c3c-8786-a12a5428c3a9]: 200 - 0.006s
+2025-09-19 08:33:38,066 - api - INFO - [api.py:254] - Request [dfbb6c7f-5a64-467e-8662-6aa231a704c0]: GET /api/status
+2025-09-19 08:33:38,069 - api - INFO - [api.py:254] - Request [50d83efb-b229-42a2-a386-0d555f7695e8]: POST /api/students
+2025-09-19 08:33:38,069 - api - INFO - [api.py:267] - Response [dfbb6c7f-5a64-467e-8662-6aa231a704c0]: 200 - 0.004s
+2025-09-19 08:33:38,072 - api - INFO - [api.py:267] - Response [50d83efb-b229-42a2-a386-0d555f7695e8]: 200 - 0.003s
+2025-09-19 08:33:38,087 - api - INFO - [api.py:254] - Request [d8d1f890-3643-40e3-8bec-c66762b744ec]: POST /api/conversations
+2025-09-19 08:33:38,088 - api - INFO - [api.py:267] - Response [d8d1f890-3643-40e3-8bec-c66762b744ec]: 200 - 0.002s
+2025-09-19 08:33:38,152 - api - INFO - [api.py:254] - Request [ab4552d4-218b-43a3-bfcf-5b7401cc68cf]: POST /api/conversations
+2025-09-19 08:33:38,154 - api - INFO - [api.py:267] - Response [ab4552d4-218b-43a3-bfcf-5b7401cc68cf]: 200 - 0.001s
+2025-09-19 08:35:06,778 - api - INFO - [api.py:254] - Request [f422473b-958c-46df-8185-303a3f005d81]: GET /api/status
+2025-09-19 08:35:06,782 - api - INFO - [api.py:254] - Request [e549583e-e29b-41a8-90c9-60a81b6b8d9d]: POST /api/students
+2025-09-19 08:35:06,783 - api - INFO - [api.py:254] - Request [b4905733-7ddb-440d-9517-7f6b3e44e0b9]: POST /api/students
+2025-09-19 08:35:06,784 - api - INFO - [api.py:267] - Response [f422473b-958c-46df-8185-303a3f005d81]: 200 - 0.006s
+2025-09-19 08:35:06,789 - api - INFO - [api.py:267] - Response [e549583e-e29b-41a8-90c9-60a81b6b8d9d]: 200 - 0.006s
+2025-09-19 08:35:06,790 - api - INFO - [api.py:267] - Response [b4905733-7ddb-440d-9517-7f6b3e44e0b9]: 200 - 0.007s
+2025-09-19 08:35:06,791 - api - INFO - [api.py:254] - Request [fa22e9f0-885a-437b-95b5-d8a9bbb848f7]: GET /api/status
+2025-09-19 08:35:06,795 - api - INFO - [api.py:267] - Response [fa22e9f0-885a-437b-95b5-d8a9bbb848f7]: 200 - 0.004s
+2025-09-19 08:35:06,804 - api - INFO - [api.py:254] - Request [6ef49613-3dce-4428-9b34-ea2ddb7b0ed5]: POST /api/conversations
+2025-09-19 08:35:06,805 - api - INFO - [api.py:254] - Request [43aac037-3440-4fc1-89f5-56c4247b9750]: POST /api/conversations
+2025-09-19 08:35:06,806 - api - INFO - [api.py:267] - Response [6ef49613-3dce-4428-9b34-ea2ddb7b0ed5]: 200 - 0.002s
+2025-09-19 08:35:06,808 - api - INFO - [api.py:267] - Response [43aac037-3440-4fc1-89f5-56c4247b9750]: 200 - 0.003s
+2025-09-19 08:35:10,906 - api - INFO - [api.py:254] - Request [89438e4c-f962-4fde-9351-96040cb1cf59]: POST /api/messages
+2025-09-19 08:35:10,907 - api - INFO - [api.py:267] - Response [89438e4c-f962-4fde-9351-96040cb1cf59]: 200 - 0.001s
+2025-09-19 08:35:10,926 - api - INFO - [api.py:254] - Request [14d66dd7-ea27-4bdf-821a-e0d23ac55f58]: POST /api/ask
+2025-09-19 08:35:10,935 - api - INFO - [api.py:2044] - ✅ Found 3 relevant course documents
+2025-09-19 08:35:28,025 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:35:28,025 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:35:28,026 - api - INFO - [api.py:2157] - Using course content from 3 documents
+2025-09-19 08:35:28,026 - api - INFO - [api.py:267] - Response [14d66dd7-ea27-4bdf-821a-e0d23ac55f58]: 200 - 17.101s
+2025-09-19 08:35:39,343 - api - INFO - [api.py:218] - 🛑 Shutting down Professional Ollama RAG System...
+2025-09-19 08:35:39,344 - api - INFO - [api.py:380] - ✅ System shutdown completed
+2025-09-19 08:35:44,111 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 08:35:44,112 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 08:35:44,112 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 08:35:44,146 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 08:35:52,196 - __main__ - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 08:35:52,299 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 08:35:52,332 - api - INFO - [api.py:212] - 🚀 Starting Professional Ollama RAG System...
+2025-09-19 08:35:52,334 - api - ERROR - [api.py:361] - ❌ System startup failed: name 'ConfigManager' is not defined
+2025-09-19 08:37:57,595 - api - INFO - [api.py:254] - Request [7a0a0173-a735-462f-baf5-ad8d11d60612]: GET /api/status
+2025-09-19 08:37:57,602 - api - INFO - [api.py:254] - Request [f49b0854-08cf-481a-8a23-97cd14153e60]: POST /api/students
+2025-09-19 08:37:57,603 - api - INFO - [api.py:254] - Request [931b4619-3e00-4bc6-bbd6-ed8ca5e4d643]: POST /api/students
+2025-09-19 08:37:57,604 - api - INFO - [api.py:267] - Response [7a0a0173-a735-462f-baf5-ad8d11d60612]: 200 - 0.010s
+2025-09-19 08:37:57,610 - api - INFO - [api.py:267] - Response [f49b0854-08cf-481a-8a23-97cd14153e60]: 200 - 0.008s
+2025-09-19 08:37:57,613 - api - INFO - [api.py:267] - Response [931b4619-3e00-4bc6-bbd6-ed8ca5e4d643]: 200 - 0.010s
+2025-09-19 08:37:57,616 - api - INFO - [api.py:254] - Request [4f1f8090-464a-4ee0-91f1-491de3ac40d5]: GET /api/status
+2025-09-19 08:37:57,623 - api - INFO - [api.py:267] - Response [4f1f8090-464a-4ee0-91f1-491de3ac40d5]: 200 - 0.007s
+2025-09-19 08:37:57,721 - api - INFO - [api.py:254] - Request [91c55b37-37d2-4a03-bb88-9c40381ea0ab]: POST /api/conversations
+2025-09-19 08:37:57,733 - api - INFO - [api.py:254] - Request [4d87310c-0815-41e5-af7f-5d6107f29c77]: POST /api/conversations
+2025-09-19 08:37:57,765 - api - INFO - [api.py:267] - Response [91c55b37-37d2-4a03-bb88-9c40381ea0ab]: 200 - 0.044s
+2025-09-19 08:37:57,783 - api - INFO - [api.py:267] - Response [4d87310c-0815-41e5-af7f-5d6107f29c77]: 200 - 0.050s
+2025-09-19 08:38:05,388 - api - INFO - [api.py:254] - Request [9fa09a44-ec57-41bc-bded-a8518e6d8468]: POST /api/messages
+2025-09-19 08:38:05,390 - api - INFO - [api.py:267] - Response [9fa09a44-ec57-41bc-bded-a8518e6d8468]: 200 - 0.002s
+2025-09-19 08:38:05,427 - api - INFO - [api.py:254] - Request [03a3d299-2b15-4b3d-a8b0-ccdb57a24cec]: POST /api/ask
+2025-09-19 08:38:22,525 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:38:22,526 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:38:22,529 - api - INFO - [api.py:267] - Response [03a3d299-2b15-4b3d-a8b0-ccdb57a24cec]: 200 - 17.101s
+2025-09-19 08:38:36,201 - api - INFO - [api.py:254] - Request [ed68a903-d2c5-43a9-8881-12fa739d7258]: POST /api/messages
+2025-09-19 08:38:36,205 - api - INFO - [api.py:267] - Response [ed68a903-d2c5-43a9-8881-12fa739d7258]: 200 - 0.004s
+2025-09-19 08:38:36,272 - api - INFO - [api.py:254] - Request [690e1fc2-6284-4672-b7a3-2c444db4a9fe]: POST /api/ask
+2025-09-19 08:38:36,288 - api - INFO - [api.py:2044] - ✅ Found 3 relevant course documents
+2025-09-19 08:38:53,331 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:38:53,332 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:38:53,333 - api - INFO - [api.py:2157] - Using course content from 3 documents
+2025-09-19 08:38:53,334 - api - INFO - [api.py:267] - Response [690e1fc2-6284-4672-b7a3-2c444db4a9fe]: 200 - 17.062s
+2025-09-19 08:40:44,202 - api - INFO - [api.py:254] - Request [6a7c1815-6f74-4db3-a8f9-938ef63c9af7]: GET /api/status
+2025-09-19 08:40:44,223 - api - INFO - [api.py:254] - Request [547c6674-7ee0-432c-aeea-cd5b7906b52e]: POST /api/students
+2025-09-19 08:40:44,225 - api - INFO - [api.py:267] - Response [6a7c1815-6f74-4db3-a8f9-938ef63c9af7]: 200 - 0.024s
+2025-09-19 08:40:44,229 - api - INFO - [api.py:254] - Request [50103ea3-d907-4470-8c6c-58c3ba05e6c5]: POST /api/students
+2025-09-19 08:40:44,232 - api - INFO - [api.py:267] - Response [547c6674-7ee0-432c-aeea-cd5b7906b52e]: 200 - 0.009s
+2025-09-19 08:40:44,235 - api - INFO - [api.py:267] - Response [50103ea3-d907-4470-8c6c-58c3ba05e6c5]: 200 - 0.006s
+2025-09-19 08:40:44,237 - api - INFO - [api.py:254] - Request [063e3f6f-22d8-43e4-bfc2-990b460c3cd8]: GET /api/status
+2025-09-19 08:40:44,243 - api - INFO - [api.py:267] - Response [063e3f6f-22d8-43e4-bfc2-990b460c3cd8]: 200 - 0.006s
+2025-09-19 08:40:44,270 - api - INFO - [api.py:254] - Request [597538f5-fadb-4b4d-a9b4-c46b924e9a3d]: POST /api/conversations
+2025-09-19 08:40:44,273 - api - INFO - [api.py:254] - Request [e75422a8-6fca-48eb-aaf1-5f9c8347cd03]: POST /api/conversations
+2025-09-19 08:40:44,276 - api - INFO - [api.py:267] - Response [597538f5-fadb-4b4d-a9b4-c46b924e9a3d]: 200 - 0.006s
+2025-09-19 08:40:44,279 - api - INFO - [api.py:267] - Response [e75422a8-6fca-48eb-aaf1-5f9c8347cd03]: 200 - 0.007s
+2025-09-19 08:40:45,393 - api - INFO - [api.py:254] - Request [70ba958e-089c-4662-b58b-3094c47578ff]: GET /api/status
+2025-09-19 08:40:45,397 - api - INFO - [api.py:267] - Response [70ba958e-089c-4662-b58b-3094c47578ff]: 200 - 0.004s
+2025-09-19 08:40:45,550 - api - INFO - [api.py:254] - Request [5ae2e147-1320-49bc-8a9d-aeb50b96fc4a]: GET /api/status
+2025-09-19 08:40:45,555 - api - INFO - [api.py:267] - Response [5ae2e147-1320-49bc-8a9d-aeb50b96fc4a]: 200 - 0.004s
+2025-09-19 08:40:48,368 - api - INFO - [api.py:254] - Request [8fcd45a8-fc1a-44dc-8063-b965f2fc1bd0]: POST /api/students
+2025-09-19 08:40:48,371 - api - INFO - [api.py:254] - Request [25e48370-017d-4c26-aed9-149c64c98e64]: GET /api/status
+2025-09-19 08:40:48,375 - api - INFO - [api.py:267] - Response [25e48370-017d-4c26-aed9-149c64c98e64]: 200 - 0.005s
+2025-09-19 08:40:48,377 - api - INFO - [api.py:254] - Request [4e29b5bd-374e-4ded-87fd-635454f35f81]: POST /api/students
+2025-09-19 08:40:48,378 - api - INFO - [api.py:267] - Response [8fcd45a8-fc1a-44dc-8063-b965f2fc1bd0]: 200 - 0.009s
+2025-09-19 08:40:48,381 - api - INFO - [api.py:254] - Request [e74ac62c-1f14-400e-b0f9-d93b38ea43fb]: GET /api/status
+2025-09-19 08:40:48,385 - api - INFO - [api.py:267] - Response [e74ac62c-1f14-400e-b0f9-d93b38ea43fb]: 200 - 0.005s
+2025-09-19 08:40:48,387 - api - INFO - [api.py:267] - Response [4e29b5bd-374e-4ded-87fd-635454f35f81]: 200 - 0.010s
+2025-09-19 08:40:48,537 - api - INFO - [api.py:254] - Request [61ea2953-7b28-417b-84e0-9a456e98af37]: POST /api/conversations
+2025-09-19 08:40:48,539 - api - INFO - [api.py:254] - Request [d7b2de88-f86c-4f2b-8e31-9e2863c76289]: POST /api/conversations
+2025-09-19 08:40:48,542 - api - INFO - [api.py:267] - Response [61ea2953-7b28-417b-84e0-9a456e98af37]: 200 - 0.005s
+2025-09-19 08:40:48,544 - api - INFO - [api.py:267] - Response [d7b2de88-f86c-4f2b-8e31-9e2863c76289]: 200 - 0.005s
+2025-09-19 08:40:58,012 - api - INFO - [api.py:254] - Request [e842dc2c-eb5a-429e-84a7-d7f490996fa8]: POST /api/messages
+2025-09-19 08:40:58,015 - api - INFO - [api.py:267] - Response [e842dc2c-eb5a-429e-84a7-d7f490996fa8]: 200 - 0.003s
+2025-09-19 08:40:58,050 - api - INFO - [api.py:254] - Request [27d9ec6b-b776-4308-bf1a-2ac0fddaaabc]: POST /api/ask
+2025-09-19 08:40:58,082 - api - INFO - [api.py:2044] - ✅ Found 3 relevant course documents
+2025-09-19 08:41:15,113 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:41:15,115 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:41:15,116 - api - INFO - [api.py:2157] - Using course content from 3 documents
+2025-09-19 08:41:15,118 - api - INFO - [api.py:267] - Response [27d9ec6b-b776-4308-bf1a-2ac0fddaaabc]: 200 - 17.068s
+2025-09-19 08:43:58,877 - api - INFO - [api.py:254] - Request [d2919549-b546-4cf6-93b6-442587aa291a]: OPTIONS /api/students
+2025-09-19 08:43:58,878 - api - INFO - [api.py:267] - Response [d2919549-b546-4cf6-93b6-442587aa291a]: 200 - 0.001s
+2025-09-19 08:43:58,882 - api - INFO - [api.py:254] - Request [f0c7fc11-aa99-473b-a74f-87598221cb0b]: OPTIONS /api/students
+2025-09-19 08:43:58,886 - api - INFO - [api.py:254] - Request [3c9e6aa8-8a70-4d72-8820-c755709ddf1a]: OPTIONS /api/status
+2025-09-19 08:43:58,887 - api - INFO - [api.py:254] - Request [0bbc429a-d53b-48c4-a878-10516b8cbade]: OPTIONS /api/status
+2025-09-19 08:43:58,888 - api - INFO - [api.py:267] - Response [f0c7fc11-aa99-473b-a74f-87598221cb0b]: 200 - 0.006s
+2025-09-19 08:43:58,897 - api - INFO - [api.py:254] - Request [02788bcd-331a-4582-a364-16a8c20c1803]: POST /api/students
+2025-09-19 08:43:58,898 - api - INFO - [api.py:267] - Response [3c9e6aa8-8a70-4d72-8820-c755709ddf1a]: 200 - 0.013s
+2025-09-19 08:43:58,900 - api - INFO - [api.py:267] - Response [0bbc429a-d53b-48c4-a878-10516b8cbade]: 200 - 0.013s
+2025-09-19 08:43:58,912 - api - INFO - [api.py:267] - Response [02788bcd-331a-4582-a364-16a8c20c1803]: 200 - 0.015s
+2025-09-19 08:43:58,918 - api - INFO - [api.py:254] - Request [120d5ef7-5b38-4029-8448-00a799d3c552]: POST /api/students
+2025-09-19 08:43:58,921 - api - INFO - [api.py:267] - Response [120d5ef7-5b38-4029-8448-00a799d3c552]: 200 - 0.003s
+2025-09-19 08:43:58,926 - api - INFO - [api.py:254] - Request [90468a96-612c-4b4e-8ca2-c47030148297]: GET /api/status
+2025-09-19 08:43:58,936 - api - INFO - [api.py:267] - Response [90468a96-612c-4b4e-8ca2-c47030148297]: 200 - 0.009s
+2025-09-19 08:43:58,945 - api - INFO - [api.py:254] - Request [106db060-d117-44f4-9cf7-47b3ebd4edae]: GET /api/status
+2025-09-19 08:43:58,950 - api - INFO - [api.py:267] - Response [106db060-d117-44f4-9cf7-47b3ebd4edae]: 200 - 0.006s
+2025-09-19 08:43:59,877 - api - INFO - [api.py:254] - Request [5728bec3-23ec-4869-a0bb-347bac022deb]: OPTIONS /api/conversations
+2025-09-19 08:43:59,878 - api - INFO - [api.py:267] - Response [5728bec3-23ec-4869-a0bb-347bac022deb]: 200 - 0.002s
+2025-09-19 08:43:59,884 - api - INFO - [api.py:254] - Request [fd2e41b2-0a83-4e32-a8e3-8860b6c356e7]: OPTIONS /api/conversations
+2025-09-19 08:43:59,887 - api - INFO - [api.py:254] - Request [31c363f8-4147-41eb-895d-1c68f836e0f3]: POST /api/conversations
+2025-09-19 08:43:59,889 - api - INFO - [api.py:267] - Response [fd2e41b2-0a83-4e32-a8e3-8860b6c356e7]: 200 - 0.005s
+2025-09-19 08:43:59,894 - api - INFO - [api.py:267] - Response [31c363f8-4147-41eb-895d-1c68f836e0f3]: 200 - 0.007s
+2025-09-19 08:43:59,898 - api - INFO - [api.py:254] - Request [a4226e0b-18c8-47d2-91ff-bc2a07204bd3]: POST /api/conversations
+2025-09-19 08:43:59,902 - api - INFO - [api.py:267] - Response [a4226e0b-18c8-47d2-91ff-bc2a07204bd3]: 200 - 0.004s
+2025-09-19 08:44:03,276 - api - INFO - [api.py:254] - Request [3840e945-ecd2-48b1-8765-2d1f1a77cd98]: GET /api/status
+2025-09-19 08:44:03,283 - api - INFO - [api.py:267] - Response [3840e945-ecd2-48b1-8765-2d1f1a77cd98]: 200 - 0.007s
+2025-09-19 08:44:03,579 - api - INFO - [api.py:254] - Request [18bab52e-9c5f-4369-a03b-a2b186e591c1]: GET /api/status
+2025-09-19 08:44:03,586 - api - INFO - [api.py:267] - Response [18bab52e-9c5f-4369-a03b-a2b186e591c1]: 200 - 0.007s
+2025-09-19 08:44:07,561 - api - INFO - [api.py:254] - Request [b0bf5904-1773-4d9f-80e3-6d1d5456b0ea]: POST /api/students
+2025-09-19 08:44:07,564 - api - INFO - [api.py:267] - Response [b0bf5904-1773-4d9f-80e3-6d1d5456b0ea]: 200 - 0.003s
+2025-09-19 08:44:07,568 - api - INFO - [api.py:254] - Request [851d4b8e-008c-4a7f-bfde-f4236e4fd5e3]: GET /api/status
+2025-09-19 08:44:07,573 - api - INFO - [api.py:267] - Response [851d4b8e-008c-4a7f-bfde-f4236e4fd5e3]: 200 - 0.005s
+2025-09-19 08:44:07,592 - api - INFO - [api.py:254] - Request [c75b51f4-586f-4f6e-999a-202623b4c19c]: POST /api/students
+2025-09-19 08:44:07,596 - api - INFO - [api.py:267] - Response [c75b51f4-586f-4f6e-999a-202623b4c19c]: 200 - 0.004s
+2025-09-19 08:44:07,598 - api - INFO - [api.py:254] - Request [40db4d39-f521-466d-ac87-13b4f8b2f2e6]: GET /api/status
+2025-09-19 08:44:07,607 - api - INFO - [api.py:267] - Response [40db4d39-f521-466d-ac87-13b4f8b2f2e6]: 200 - 0.009s
+2025-09-19 08:44:07,706 - api - INFO - [api.py:254] - Request [47b895b6-ad80-490f-b77a-04c1ccdfb922]: POST /api/conversations
+2025-09-19 08:44:07,709 - api - INFO - [api.py:267] - Response [47b895b6-ad80-490f-b77a-04c1ccdfb922]: 200 - 0.004s
+2025-09-19 08:44:08,144 - api - INFO - [api.py:254] - Request [28a5f7f7-bfa9-4071-a88e-798425dec486]: POST /api/conversations
+2025-09-19 08:44:08,148 - api - INFO - [api.py:267] - Response [28a5f7f7-bfa9-4071-a88e-798425dec486]: 200 - 0.004s
+2025-09-19 08:47:31,860 - api - INFO - [api.py:254] - Request [0df9454d-60ea-4b2a-8c4f-0fc9450cbefb]: GET /api/status
+2025-09-19 08:47:31,865 - api - INFO - [api.py:267] - Response [0df9454d-60ea-4b2a-8c4f-0fc9450cbefb]: 200 - 0.005s
+2025-09-19 08:47:31,899 - api - INFO - [api.py:254] - Request [c0957185-fb3e-4a6e-9b88-ef03c04dd738]: GET /api/status
+2025-09-19 08:47:31,904 - api - INFO - [api.py:267] - Response [c0957185-fb3e-4a6e-9b88-ef03c04dd738]: 200 - 0.005s
+2025-09-19 08:47:33,593 - api - INFO - [api.py:254] - Request [6e1291ca-018f-46f6-b332-87fe447ad1fc]: OPTIONS /api/students
+2025-09-19 08:47:33,596 - api - INFO - [api.py:254] - Request [81379f03-ec34-4870-981f-365e907a2f36]: OPTIONS /api/status
+2025-09-19 08:47:33,597 - api - INFO - [api.py:267] - Response [6e1291ca-018f-46f6-b332-87fe447ad1fc]: 200 - 0.004s
+2025-09-19 08:47:33,599 - api - INFO - [api.py:267] - Response [81379f03-ec34-4870-981f-365e907a2f36]: 200 - 0.003s
+2025-09-19 08:47:33,606 - api - INFO - [api.py:254] - Request [5856ea99-fe1a-46b2-8303-e4e345e7d040]: OPTIONS /api/students
+2025-09-19 08:47:33,607 - api - INFO - [api.py:254] - Request [b759ca3d-f643-4175-bcc7-4b304160644a]: OPTIONS /api/status
+2025-09-19 08:47:33,608 - api - INFO - [api.py:267] - Response [5856ea99-fe1a-46b2-8303-e4e345e7d040]: 200 - 0.002s
+2025-09-19 08:47:33,610 - api - INFO - [api.py:267] - Response [b759ca3d-f643-4175-bcc7-4b304160644a]: 200 - 0.003s
+2025-09-19 08:47:33,612 - api - INFO - [api.py:254] - Request [b6247f38-8289-4824-9367-74b36211e133]: POST /api/students
+2025-09-19 08:47:33,613 - api - INFO - [api.py:254] - Request [7ac64dcf-d8e6-433a-9e86-7f8cb222a03e]: GET /api/status
+2025-09-19 08:47:33,620 - api - INFO - [api.py:254] - Request [2f216d82-8781-46ef-8512-ac70271819f9]: POST /api/students
+2025-09-19 08:47:33,621 - api - INFO - [api.py:267] - Response [7ac64dcf-d8e6-433a-9e86-7f8cb222a03e]: 200 - 0.008s
+2025-09-19 08:47:33,625 - api - INFO - [api.py:267] - Response [b6247f38-8289-4824-9367-74b36211e133]: 200 - 0.013s
+2025-09-19 08:47:33,629 - api - INFO - [api.py:254] - Request [a4244388-ad47-4033-b55d-86da9e26f0db]: GET /api/status
+2025-09-19 08:47:33,630 - api - INFO - [api.py:267] - Response [2f216d82-8781-46ef-8512-ac70271819f9]: 200 - 0.011s
+2025-09-19 08:47:33,638 - api - INFO - [api.py:267] - Response [a4244388-ad47-4033-b55d-86da9e26f0db]: 200 - 0.008s
+2025-09-19 08:47:33,809 - api - INFO - [api.py:254] - Request [af70a3ec-73e8-45ed-9945-00ca7e7840ae]: OPTIONS /api/conversations
+2025-09-19 08:47:33,814 - api - INFO - [api.py:254] - Request [117a9ddf-7d60-4ed8-9737-e88a4dfd73c6]: OPTIONS /api/conversations
+2025-09-19 08:47:33,818 - api - INFO - [api.py:267] - Response [af70a3ec-73e8-45ed-9945-00ca7e7840ae]: 200 - 0.009s
+2025-09-19 08:47:33,841 - api - INFO - [api.py:267] - Response [117a9ddf-7d60-4ed8-9737-e88a4dfd73c6]: 200 - 0.027s
+2025-09-19 08:47:33,864 - api - INFO - [api.py:254] - Request [a909fe3e-1004-4ead-aa12-b30d3363e8b3]: POST /api/conversations
+2025-09-19 08:47:33,867 - api - INFO - [api.py:254] - Request [d395c5c0-ac8f-4ef8-9e80-27051891fd0c]: POST /api/conversations
+2025-09-19 08:47:33,875 - api - INFO - [api.py:267] - Response [a909fe3e-1004-4ead-aa12-b30d3363e8b3]: 200 - 0.011s
+2025-09-19 08:47:33,877 - api - INFO - [api.py:267] - Response [d395c5c0-ac8f-4ef8-9e80-27051891fd0c]: 200 - 0.011s
+2025-09-19 08:47:36,798 - api - INFO - [api.py:254] - Request [cbbe7a1d-0ee8-4eac-bff8-fff4d0dbad6b]: OPTIONS /api/messages
+2025-09-19 08:47:36,801 - api - INFO - [api.py:267] - Response [cbbe7a1d-0ee8-4eac-bff8-fff4d0dbad6b]: 200 - 0.002s
+2025-09-19 08:47:36,808 - api - INFO - [api.py:254] - Request [f663bbf6-59ee-488e-affa-774718b85ffe]: POST /api/messages
+2025-09-19 08:47:36,811 - api - INFO - [api.py:267] - Response [f663bbf6-59ee-488e-affa-774718b85ffe]: 200 - 0.003s
+2025-09-19 08:47:36,855 - api - INFO - [api.py:254] - Request [1084b73a-463f-499d-ad88-7670d21ac7b8]: OPTIONS /api/ask
+2025-09-19 08:47:36,856 - api - INFO - [api.py:267] - Response [1084b73a-463f-499d-ad88-7670d21ac7b8]: 200 - 0.001s
+2025-09-19 08:47:36,860 - api - INFO - [api.py:254] - Request [32e5d0a6-e1a4-4dc6-988f-13601ec5329b]: POST /api/ask
+2025-09-19 08:47:36,879 - api - INFO - [api.py:2044] - ✅ Found 3 relevant course documents
+2025-09-19 08:47:53,951 - api - WARNING - [api.py:2101] - Ollama unavailable, using smart fallback: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-09-19 08:47:53,952 - api - INFO - [api.py:2105] - Using smart educational fallback with course content
+2025-09-19 08:47:53,953 - api - INFO - [api.py:2157] - Using course content from 3 documents
+2025-09-19 08:47:53,956 - api - INFO - [api.py:267] - Response [32e5d0a6-e1a4-4dc6-988f-13601ec5329b]: 200 - 17.096s
+2025-09-19 08:47:53,958 - api - INFO - [api.py:254] - Request [6a52860a-58f3-4291-9c7d-8d7d26455004]: POST /api/students
+2025-09-19 08:47:53,958 - api - INFO - [api.py:254] - Request [e09dd104-5827-41a8-8ecd-3dca22040dd1]: POST /api/students
+2025-09-19 08:47:53,963 - api - INFO - [api.py:254] - Request [d1a9ab2e-cfdf-49f3-ba26-d6ae3158f6f1]: GET /api/status
+2025-09-19 08:47:53,971 - api - INFO - [api.py:267] - Response [d1a9ab2e-cfdf-49f3-ba26-d6ae3158f6f1]: 200 - 0.008s
+2025-09-19 08:47:53,972 - api - INFO - [api.py:267] - Response [6a52860a-58f3-4291-9c7d-8d7d26455004]: 200 - 0.015s
+2025-09-19 08:47:53,974 - api - INFO - [api.py:267] - Response [e09dd104-5827-41a8-8ecd-3dca22040dd1]: 200 - 0.016s
+2025-09-19 08:47:53,986 - api - INFO - [api.py:254] - Request [23d374a9-17f0-43af-bbe6-57da81cc3cb7]: GET /api/status
+2025-09-19 08:47:53,992 - api - INFO - [api.py:267] - Response [23d374a9-17f0-43af-bbe6-57da81cc3cb7]: 200 - 0.006s
+2025-09-19 08:47:54,113 - api - INFO - [api.py:254] - Request [f43a5ff2-ef0f-45a1-9907-79dd5f93edd9]: POST /api/conversations
+2025-09-19 08:47:54,116 - api - INFO - [api.py:267] - Response [f43a5ff2-ef0f-45a1-9907-79dd5f93edd9]: 200 - 0.004s
+2025-09-19 08:47:54,124 - api - INFO - [api.py:254] - Request [b961ec7f-d628-4032-980e-37b7b44413ed]: POST /api/conversations
+2025-09-19 08:47:54,126 - api - INFO - [api.py:267] - Response [b961ec7f-d628-4032-980e-37b7b44413ed]: 200 - 0.002s
+2025-09-19 08:48:05,939 - api - INFO - [api.py:254] - Request [d274b9ca-b0ba-4721-9183-be3fd80d6983]: GET /api/status
+2025-09-19 08:48:05,946 - api - INFO - [api.py:267] - Response [d274b9ca-b0ba-4721-9183-be3fd80d6983]: 200 - 0.006s
+2025-09-19 08:48:06,293 - api - INFO - [api.py:254] - Request [75856688-cafc-4099-b282-48cc816979d6]: GET /api/status
+2025-09-19 08:48:06,299 - api - INFO - [api.py:267] - Response [75856688-cafc-4099-b282-48cc816979d6]: 200 - 0.007s
+2025-09-19 08:48:15,020 - api - INFO - [api.py:254] - Request [81533698-e456-4156-a981-9eb55dc3d6b4]: POST /api/students
+2025-09-19 08:48:15,027 - api - INFO - [api.py:254] - Request [1164bf91-d5cf-4845-8ef5-fbdd93a398ef]: GET /api/status
+2025-09-19 08:48:15,030 - api - INFO - [api.py:267] - Response [81533698-e456-4156-a981-9eb55dc3d6b4]: 200 - 0.011s
+2025-09-19 08:48:15,032 - api - INFO - [api.py:267] - Response [1164bf91-d5cf-4845-8ef5-fbdd93a398ef]: 200 - 0.005s
+2025-09-19 08:48:15,037 - api - INFO - [api.py:254] - Request [777a6c32-40ad-49f5-b8cb-e6ca8953d9ff]: POST /api/students
+2025-09-19 08:48:15,042 - api - INFO - [api.py:267] - Response [777a6c32-40ad-49f5-b8cb-e6ca8953d9ff]: 200 - 0.006s
+2025-09-19 08:48:15,048 - api - INFO - [api.py:254] - Request [51339fd6-e5c1-4755-9ff2-6214cffb6f1f]: GET /api/status
+2025-09-19 08:48:15,053 - api - INFO - [api.py:267] - Response [51339fd6-e5c1-4755-9ff2-6214cffb6f1f]: 200 - 0.006s
+2025-09-19 08:48:15,183 - api - INFO - [api.py:254] - Request [9978a93f-e2d0-4c08-bed7-c74e1c4154bb]: POST /api/conversations
+2025-09-19 08:48:15,186 - api - INFO - [api.py:267] - Response [9978a93f-e2d0-4c08-bed7-c74e1c4154bb]: 200 - 0.003s
+2025-09-19 08:48:15,194 - api - INFO - [api.py:254] - Request [2dbbdaf3-5423-4adc-9f99-ba95a5e98199]: POST /api/conversations
+2025-09-19 08:48:15,197 - api - INFO - [api.py:267] - Response [2dbbdaf3-5423-4adc-9f99-ba95a5e98199]: 200 - 0.003s
+2025-09-19 08:48:38,126 - api - INFO - [api.py:254] - Request [a70123b0-b2a9-4f91-b177-ee809428f380]: GET /api/students
+2025-09-19 08:48:38,323 - api - INFO - [api.py:267] - Response [a70123b0-b2a9-4f91-b177-ee809428f380]: 200 - 0.197s
+2025-09-19 08:48:38,759 - api - INFO - [api.py:254] - Request [19a7a191-a5fc-4b18-9b0e-4d3fee432a13]: GET /api/students
+2025-09-19 08:48:38,761 - api - INFO - [api.py:267] - Response [19a7a191-a5fc-4b18-9b0e-4d3fee432a13]: 200 - 0.002s
+2025-09-19 08:48:38,810 - api - INFO - [api.py:254] - Request [069f4821-999d-4a16-b1b0-b879fc1d1f0f]: POST /api/conversations
+2025-09-19 08:48:38,820 - api - INFO - [api.py:267] - Response [069f4821-999d-4a16-b1b0-b879fc1d1f0f]: 200 - 0.010s
+2025-09-19 08:48:38,833 - api - INFO - [api.py:254] - Request [6886d0ba-a362-4c36-9506-9aa21d6e2eab]: POST /api/conversations
+2025-09-19 08:48:38,838 - api - INFO - [api.py:267] - Response [6886d0ba-a362-4c36-9506-9aa21d6e2eab]: 200 - 0.005s
+2025-09-19 08:48:39,077 - api - INFO - [api.py:254] - Request [c2016f72-2d16-4f1b-a6c0-d0e31f260d1e]: POST /api/conversations
+2025-09-19 08:48:39,086 - api - INFO - [api.py:267] - Response [c2016f72-2d16-4f1b-a6c0-d0e31f260d1e]: 200 - 0.009s
+2025-09-19 08:48:39,111 - api - INFO - [api.py:254] - Request [4a9bda6b-b61d-4ca9-8b26-0e8086b0974b]: POST /api/conversations
+2025-09-19 08:48:39,119 - api - INFO - [api.py:267] - Response [4a9bda6b-b61d-4ca9-8b26-0e8086b0974b]: 200 - 0.008s
+2025-09-19 08:48:39,238 - api - INFO - [api.py:254] - Request [9235656f-42a0-4b25-8dff-8f2502fb8a94]: GET /api/status
+2025-09-19 08:48:39,240 - api - INFO - [api.py:254] - Request [f7e68658-1ce6-4846-b0a2-53a2ad37f6dc]: OPTIONS /api/documents/stats
+2025-09-19 08:48:39,248 - api - INFO - [api.py:267] - Response [9235656f-42a0-4b25-8dff-8f2502fb8a94]: 200 - 0.006s
+2025-09-19 08:48:39,262 - api - INFO - [api.py:267] - Response [f7e68658-1ce6-4846-b0a2-53a2ad37f6dc]: 200 - 0.022s
+2025-09-19 08:48:39,590 - api - INFO - [api.py:254] - Request [418f9c2a-bf91-4dce-99ec-46589f72bb11]: GET /api/status
+2025-09-19 08:48:39,594 - api - INFO - [api.py:267] - Response [418f9c2a-bf91-4dce-99ec-46589f72bb11]: 200 - 0.004s
+2025-09-19 08:48:39,605 - api - INFO - [api.py:254] - Request [ce34c272-8979-4a24-95ae-f66dcc7d6e6d]: GET /api/metrics
+2025-09-19 08:48:39,608 - api - INFO - [api.py:267] - Response [ce34c272-8979-4a24-95ae-f66dcc7d6e6d]: 404 - 0.003s
+2025-09-19 08:48:39,627 - api - INFO - [api.py:254] - Request [81d2d9e9-a14d-4840-bf3f-6de90b56a082]: GET /api/status
+2025-09-19 08:48:39,637 - api - INFO - [api.py:267] - Response [81d2d9e9-a14d-4840-bf3f-6de90b56a082]: 200 - 0.010s
+2025-09-19 08:48:39,641 - api - INFO - [api.py:254] - Request [dec5f6d9-6a7a-4584-a584-76f390b77ee6]: OPTIONS /api/documents/stats
+2025-09-19 08:48:39,643 - api - INFO - [api.py:267] - Response [dec5f6d9-6a7a-4584-a584-76f390b77ee6]: 200 - 0.002s
+2025-09-19 08:48:39,657 - api - INFO - [api.py:254] - Request [3a001863-285f-421a-afba-034aea594733]: GET /api/metrics
+2025-09-19 08:48:39,660 - api - INFO - [api.py:267] - Response [3a001863-285f-421a-afba-034aea594733]: 404 - 0.002s
+2025-09-19 08:48:39,686 - api - INFO - [api.py:254] - Request [5a08d9f2-12ff-49de-9a0d-bc5d4ffa647e]: GET /api/documents/stats
+2025-09-19 08:48:39,690 - api - INFO - [api.py:267] - Response [5a08d9f2-12ff-49de-9a0d-bc5d4ffa647e]: 200 - 0.004s
+2025-09-19 08:48:39,699 - api - INFO - [api.py:254] - Request [0042d57e-c3a8-433d-b8a8-d8059091a4cc]: GET /api/documents/stats
+2025-09-19 08:48:39,703 - api - INFO - [api.py:267] - Response [0042d57e-c3a8-433d-b8a8-d8059091a4cc]: 200 - 0.005s
+2025-09-19 08:48:39,708 - api - INFO - [api.py:254] - Request [91ec982a-ea5e-420f-822c-700418573e57]: GET /api/students
+2025-09-19 08:48:39,710 - api - INFO - [api.py:267] - Response [91ec982a-ea5e-420f-822c-700418573e57]: 200 - 0.002s
+2025-09-19 08:48:39,751 - api - INFO - [api.py:254] - Request [23a3932d-b38c-4e6a-8b99-231f9cfd163b]: GET /api/students
+2025-09-19 08:48:39,753 - api - INFO - [api.py:267] - Response [23a3932d-b38c-4e6a-8b99-231f9cfd163b]: 200 - 0.002s
+2025-09-19 08:48:40,680 - api - INFO - [api.py:254] - Request [62e1a03b-e0f9-44d0-9744-0c936dc73912]: GET /api/status
+2025-09-19 08:48:40,685 - api - INFO - [api.py:267] - Response [62e1a03b-e0f9-44d0-9744-0c936dc73912]: 200 - 0.005s
+2025-09-19 08:48:52,571 - api - INFO - [api.py:254] - Request [11d22cfd-6fe0-420e-b9a2-e06440ea31d3]: POST /api/students
+2025-09-19 08:48:52,575 - api - INFO - [api.py:267] - Response [11d22cfd-6fe0-420e-b9a2-e06440ea31d3]: 200 - 0.004s
+2025-09-19 08:48:52,586 - api - INFO - [api.py:254] - Request [f5c4ff2d-9588-438f-8ca1-f7f203c8b1f4]: POST /api/students
+2025-09-19 08:48:52,591 - api - INFO - [api.py:267] - Response [f5c4ff2d-9588-438f-8ca1-f7f203c8b1f4]: 200 - 0.005s
+2025-09-19 08:48:52,606 - api - INFO - [api.py:254] - Request [ee0c13cd-f7a2-4d44-b23a-14b626db5d17]: GET /api/status
+2025-09-19 08:48:52,612 - api - INFO - [api.py:267] - Response [ee0c13cd-f7a2-4d44-b23a-14b626db5d17]: 200 - 0.006s
+2025-09-19 08:48:52,616 - api - INFO - [api.py:254] - Request [bf851264-dd27-4ced-a1d2-b3be4465e509]: GET /api/status
+2025-09-19 08:48:52,622 - api - INFO - [api.py:267] - Response [bf851264-dd27-4ced-a1d2-b3be4465e509]: 200 - 0.006s
+2025-09-19 08:48:53,259 - api - INFO - [api.py:254] - Request [b3226183-2402-4371-b05c-b701ac0238ae]: POST /api/conversations
+2025-09-19 08:48:53,262 - api - INFO - [api.py:267] - Response [b3226183-2402-4371-b05c-b701ac0238ae]: 200 - 0.003s
+2025-09-19 08:48:53,747 - api - INFO - [api.py:254] - Request [bd0a8ebc-ce36-4016-ac0a-2185e7145af5]: POST /api/conversations
+2025-09-19 08:48:53,749 - api - INFO - [api.py:267] - Response [bd0a8ebc-ce36-4016-ac0a-2185e7145af5]: 200 - 0.002s
+2025-09-19 08:51:20,718 - api - INFO - [api.py:254] - Request [ae17ee6c-ff0b-4ee9-a8e2-f56478ae3be3]: GET /api/status
+2025-09-19 08:51:20,723 - api - INFO - [api.py:267] - Response [ae17ee6c-ff0b-4ee9-a8e2-f56478ae3be3]: 200 - 0.006s
+2025-09-19 08:51:21,282 - api - INFO - [api.py:254] - Request [fd2efa86-a9ea-4528-be26-91736e139c17]: GET /api/status
+2025-09-19 08:51:21,286 - api - INFO - [api.py:267] - Response [fd2efa86-a9ea-4528-be26-91736e139c17]: 200 - 0.004s
+2025-09-19 08:51:27,683 - api - INFO - [api.py:254] - Request [cbd82b21-0c0a-43a6-b61b-e6e360897860]: POST /api/students
+2025-09-19 08:51:27,685 - api - INFO - [api.py:267] - Response [cbd82b21-0c0a-43a6-b61b-e6e360897860]: 200 - 0.002s
+2025-09-19 08:51:27,690 - api - INFO - [api.py:254] - Request [3a8edb18-9354-4c72-a07c-707e1d9760cf]: POST /api/students
+2025-09-19 08:51:27,693 - api - INFO - [api.py:267] - Response [3a8edb18-9354-4c72-a07c-707e1d9760cf]: 200 - 0.002s
+2025-09-19 08:51:27,697 - api - INFO - [api.py:254] - Request [d9c23b0a-6009-4581-ab26-dbc7bd390f32]: GET /api/status
+2025-09-19 08:51:27,701 - api - INFO - [api.py:267] - Response [d9c23b0a-6009-4581-ab26-dbc7bd390f32]: 200 - 0.004s
+2025-09-19 08:51:27,706 - api - INFO - [api.py:254] - Request [293f29d3-7de1-4484-bbea-4e0f058df7f6]: GET /api/status
+2025-09-19 08:51:27,711 - api - INFO - [api.py:267] - Response [293f29d3-7de1-4484-bbea-4e0f058df7f6]: 200 - 0.004s
+2025-09-19 08:51:27,851 - api - INFO - [api.py:254] - Request [11a54555-764b-4e98-9703-0cc61bf76e66]: POST /api/conversations
+2025-09-19 08:51:27,853 - api - INFO - [api.py:267] - Response [11a54555-764b-4e98-9703-0cc61bf76e66]: 200 - 0.002s
+2025-09-19 08:51:27,859 - api - INFO - [api.py:254] - Request [cbe8d3d5-829c-4351-abb8-3a708c6001b8]: POST /api/conversations
+2025-09-19 08:51:27,861 - api - INFO - [api.py:267] - Response [cbe8d3d5-829c-4351-abb8-3a708c6001b8]: 200 - 0.002s
+2025-09-19 08:51:32,297 - api - INFO - [api.py:254] - Request [b8f3ba80-0240-4036-b6e9-6e5a6f3fc9dc]: GET /api/status
+2025-09-19 08:51:32,301 - api - INFO - [api.py:267] - Response [b8f3ba80-0240-4036-b6e9-6e5a6f3fc9dc]: 200 - 0.004s
+2025-09-19 08:51:33,359 - api - INFO - [api.py:254] - Request [f10cf290-d2e0-4871-8868-f34bd769a332]: GET /api/status
+2025-09-19 08:51:33,363 - api - INFO - [api.py:267] - Response [f10cf290-d2e0-4871-8868-f34bd769a332]: 200 - 0.005s
+2025-09-19 08:51:37,786 - api - INFO - [api.py:254] - Request [375d6caf-4d71-4b5b-9bae-825096e7ca6f]: POST /api/students
+2025-09-19 08:51:37,788 - api - INFO - [api.py:254] - Request [dad2f2c9-0825-4b91-8792-f1d919fe6560]: GET /api/status
+2025-09-19 08:51:37,791 - api - INFO - [api.py:254] - Request [41116dfa-f0dd-458c-a224-be983e06457b]: POST /api/students
+2025-09-19 08:51:37,793 - api - INFO - [api.py:267] - Response [dad2f2c9-0825-4b91-8792-f1d919fe6560]: 200 - 0.005s
+2025-09-19 08:51:37,795 - api - INFO - [api.py:267] - Response [375d6caf-4d71-4b5b-9bae-825096e7ca6f]: 200 - 0.009s
+2025-09-19 08:51:37,798 - api - INFO - [api.py:254] - Request [a6a2e83f-f611-472f-9003-3247d14edffd]: GET /api/status
+2025-09-19 08:51:37,799 - api - INFO - [api.py:267] - Response [41116dfa-f0dd-458c-a224-be983e06457b]: 200 - 0.008s
+2025-09-19 08:51:37,816 - api - INFO - [api.py:267] - Response [a6a2e83f-f611-472f-9003-3247d14edffd]: 200 - 0.017s
+2025-09-19 08:51:37,920 - api - INFO - [api.py:254] - Request [c93ca1dd-cebf-4d4f-92f7-a5ce627cfd3a]: POST /api/conversations
+2025-09-19 08:51:37,923 - api - INFO - [api.py:254] - Request [dfccd587-3c94-44e5-a519-dbad93e56c6a]: POST /api/conversations
+2025-09-19 08:51:37,925 - api - INFO - [api.py:267] - Response [c93ca1dd-cebf-4d4f-92f7-a5ce627cfd3a]: 200 - 0.005s
+2025-09-19 08:51:37,928 - api - INFO - [api.py:267] - Response [dfccd587-3c94-44e5-a519-dbad93e56c6a]: 200 - 0.005s
+2025-09-19 08:52:00,150 - api - INFO - [api.py:254] - Request [995fbd49-3249-4676-ba8f-2caf63dbc2a6]: GET /api/students
+2025-09-19 08:52:00,151 - api - INFO - [api.py:267] - Response [995fbd49-3249-4676-ba8f-2caf63dbc2a6]: 200 - 0.001s
+2025-09-19 08:52:00,155 - api - INFO - [api.py:254] - Request [9fd06550-7066-4e84-acd6-5d0bbe89f9aa]: GET /api/students
+2025-09-19 08:52:00,157 - api - INFO - [api.py:267] - Response [9fd06550-7066-4e84-acd6-5d0bbe89f9aa]: 200 - 0.002s
+2025-09-19 08:52:00,162 - api - INFO - [api.py:254] - Request [6441cdce-945e-4d32-b01f-71e9a6c9351d]: POST /api/conversations
+2025-09-19 08:52:00,164 - api - INFO - [api.py:267] - Response [6441cdce-945e-4d32-b01f-71e9a6c9351d]: 200 - 0.003s
+2025-09-19 08:52:00,168 - api - INFO - [api.py:254] - Request [f3795dcb-ae9d-4bdf-830f-b414fd61bc58]: POST /api/conversations
+2025-09-19 08:52:00,171 - api - INFO - [api.py:267] - Response [f3795dcb-ae9d-4bdf-830f-b414fd61bc58]: 200 - 0.003s
+2025-09-19 08:52:00,175 - api - INFO - [api.py:254] - Request [126d954a-22bc-481e-adbb-4a3a32baf62c]: POST /api/conversations
+2025-09-19 08:52:00,181 - api - INFO - [api.py:267] - Response [126d954a-22bc-481e-adbb-4a3a32baf62c]: 200 - 0.006s
+2025-09-19 08:52:00,186 - api - INFO - [api.py:254] - Request [d90b4924-e09d-4e4b-9458-d52cb2ce31f4]: POST /api/conversations
+2025-09-19 08:52:00,190 - api - INFO - [api.py:267] - Response [d90b4924-e09d-4e4b-9458-d52cb2ce31f4]: 200 - 0.004s
+2025-09-19 08:52:00,197 - api - INFO - [api.py:254] - Request [70d4f142-c667-4089-81f6-eb364401100f]: GET /api/status
+2025-09-19 08:52:00,202 - api - INFO - [api.py:267] - Response [70d4f142-c667-4089-81f6-eb364401100f]: 200 - 0.006s
+2025-09-19 08:52:00,206 - api - INFO - [api.py:254] - Request [b7e8f3b2-5fc3-4808-a830-5ef912f90615]: GET /api/documents/stats
+2025-09-19 08:52:00,212 - api - INFO - [api.py:267] - Response [b7e8f3b2-5fc3-4808-a830-5ef912f90615]: 200 - 0.006s
+2025-09-19 08:52:00,274 - api - INFO - [api.py:254] - Request [6e9b712b-1cef-4bf1-8abc-65b051799d1b]: GET /api/status
+2025-09-19 08:52:00,281 - api - INFO - [api.py:267] - Response [6e9b712b-1cef-4bf1-8abc-65b051799d1b]: 200 - 0.007s
+2025-09-19 08:52:00,286 - api - INFO - [api.py:254] - Request [ab0ae079-198e-44f3-9c10-2457221d3e03]: GET /api/documents/stats
+2025-09-19 08:52:00,289 - api - INFO - [api.py:267] - Response [ab0ae079-198e-44f3-9c10-2457221d3e03]: 200 - 0.004s
+2025-09-19 08:52:38,459 - api - INFO - [api.py:254] - Request [1a793260-84ed-497a-9865-80cd339f6cfa]: GET /api/students
+2025-09-19 08:52:38,461 - api - INFO - [api.py:267] - Response [1a793260-84ed-497a-9865-80cd339f6cfa]: 200 - 0.002s
+2025-09-19 08:52:38,467 - api - INFO - [api.py:254] - Request [28083fb6-2d24-4f57-9a67-05f278cfb8dc]: GET /api/students
+2025-09-19 08:52:38,469 - api - INFO - [api.py:267] - Response [28083fb6-2d24-4f57-9a67-05f278cfb8dc]: 200 - 0.001s
+2025-09-19 08:52:38,562 - api - INFO - [api.py:254] - Request [f9970831-0cf5-4bf4-89ef-be5efdaa2ba0]: POST /api/conversations
+2025-09-19 08:52:38,565 - api - INFO - [api.py:267] - Response [f9970831-0cf5-4bf4-89ef-be5efdaa2ba0]: 200 - 0.003s
+2025-09-19 08:52:38,596 - api - INFO - [api.py:254] - Request [23bfbc02-eaa2-42bd-bcb1-ed5271af8022]: POST /api/conversations
+2025-09-19 08:52:38,599 - api - INFO - [api.py:267] - Response [23bfbc02-eaa2-42bd-bcb1-ed5271af8022]: 200 - 0.003s
+2025-09-19 08:52:38,629 - api - INFO - [api.py:254] - Request [9be81c40-d5ab-49ca-93c4-99aec71cde23]: POST /api/conversations
+2025-09-19 08:52:38,631 - api - INFO - [api.py:254] - Request [32960d36-de25-4113-abe5-33e5f860fa6d]: POST /api/conversations
+2025-09-19 08:52:38,634 - api - INFO - [api.py:267] - Response [9be81c40-d5ab-49ca-93c4-99aec71cde23]: 200 - 0.005s
+2025-09-19 08:52:38,637 - api - INFO - [api.py:267] - Response [32960d36-de25-4113-abe5-33e5f860fa6d]: 200 - 0.005s
+2025-09-19 08:52:38,642 - api - INFO - [api.py:254] - Request [62922312-e4d4-4247-a346-cc1dd3a75043]: GET /api/status
+2025-09-19 08:52:38,646 - api - INFO - [api.py:254] - Request [5c7e4bf7-3507-43c7-983d-c81cfd8d1ab9]: GET /api/documents/stats
+2025-09-19 08:52:38,647 - api - INFO - [api.py:267] - Response [62922312-e4d4-4247-a346-cc1dd3a75043]: 200 - 0.004s
+2025-09-19 08:52:38,651 - api - INFO - [api.py:267] - Response [5c7e4bf7-3507-43c7-983d-c81cfd8d1ab9]: 200 - 0.005s
+2025-09-19 08:52:38,758 - api - INFO - [api.py:254] - Request [789a6cf6-69c6-485d-abcc-e7935066330f]: GET /api/status
+2025-09-19 08:52:38,763 - api - INFO - [api.py:254] - Request [31119a4a-b795-4e8a-aeb1-8f8c8ac1f635]: GET /api/documents/stats
+2025-09-19 08:52:38,764 - api - INFO - [api.py:267] - Response [789a6cf6-69c6-485d-abcc-e7935066330f]: 200 - 0.006s
+2025-09-19 08:52:38,770 - api - INFO - [api.py:267] - Response [31119a4a-b795-4e8a-aeb1-8f8c8ac1f635]: 200 - 0.006s
+2025-09-19 08:53:59,045 - api - INFO - [api.py:254] - Request [733a5abc-4120-47d1-b564-0af464ae79d4]: GET /api/students
+2025-09-19 08:53:59,047 - api - INFO - [api.py:267] - Response [733a5abc-4120-47d1-b564-0af464ae79d4]: 200 - 0.002s
+2025-09-19 08:53:59,052 - api - INFO - [api.py:254] - Request [c0540aa3-b42a-4ef2-a618-730e5907a123]: GET /api/students
+2025-09-19 08:53:59,054 - api - INFO - [api.py:267] - Response [c0540aa3-b42a-4ef2-a618-730e5907a123]: 200 - 0.002s
+2025-09-19 08:53:59,059 - api - INFO - [api.py:254] - Request [ce31d201-4991-4b48-948e-38636f723a87]: POST /api/conversations
+2025-09-19 08:53:59,062 - api - INFO - [api.py:267] - Response [ce31d201-4991-4b48-948e-38636f723a87]: 200 - 0.003s
+2025-09-19 08:53:59,066 - api - INFO - [api.py:254] - Request [cd76e783-5eb7-4e8d-b85e-06f14a4faf81]: POST /api/conversations
+2025-09-19 08:53:59,070 - api - INFO - [api.py:267] - Response [cd76e783-5eb7-4e8d-b85e-06f14a4faf81]: 200 - 0.004s
+2025-09-19 08:53:59,075 - api - INFO - [api.py:254] - Request [497094e5-f426-40df-ac38-cf111f0b332f]: POST /api/conversations
+2025-09-19 08:53:59,078 - api - INFO - [api.py:267] - Response [497094e5-f426-40df-ac38-cf111f0b332f]: 200 - 0.003s
+2025-09-19 08:53:59,082 - api - INFO - [api.py:254] - Request [902fc138-ba85-4e2c-b388-125b4d868151]: POST /api/conversations
+2025-09-19 08:53:59,085 - api - INFO - [api.py:267] - Response [902fc138-ba85-4e2c-b388-125b4d868151]: 200 - 0.003s
+2025-09-19 08:53:59,089 - api - INFO - [api.py:254] - Request [03c3b2e6-8834-4250-a45e-392f96495d3c]: GET /api/status
+2025-09-19 08:53:59,097 - api - INFO - [api.py:267] - Response [03c3b2e6-8834-4250-a45e-392f96495d3c]: 200 - 0.008s
+2025-09-19 08:53:59,100 - api - INFO - [api.py:254] - Request [4f795c76-ebb4-4438-b1b1-4080fa38ea60]: GET /api/documents/stats
+2025-09-19 08:53:59,105 - api - INFO - [api.py:267] - Response [4f795c76-ebb4-4438-b1b1-4080fa38ea60]: 200 - 0.005s
+2025-09-19 08:53:59,109 - api - INFO - [api.py:254] - Request [0b80a665-0a83-47b1-a0b7-9c42a5ec6f16]: OPTIONS /api/metrics
+2025-09-19 08:53:59,110 - api - INFO - [api.py:267] - Response [0b80a665-0a83-47b1-a0b7-9c42a5ec6f16]: 200 - 0.001s
+2025-09-19 08:53:59,114 - api - INFO - [api.py:254] - Request [2b38dbfd-3e8b-4a88-a8b1-33e92499f22f]: OPTIONS /api/metrics
+2025-09-19 08:53:59,115 - api - INFO - [api.py:267] - Response [2b38dbfd-3e8b-4a88-a8b1-33e92499f22f]: 200 - 0.001s
+2025-09-19 08:53:59,118 - api - INFO - [api.py:254] - Request [8521f6dc-c25d-4538-9d63-14705ca4be65]: GET /api/status
+2025-09-19 08:53:59,124 - api - INFO - [api.py:267] - Response [8521f6dc-c25d-4538-9d63-14705ca4be65]: 200 - 0.006s
+2025-09-19 08:53:59,128 - api - INFO - [api.py:254] - Request [61f2032e-241d-4695-9e11-f0670a68fdb4]: GET /api/documents/stats
+2025-09-19 08:53:59,132 - api - INFO - [api.py:267] - Response [61f2032e-241d-4695-9e11-f0670a68fdb4]: 200 - 0.004s
+2025-09-19 08:53:59,136 - api - INFO - [api.py:254] - Request [85d31bdc-2de9-47c8-91ac-eb479d33da59]: GET /api/metrics
+2025-09-19 08:53:59,138 - api - INFO - [api.py:267] - Response [85d31bdc-2de9-47c8-91ac-eb479d33da59]: 404 - 0.002s
+2025-09-19 08:53:59,142 - api - INFO - [api.py:254] - Request [f85bec29-27ea-466b-9985-dd3286d9a17e]: GET /api/metrics
+2025-09-19 08:53:59,144 - api - INFO - [api.py:267] - Response [f85bec29-27ea-466b-9985-dd3286d9a17e]: 404 - 0.002s
+2025-09-19 08:53:59,162 - api - INFO - [api.py:254] - Request [6a7a4098-c975-4268-bd65-a41746ffba56]: GET /api/students
+2025-09-19 08:53:59,165 - api - INFO - [api.py:267] - Response [6a7a4098-c975-4268-bd65-a41746ffba56]: 200 - 0.003s
+2025-09-19 08:53:59,170 - api - INFO - [api.py:254] - Request [1d5146a4-c1f8-41fa-84be-93108e0ec1d0]: GET /api/students
+2025-09-19 08:53:59,173 - api - INFO - [api.py:267] - Response [1d5146a4-c1f8-41fa-84be-93108e0ec1d0]: 200 - 0.003s
+2025-09-19 08:56:14,953 - api - INFO - [api.py:254] - Request [285a03d5-f9f0-4df7-96d2-e32ac99ecf01]: POST /api/students
+2025-09-19 08:56:14,962 - api - INFO - [api.py:267] - Response [285a03d5-f9f0-4df7-96d2-e32ac99ecf01]: 200 - 0.009s
+2025-09-19 08:56:14,976 - api - INFO - [api.py:254] - Request [91a2ddbb-dfd5-40a9-a746-ef2211679355]: GET /api/students
+2025-09-19 08:56:14,979 - api - INFO - [api.py:267] - Response [91a2ddbb-dfd5-40a9-a746-ef2211679355]: 200 - 0.003s
+2025-09-19 08:56:29,887 - api - INFO - [api.py:254] - Request [aa490c98-f851-43db-bb12-a161f8b6f5b8]: GET /api/students
+2025-09-19 08:56:29,889 - api - INFO - [api.py:267] - Response [aa490c98-f851-43db-bb12-a161f8b6f5b8]: 200 - 0.003s
+2025-09-19 08:56:29,895 - api - INFO - [api.py:254] - Request [c3bcfb3d-431d-40c5-aeff-94c96ce34af2]: GET /api/students
+2025-09-19 08:56:29,898 - api - INFO - [api.py:267] - Response [c3bcfb3d-431d-40c5-aeff-94c96ce34af2]: 200 - 0.003s
+2025-09-19 08:56:30,017 - api - INFO - [api.py:254] - Request [8ec10060-dac2-43b6-910f-21575046d031]: POST /api/conversations
+2025-09-19 08:56:30,020 - api - INFO - [api.py:267] - Response [8ec10060-dac2-43b6-910f-21575046d031]: 200 - 0.003s
+2025-09-19 08:56:30,029 - api - INFO - [api.py:254] - Request [67c5c102-dc4b-4bd7-a407-89b2fe257001]: POST /api/conversations
+2025-09-19 08:56:30,033 - api - INFO - [api.py:267] - Response [67c5c102-dc4b-4bd7-a407-89b2fe257001]: 200 - 0.005s
+2025-09-19 08:56:30,084 - api - INFO - [api.py:254] - Request [fa8ec73c-19cf-41b3-80b9-5404f1b3da34]: POST /api/conversations
+2025-09-19 08:56:30,088 - api - INFO - [api.py:267] - Response [fa8ec73c-19cf-41b3-80b9-5404f1b3da34]: 200 - 0.004s
+2025-09-19 08:56:30,091 - api - INFO - [api.py:254] - Request [fed488d7-4b2f-4efe-b0b0-155577e05736]: POST /api/conversations
+2025-09-19 08:56:30,096 - api - INFO - [api.py:267] - Response [fed488d7-4b2f-4efe-b0b0-155577e05736]: 200 - 0.004s
+2025-09-19 08:56:30,101 - api - INFO - [api.py:254] - Request [23b33f7c-63b0-4d2d-9c02-fc6a68f097d5]: GET /api/status
+2025-09-19 08:56:30,105 - api - INFO - [api.py:267] - Response [23b33f7c-63b0-4d2d-9c02-fc6a68f097d5]: 200 - 0.004s
+2025-09-19 08:56:30,112 - api - INFO - [api.py:254] - Request [e255a793-daa9-43d4-95b7-4b9dddbb98f9]: GET /api/status
+2025-09-19 08:56:30,119 - api - INFO - [api.py:267] - Response [e255a793-daa9-43d4-95b7-4b9dddbb98f9]: 200 - 0.007s
+2025-09-19 08:56:30,122 - api - INFO - [api.py:254] - Request [7a382ff1-1c77-447b-8b33-93bc94b2ca62]: GET /api/documents/stats
+2025-09-19 08:56:30,125 - api - INFO - [api.py:267] - Response [7a382ff1-1c77-447b-8b33-93bc94b2ca62]: 200 - 0.003s
+2025-09-19 08:56:30,142 - api - INFO - [api.py:254] - Request [7dd352c1-72de-42f1-bc55-58c179fe2120]: GET /api/documents/stats
+2025-09-19 08:56:30,145 - api - INFO - [api.py:267] - Response [7dd352c1-72de-42f1-bc55-58c179fe2120]: 200 - 0.003s
+2025-09-19 08:56:30,149 - api - INFO - [api.py:254] - Request [5dc80615-8a31-4fef-825b-670b6267c477]: GET /api/metrics
+2025-09-19 08:56:30,150 - api - INFO - [api.py:267] - Response [5dc80615-8a31-4fef-825b-670b6267c477]: 404 - 0.001s
+2025-09-19 08:56:30,167 - api - INFO - [api.py:254] - Request [fd6c8a69-de40-40d2-aad6-705a2427ae98]: GET /api/students
+2025-09-19 08:56:30,168 - api - INFO - [api.py:267] - Response [fd6c8a69-de40-40d2-aad6-705a2427ae98]: 200 - 0.001s
+2025-09-19 08:56:30,199 - api - INFO - [api.py:254] - Request [def7f076-9e04-4006-a273-a8b5fcc7c976]: GET /api/metrics
+2025-09-19 08:56:30,201 - api - INFO - [api.py:267] - Response [def7f076-9e04-4006-a273-a8b5fcc7c976]: 404 - 0.002s
+2025-09-19 08:56:30,237 - api - INFO - [api.py:254] - Request [ef851f16-b302-451d-8592-ed4d6d430fe2]: GET /api/students
+2025-09-19 08:56:30,240 - api - INFO - [api.py:267] - Response [ef851f16-b302-451d-8592-ed4d6d430fe2]: 200 - 0.003s
+2025-09-19 08:58:12,989 - api - INFO - [api.py:254] - Request [fa02f77b-9b71-490a-8b96-865fdcb0bda1]: OPTIONS /api/students
+2025-09-19 08:58:12,990 - api - INFO - [api.py:254] - Request [9e457949-2088-4fd9-a588-fa2fbe15baaa]: OPTIONS /api/students
+2025-09-19 08:58:12,991 - api - INFO - [api.py:267] - Response [fa02f77b-9b71-490a-8b96-865fdcb0bda1]: 200 - 0.002s
+2025-09-19 08:58:12,992 - api - INFO - [api.py:267] - Response [9e457949-2088-4fd9-a588-fa2fbe15baaa]: 200 - 0.002s
+2025-09-19 08:58:12,995 - api - INFO - [api.py:254] - Request [55222aad-ecac-416f-9c37-fd6e1907b285]: GET /api/students
+2025-09-19 08:58:12,996 - api - INFO - [api.py:267] - Response [55222aad-ecac-416f-9c37-fd6e1907b285]: 200 - 0.001s
+2025-09-19 08:58:12,998 - api - INFO - [api.py:254] - Request [acd3d929-7e69-417b-a1b8-69fa11c35ea2]: GET /api/students
+2025-09-19 08:58:12,999 - api - INFO - [api.py:267] - Response [acd3d929-7e69-417b-a1b8-69fa11c35ea2]: 200 - 0.001s
+2025-09-19 08:58:13,004 - api - INFO - [api.py:254] - Request [23f62934-0f5e-41eb-be65-45651e0aeaca]: OPTIONS /api/conversations
+2025-09-19 08:58:13,005 - api - INFO - [api.py:267] - Response [23f62934-0f5e-41eb-be65-45651e0aeaca]: 200 - 0.001s
+2025-09-19 08:58:13,007 - api - INFO - [api.py:254] - Request [6ce1b191-fbcb-4a9c-90c0-3c19f8578958]: OPTIONS /api/conversations
+2025-09-19 08:58:13,008 - api - INFO - [api.py:267] - Response [6ce1b191-fbcb-4a9c-90c0-3c19f8578958]: 200 - 0.001s
+2025-09-19 08:58:13,009 - api - INFO - [api.py:254] - Request [f851684c-e446-4792-9a3b-0fa2428789c8]: POST /api/conversations
+2025-09-19 08:58:13,011 - api - INFO - [api.py:254] - Request [529c7941-fa1a-4531-98af-56e6c6f46b5b]: POST /api/conversations
+2025-09-19 08:58:13,012 - api - INFO - [api.py:267] - Response [f851684c-e446-4792-9a3b-0fa2428789c8]: 200 - 0.002s
+2025-09-19 08:58:13,014 - api - INFO - [api.py:267] - Response [529c7941-fa1a-4531-98af-56e6c6f46b5b]: 200 - 0.003s
+2025-09-19 08:58:13,019 - api - INFO - [api.py:254] - Request [d4d55dd8-1930-4b97-a56e-54f884da4c08]: POST /api/conversations
+2025-09-19 08:58:13,021 - api - INFO - [api.py:267] - Response [d4d55dd8-1930-4b97-a56e-54f884da4c08]: 200 - 0.003s
+2025-09-19 08:58:13,023 - api - INFO - [api.py:254] - Request [7cbfcbfe-c889-4400-b1e7-c04413b36f4b]: POST /api/conversations
+2025-09-19 08:58:13,026 - api - INFO - [api.py:267] - Response [7cbfcbfe-c889-4400-b1e7-c04413b36f4b]: 200 - 0.003s
+2025-09-19 08:58:13,028 - api - INFO - [api.py:254] - Request [b22b1bb6-02eb-4dec-b8e0-efc2ed0078bd]: OPTIONS /api/status
+2025-09-19 08:58:13,030 - api - INFO - [api.py:267] - Response [b22b1bb6-02eb-4dec-b8e0-efc2ed0078bd]: 200 - 0.001s
+2025-09-19 08:58:13,033 - api - INFO - [api.py:254] - Request [2fe163bf-16aa-4cb4-9b4e-743014762d4e]: OPTIONS /api/status
+2025-09-19 08:58:13,034 - api - INFO - [api.py:267] - Response [2fe163bf-16aa-4cb4-9b4e-743014762d4e]: 200 - 0.001s
+2025-09-19 08:58:13,036 - api - INFO - [api.py:254] - Request [199fd38b-112e-4646-a999-94efa53fd598]: GET /api/status
+2025-09-19 08:58:13,038 - api - INFO - [api.py:267] - Response [199fd38b-112e-4646-a999-94efa53fd598]: 200 - 0.003s
+2025-09-19 08:58:13,041 - api - INFO - [api.py:254] - Request [e43e4a66-fb28-4685-bd99-45d4955faeac]: GET /api/status
+2025-09-19 08:58:13,044 - api - INFO - [api.py:267] - Response [e43e4a66-fb28-4685-bd99-45d4955faeac]: 200 - 0.003s
+2025-09-19 08:58:13,047 - api - INFO - [api.py:254] - Request [49121d62-4949-486f-befd-d76b7a95ae1b]: GET /api/documents/stats
+2025-09-19 08:58:13,049 - api - INFO - [api.py:267] - Response [49121d62-4949-486f-befd-d76b7a95ae1b]: 200 - 0.003s
+2025-09-19 08:58:13,070 - api - INFO - [api.py:254] - Request [07d4b265-cc07-4b3c-886d-bda7d2ecb849]: GET /api/documents/stats
+2025-09-19 08:58:13,074 - api - INFO - [api.py:254] - Request [db935d51-c321-4fd7-8a4c-f8506a7c504e]: GET /api/metrics
+2025-09-19 08:58:13,075 - api - INFO - [api.py:267] - Response [07d4b265-cc07-4b3c-886d-bda7d2ecb849]: 200 - 0.005s
+2025-09-19 08:58:13,078 - api - INFO - [api.py:267] - Response [db935d51-c321-4fd7-8a4c-f8506a7c504e]: 404 - 0.003s
+2025-09-19 08:58:13,098 - api - INFO - [api.py:254] - Request [9fd93d4c-f0fa-4f27-b455-741f1f6b8175]: GET /api/students
+2025-09-19 08:58:13,099 - api - INFO - [api.py:267] - Response [9fd93d4c-f0fa-4f27-b455-741f1f6b8175]: 200 - 0.002s
+2025-09-19 08:58:13,130 - api - INFO - [api.py:254] - Request [d937e3e0-bf13-4e5e-8649-afe60a203118]: GET /api/metrics
+2025-09-19 08:58:13,132 - api - INFO - [api.py:267] - Response [d937e3e0-bf13-4e5e-8649-afe60a203118]: 404 - 0.002s
+2025-09-19 08:58:13,160 - api - INFO - [api.py:254] - Request [b57d8856-a57a-4418-84a4-3e1987d7ae33]: GET /api/students
+2025-09-19 08:58:13,161 - api - INFO - [api.py:267] - Response [b57d8856-a57a-4418-84a4-3e1987d7ae33]: 200 - 0.001s
+2025-09-19 08:58:24,299 - api - INFO - [api.py:254] - Request [c042c92b-b084-441e-982c-8550cb5302a4]: OPTIONS /api/students/1
+2025-09-19 08:58:24,302 - api - INFO - [api.py:267] - Response [c042c92b-b084-441e-982c-8550cb5302a4]: 200 - 0.002s
+2025-09-19 08:58:24,310 - api - INFO - [api.py:254] - Request [cabc7926-5798-4180-aa64-a5947db1cd2e]: DELETE /api/students/1
+2025-09-19 08:58:24,327 - api - INFO - [api.py:267] - Response [cabc7926-5798-4180-aa64-a5947db1cd2e]: 500 - 0.016s
+2025-09-19 08:58:42,867 - api - INFO - [api.py:254] - Request [62c84b5a-cb2e-4fef-b02a-542e9373c340]: OPTIONS /api/students
+2025-09-19 08:58:42,869 - api - INFO - [api.py:254] - Request [c67e6aa6-a813-4263-b248-5b6f5f52a64e]: OPTIONS /api/students
+2025-09-19 08:58:42,869 - api - INFO - [api.py:267] - Response [62c84b5a-cb2e-4fef-b02a-542e9373c340]: 200 - 0.002s
+2025-09-19 08:58:42,871 - api - INFO - [api.py:267] - Response [c67e6aa6-a813-4263-b248-5b6f5f52a64e]: 200 - 0.002s
+2025-09-19 08:58:42,880 - api - INFO - [api.py:254] - Request [548945b4-42d1-453e-b08c-eeee56ad19e7]: POST /api/students
+2025-09-19 08:58:42,883 - api - INFO - [api.py:254] - Request [e80a7fcd-2558-41af-b7a5-0d1368da3475]: POST /api/students
+2025-09-19 08:58:42,885 - api - INFO - [api.py:267] - Response [548945b4-42d1-453e-b08c-eeee56ad19e7]: 200 - 0.004s
+2025-09-19 08:58:42,887 - api - INFO - [api.py:267] - Response [e80a7fcd-2558-41af-b7a5-0d1368da3475]: 200 - 0.005s
+2025-09-19 08:58:42,927 - api - INFO - [api.py:254] - Request [5963420f-5309-4cc2-8d11-52039ada27a4]: OPTIONS /api/status
+2025-09-19 08:58:42,929 - api - INFO - [api.py:254] - Request [4c36378e-995d-4894-a71d-eab347bd1b14]: OPTIONS /api/documents/stats
+2025-09-19 08:58:42,930 - api - INFO - [api.py:267] - Response [5963420f-5309-4cc2-8d11-52039ada27a4]: 200 - 0.003s
+2025-09-19 08:58:42,932 - api - INFO - [api.py:267] - Response [4c36378e-995d-4894-a71d-eab347bd1b14]: 200 - 0.003s
+2025-09-19 08:58:42,936 - api - INFO - [api.py:254] - Request [c7b6ea3a-4df5-4733-943b-8b85d1c42134]: OPTIONS /api/student/subjects
+2025-09-19 08:58:42,937 - api - INFO - [api.py:267] - Response [c7b6ea3a-4df5-4733-943b-8b85d1c42134]: 200 - 0.001s
+2025-09-19 08:58:42,939 - api - INFO - [api.py:254] - Request [c6d53049-82e6-483b-ade0-1e6ebe1b049d]: OPTIONS /api/student/1/usage-stats
+2025-09-19 08:58:42,940 - api - INFO - [api.py:267] - Response [c6d53049-82e6-483b-ade0-1e6ebe1b049d]: 200 - 0.001s
+2025-09-19 08:58:42,944 - api - INFO - [api.py:254] - Request [2b66c4f9-44bc-4dd2-b558-b91eee548bbe]: OPTIONS /api/status
+2025-09-19 08:58:42,946 - api - INFO - [api.py:267] - Response [2b66c4f9-44bc-4dd2-b558-b91eee548bbe]: 200 - 0.002s
+2025-09-19 08:58:42,949 - api - INFO - [api.py:254] - Request [058f3c45-ea97-45ae-ad32-3604d8ee6853]: OPTIONS /api/documents/stats
+2025-09-19 08:58:42,950 - api - INFO - [api.py:267] - Response [058f3c45-ea97-45ae-ad32-3604d8ee6853]: 200 - 0.001s
+2025-09-19 08:58:42,952 - api - INFO - [api.py:254] - Request [b4058647-9edb-4200-ba60-0f1d08412c15]: OPTIONS /api/student/subjects
+2025-09-19 08:58:42,953 - api - INFO - [api.py:267] - Response [b4058647-9edb-4200-ba60-0f1d08412c15]: 200 - 0.001s
+2025-09-19 08:58:42,955 - api - INFO - [api.py:254] - Request [85607523-627f-4bdd-aace-fd1e2d5c6bab]: OPTIONS /api/student/1/usage-stats
+2025-09-19 08:58:42,957 - api - INFO - [api.py:267] - Response [85607523-627f-4bdd-aace-fd1e2d5c6bab]: 200 - 0.001s
+2025-09-19 08:58:42,960 - api - INFO - [api.py:254] - Request [ae635b23-23a3-4929-9582-cd337207c742]: GET /api/status
+2025-09-19 08:58:42,965 - api - INFO - [api.py:267] - Response [ae635b23-23a3-4929-9582-cd337207c742]: 200 - 0.005s
+2025-09-19 08:58:42,967 - api - INFO - [api.py:254] - Request [dd6ec08c-dc80-4f1e-9aa8-114f9539e1ca]: GET /api/documents/stats
+2025-09-19 08:58:42,969 - api - INFO - [api.py:267] - Response [dd6ec08c-dc80-4f1e-9aa8-114f9539e1ca]: 200 - 0.003s
+2025-09-19 08:58:42,972 - api - INFO - [api.py:254] - Request [963aef6d-50cf-4186-91b3-779181a0b7c2]: GET /api/student/subjects
+2025-09-19 08:58:42,977 - api - INFO - [api.py:267] - Response [963aef6d-50cf-4186-91b3-779181a0b7c2]: 200 - 0.005s
+2025-09-19 08:58:42,981 - api - INFO - [api.py:254] - Request [8d5f0e7b-c24b-420c-899d-1f5775b0745a]: GET /api/student/1/usage-stats
+2025-09-19 08:58:42,986 - api - INFO - [api.py:267] - Response [8d5f0e7b-c24b-420c-899d-1f5775b0745a]: 200 - 0.005s
+2025-09-19 08:58:42,987 - api - INFO - [api.py:254] - Request [dd43ed26-3a0b-405f-9739-c975d825b92a]: GET /api/status
+2025-09-19 08:58:42,994 - api - INFO - [api.py:267] - Response [dd43ed26-3a0b-405f-9739-c975d825b92a]: 200 - 0.006s
+2025-09-19 08:58:42,996 - api - INFO - [api.py:254] - Request [5ace4c48-2c76-4b91-b4f9-ab42253a0ef8]: GET /api/documents/stats
+2025-09-19 08:58:43,000 - api - INFO - [api.py:267] - Response [5ace4c48-2c76-4b91-b4f9-ab42253a0ef8]: 200 - 0.004s
+2025-09-19 08:58:43,002 - api - INFO - [api.py:254] - Request [9800d26a-aea6-4654-8cf7-d115668d0ba0]: GET /api/student/subjects
+2025-09-19 08:58:43,007 - api - INFO - [api.py:267] - Response [9800d26a-aea6-4654-8cf7-d115668d0ba0]: 200 - 0.005s
+2025-09-19 08:58:43,010 - api - INFO - [api.py:254] - Request [48442ea3-3e6b-44fc-b25b-8c9075cfd6ff]: GET /api/student/1/usage-stats
+2025-09-19 08:58:43,013 - api - INFO - [api.py:267] - Response [48442ea3-3e6b-44fc-b25b-8c9075cfd6ff]: 200 - 0.003s
+2025-09-19 09:00:38,820 - api - INFO - [api.py:254] - Request [1ec17376-813b-41cd-b106-2ee50a8e93f1]: GET /api/students
+2025-09-19 09:00:38,823 - api - INFO - [api.py:267] - Response [1ec17376-813b-41cd-b106-2ee50a8e93f1]: 200 - 0.003s
+2025-09-19 09:00:38,828 - api - INFO - [api.py:254] - Request [2104777d-1581-4d51-ae39-232a427b519c]: GET /api/students
+2025-09-19 09:00:38,831 - api - INFO - [api.py:267] - Response [2104777d-1581-4d51-ae39-232a427b519c]: 200 - 0.002s
+2025-09-19 09:00:38,838 - api - INFO - [api.py:254] - Request [5bf1a159-e1d8-4b74-839f-e143bd050826]: OPTIONS /api/conversations
+2025-09-19 09:00:38,840 - api - INFO - [api.py:267] - Response [5bf1a159-e1d8-4b74-839f-e143bd050826]: 200 - 0.002s
+2025-09-19 09:00:38,846 - api - INFO - [api.py:254] - Request [f31408e5-8837-4420-8473-98eb20b0c53e]: OPTIONS /api/conversations
+2025-09-19 09:00:38,848 - api - INFO - [api.py:267] - Response [f31408e5-8837-4420-8473-98eb20b0c53e]: 200 - 0.002s
+2025-09-19 09:00:38,854 - api - INFO - [api.py:254] - Request [7affc48d-4b71-4d0a-8158-a610f3a25dfd]: POST /api/conversations
+2025-09-19 09:00:38,857 - api - INFO - [api.py:267] - Response [7affc48d-4b71-4d0a-8158-a610f3a25dfd]: 200 - 0.004s
+2025-09-19 09:00:38,862 - api - INFO - [api.py:254] - Request [b7f3d6ae-542c-4be4-8964-40078bbbb8a7]: POST /api/conversations
+2025-09-19 09:00:38,865 - api - INFO - [api.py:267] - Response [b7f3d6ae-542c-4be4-8964-40078bbbb8a7]: 200 - 0.003s
+2025-09-19 09:00:38,873 - api - INFO - [api.py:254] - Request [c9827b1c-f35e-4989-923c-179212896041]: POST /api/conversations
+2025-09-19 09:00:38,876 - api - INFO - [api.py:267] - Response [c9827b1c-f35e-4989-923c-179212896041]: 200 - 0.004s
+2025-09-19 09:00:38,882 - api - INFO - [api.py:254] - Request [dcbde31c-d8db-40cc-9cd8-53e4481a2da6]: POST /api/conversations
+2025-09-19 09:00:38,885 - api - INFO - [api.py:267] - Response [dcbde31c-d8db-40cc-9cd8-53e4481a2da6]: 200 - 0.004s
+2025-09-19 09:00:38,891 - api - INFO - [api.py:254] - Request [d0276ddb-386b-4dc8-9056-0085b4e5fd07]: GET /api/status
+2025-09-19 09:00:38,897 - api - INFO - [api.py:267] - Response [d0276ddb-386b-4dc8-9056-0085b4e5fd07]: 200 - 0.006s
+2025-09-19 09:00:38,903 - api - INFO - [api.py:254] - Request [1fbd4751-d4d5-41e9-a4de-b0ec9eed833c]: GET /api/status
+2025-09-19 09:00:38,908 - api - INFO - [api.py:267] - Response [1fbd4751-d4d5-41e9-a4de-b0ec9eed833c]: 200 - 0.006s
+2025-09-19 09:00:38,913 - api - INFO - [api.py:254] - Request [6a62f567-9bf4-4207-a119-ca6cce786366]: GET /api/documents/stats
+2025-09-19 09:00:38,917 - api - INFO - [api.py:267] - Response [6a62f567-9bf4-4207-a119-ca6cce786366]: 200 - 0.005s
+2025-09-19 09:00:38,959 - api - INFO - [api.py:254] - Request [8e0fc9a9-11cd-4163-8f33-b503f66ce7f7]: GET /api/documents/stats
+2025-09-19 09:00:38,964 - api - INFO - [api.py:267] - Response [8e0fc9a9-11cd-4163-8f33-b503f66ce7f7]: 200 - 0.005s
+2025-09-19 09:00:38,969 - api - INFO - [api.py:254] - Request [bfbd376f-484d-4e37-9765-07cecd495252]: OPTIONS /api/metrics
+2025-09-19 09:00:38,971 - api - INFO - [api.py:267] - Response [bfbd376f-484d-4e37-9765-07cecd495252]: 200 - 0.002s
+2025-09-19 09:00:38,977 - api - INFO - [api.py:254] - Request [43046ff2-9484-435a-8210-db347c241ebf]: GET /api/metrics
+2025-09-19 09:00:38,979 - api - INFO - [api.py:267] - Response [43046ff2-9484-435a-8210-db347c241ebf]: 404 - 0.002s
+2025-09-19 09:00:39,019 - api - INFO - [api.py:254] - Request [31ff11fc-ccd2-4895-8b24-75602c8ac4d1]: GET /api/students
+2025-09-19 09:00:39,020 - api - INFO - [api.py:267] - Response [31ff11fc-ccd2-4895-8b24-75602c8ac4d1]: 200 - 0.002s
+2025-09-19 09:00:39,367 - api - INFO - [api.py:254] - Request [4686dc2c-86d1-4e54-9cfd-cafe822b4c7d]: GET /api/metrics
+2025-09-19 09:00:39,372 - api - INFO - [api.py:267] - Response [4686dc2c-86d1-4e54-9cfd-cafe822b4c7d]: 404 - 0.005s
+2025-09-19 09:00:39,389 - api - INFO - [api.py:254] - Request [69fad905-feaf-4de0-9f6c-9896a5898b71]: GET /api/students
+2025-09-19 09:00:39,390 - api - INFO - [api.py:267] - Response [69fad905-feaf-4de0-9f6c-9896a5898b71]: 200 - 0.002s
+2025-09-19 09:00:50,123 - api - INFO - [api.py:254] - Request [47eba993-f62f-4b31-9d0d-ecb01e335e71]: OPTIONS /api/students/1
+2025-09-19 09:00:50,126 - api - INFO - [api.py:267] - Response [47eba993-f62f-4b31-9d0d-ecb01e335e71]: 200 - 0.003s
+2025-09-19 09:00:50,137 - api - INFO - [api.py:254] - Request [4dea4554-305b-4a54-9324-665d18f57ae7]: DELETE /api/students/1
+2025-09-19 09:00:50,142 - api - INFO - [api.py:267] - Response [4dea4554-305b-4a54-9324-665d18f57ae7]: 500 - 0.005s
+2025-09-19 09:04:33,262 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 09:04:33,264 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 09:04:33,264 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 09:04:33,319 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 09:04:51,824 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:05:03,199 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 09:05:03,201 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 09:05:03,202 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 09:05:03,262 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 09:05:10,543 - api - INFO - [api.py:254] - Request [7b7cc64a-484d-4040-9b46-b173b5241070]: GET /api/metrics
+2025-09-19 09:05:10,547 - api - INFO - [api.py:267] - Response [7b7cc64a-484d-4040-9b46-b173b5241070]: 404 - 0.004s
+2025-09-19 09:05:19,885 - __main__ - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:05:20,161 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:05:20,259 - api - INFO - [api.py:282] - 🚀 Starting Professional Ollama RAG System...
+2025-09-19 09:05:20,263 - api - INFO - [api.py:365] - ✅ Configuration manager initialized
+2025-09-19 09:05:20,264 - api - WARNING - [api.py:373] - Database initialization not available
+2025-09-19 09:05:20,265 - api - INFO - [api.py:382] - ✅ Cache manager initialized
+2025-09-19 09:05:20,266 - api - INFO - [api.py:387] - ✅ Metrics collector initialized
+2025-09-19 09:05:20,267 - api - ERROR - [api.py:438] - ❌ System startup failed: 'NoneType' object is not callable
+2025-09-19 09:05:20,271 - api - INFO - [api.py:288] - 🛑 Shutting down Professional Ollama RAG System...
+2025-09-19 09:05:20,272 - api - INFO - [api.py:451] - ✅ Cache cleaned up
+2025-09-19 09:05:20,273 - api - INFO - [api.py:455] - ✅ Metrics flushed
+2025-09-19 09:05:20,274 - api - INFO - [api.py:457] - ✅ System shutdown completed
+2025-09-19 09:06:05,688 - api - INFO - [api.py:254] - Request [b53bd321-43c8-4d97-8940-7d2dc5384d4d]: GET /
+2025-09-19 09:06:05,690 - api - INFO - [api.py:267] - Response [b53bd321-43c8-4d97-8940-7d2dc5384d4d]: 200 - 0.003s
+2025-09-19 09:06:12,556 - api - INFO - [api.py:254] - Request [0d242f4a-3221-4490-9de2-1dba338b027d]: GET /api/metrics
+2025-09-19 09:06:12,559 - api - INFO - [api.py:267] - Response [0d242f4a-3221-4490-9de2-1dba338b027d]: 404 - 0.003s
+2025-09-19 09:06:23,896 - api - INFO - [api.py:254] - Request [836d02f4-f669-4885-88b1-6b22c354019e]: GET /docs
+2025-09-19 09:06:23,898 - api - INFO - [api.py:267] - Response [836d02f4-f669-4885-88b1-6b22c354019e]: 200 - 0.003s
+2025-09-19 09:06:32,463 - api - INFO - [api.py:254] - Request [2fdc0beb-e29b-4d47-995c-a01f2b496ed8]: GET /openapi.json
+2025-09-19 09:06:32,546 - api - INFO - [api.py:267] - Response [2fdc0beb-e29b-4d47-995c-a01f2b496ed8]: 200 - 0.082s
+2025-09-19 09:06:49,040 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 09:06:49,041 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 09:06:49,041 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 09:06:49,085 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 09:07:06,151 - faiss.loader - INFO - [loader.py:119] - Loading faiss with AVX512 support.
+2025-09-19 09:07:06,152 - faiss.loader - INFO - [loader.py:124] - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-09-19 09:07:06,153 - faiss.loader - INFO - [loader.py:131] - Loading faiss with AVX2 support.
+2025-09-19 09:07:06,196 - faiss.loader - INFO - [loader.py:133] - Successfully loaded faiss with AVX2 support.
+2025-09-19 09:07:14,983 - __main__ - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:07:15,251 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:07:15,366 - api - INFO - [api.py:282] - 🚀 Starting Professional Ollama RAG System...
+2025-09-19 09:07:15,369 - api - INFO - [api.py:365] - ✅ Configuration manager initialized
+2025-09-19 09:07:15,370 - api - WARNING - [api.py:373] - Database initialization not available
+2025-09-19 09:07:15,371 - api - INFO - [api.py:382] - ✅ Cache manager initialized
+2025-09-19 09:07:15,372 - api - INFO - [api.py:387] - ✅ Metrics collector initialized
+2025-09-19 09:07:15,372 - api - ERROR - [api.py:438] - ❌ System startup failed: 'NoneType' object is not callable
+2025-09-19 09:07:15,563 - api - INFO - [api.py:324] - Request [49524fe9-cd2e-49ba-93a3-c919a3e4bb00]: GET /api/students
+2025-09-19 09:07:15,572 - api - INFO - [api.py:337] - Response [49524fe9-cd2e-49ba-93a3-c919a3e4bb00]: 200 - 0.010s
+2025-09-19 09:07:15,582 - api - INFO - [api.py:324] - Request [040fa373-472f-4d49-8c38-d37ba394de00]: GET /api/students
+2025-09-19 09:07:15,588 - api - INFO - [api.py:337] - Response [040fa373-472f-4d49-8c38-d37ba394de00]: 200 - 0.006s
+2025-09-19 09:07:15,598 - api - INFO - [api.py:324] - Request [1e276990-3760-4e20-91da-17a62df28d9a]: GET /api/status
+2025-09-19 09:07:15,609 - api - INFO - [api.py:337] - Response [1e276990-3760-4e20-91da-17a62df28d9a]: 200 - 0.012s
+2025-09-19 09:07:15,617 - api - INFO - [api.py:324] - Request [6d2311d6-04af-4587-8d9c-9df3fbe07f04]: GET /api/status
+2025-09-19 09:07:15,631 - api - INFO - [api.py:337] - Response [6d2311d6-04af-4587-8d9c-9df3fbe07f04]: 200 - 0.014s
+2025-09-19 09:07:15,637 - api - INFO - [api.py:324] - Request [3b7585fb-5938-48dc-b95c-9af9d05a7e0f]: GET /api/documents/stats
+2025-09-19 09:07:15,644 - api - INFO - [api.py:337] - Response [3b7585fb-5938-48dc-b95c-9af9d05a7e0f]: 200 - 0.007s
+2025-09-19 09:07:15,701 - api - INFO - [api.py:324] - Request [3f322a40-0fd4-4543-a09b-5aa23c771216]: GET /api/documents/stats
+2025-09-19 09:07:15,711 - api - INFO - [api.py:337] - Response [3f322a40-0fd4-4543-a09b-5aa23c771216]: 200 - 0.010s
+2025-09-19 09:07:15,727 - api - INFO - [api.py:324] - Request [48ba0e41-d832-4338-bfea-3736ff55a9a2]: GET /api/metrics
+2025-09-19 09:07:15,732 - api - INFO - [api.py:337] - Response [48ba0e41-d832-4338-bfea-3736ff55a9a2]: 200 - 0.005s
+2025-09-19 09:07:15,795 - api - INFO - [api.py:324] - Request [33725571-1083-4936-8060-394bab361035]: GET /api/metrics
+2025-09-19 09:07:15,801 - api - INFO - [api.py:337] - Response [33725571-1083-4936-8060-394bab361035]: 200 - 0.006s
+2025-09-19 09:07:15,817 - api - INFO - [api.py:324] - Request [9afbcbf9-5531-4a02-bdd2-6a462905bf68]: GET /api/students
+2025-09-19 09:07:15,832 - api - INFO - [api.py:337] - Response [9afbcbf9-5531-4a02-bdd2-6a462905bf68]: 200 - 0.016s
+2025-09-19 09:07:15,873 - api - INFO - [api.py:324] - Request [d0b48340-b4c2-4d92-b057-fb8e10290fa5]: GET /api/students
+2025-09-19 09:07:15,880 - api - INFO - [api.py:337] - Response [d0b48340-b4c2-4d92-b057-fb8e10290fa5]: 200 - 0.007s
+2025-09-19 09:07:31,121 - api - WARNING - [api.py:49] - Some modules not available: cannot import name 'DocumentLoader' from 'src.document_loader' (C:\Users\HP\Desktop\assistant-etudiant-intelligent\assistant-etudiant-intelligent\src\document_loader.py)
+2025-09-19 09:07:47,015 - api - INFO - [api.py:324] - Request [dcec54de-3584-4a6b-8d45-846433e7385b]: GET /api/students
+2025-09-19 09:07:47,020 - api - INFO - [api.py:337] - Response [dcec54de-3584-4a6b-8d45-846433e7385b]: 200 - 0.004s
+2025-09-19 09:08:03,683 - api - INFO - [api.py:324] - Request [afa9186b-1a70-478b-85fd-988b775b79bc]: GET /api/students
+2025-09-19 09:08:03,688 - api - INFO - [api.py:337] - Response [afa9186b-1a70-478b-85fd-988b775b79bc]: 200 - 0.005s
+2025-09-19 09:08:03,697 - api - INFO - [api.py:324] - Request [86643c9d-555c-408f-9838-55855140c332]: GET /api/students
+2025-09-19 09:08:03,700 - api - INFO - [api.py:337] - Response [86643c9d-555c-408f-9838-55855140c332]: 200 - 0.003s
+2025-09-19 09:08:03,950 - api - INFO - [api.py:324] - Request [ed685d02-5343-4a3a-a485-e89c7bc21b94]: GET /api/status
+2025-09-19 09:08:03,981 - api - INFO - [api.py:337] - Response [ed685d02-5343-4a3a-a485-e89c7bc21b94]: 200 - 0.031s
+2025-09-19 09:08:03,985 - api - INFO - [api.py:324] - Request [1e935011-4cb8-42d9-8290-90fd4c5362a5]: GET /api/status
+2025-09-19 09:08:04,004 - api - INFO - [api.py:337] - Response [1e935011-4cb8-42d9-8290-90fd4c5362a5]: 200 - 0.020s
+2025-09-19 09:08:04,139 - api - INFO - [api.py:324] - Request [19b353fe-4036-42ff-b5fe-0211f661661e]: GET /api/documents/stats
+2025-09-19 09:08:04,146 - api - INFO - [api.py:337] - Response [19b353fe-4036-42ff-b5fe-0211f661661e]: 200 - 0.007s
+2025-09-19 09:08:04,151 - api - INFO - [api.py:324] - Request [2259ba0f-abbc-42f6-b034-f69dfa13cef4]: GET /api/documents/stats
+2025-09-19 09:08:04,157 - api - INFO - [api.py:337] - Response [2259ba0f-abbc-42f6-b034-f69dfa13cef4]: 200 - 0.006s
+2025-09-19 09:08:04,232 - api - INFO - [api.py:324] - Request [6f19d1c1-0bfb-4205-9d05-8db6670454c0]: GET /api/metrics
+2025-09-19 09:08:04,234 - api - INFO - [api.py:337] - Response [6f19d1c1-0bfb-4205-9d05-8db6670454c0]: 200 - 0.002s
+2025-09-19 09:08:04,239 - api - INFO - [api.py:324] - Request [c391e517-c744-40c5-8f5d-ef80ce606d25]: GET /api/metrics
+2025-09-19 09:08:04,243 - api - INFO - [api.py:337] - Response [c391e517-c744-40c5-8f5d-ef80ce606d25]: 200 - 0.004s
+2025-09-19 09:08:04,316 - api - INFO - [api.py:324] - Request [485687af-3f29-4a22-b060-f062c4d5c1fe]: GET /api/students
+2025-09-19 09:08:04,318 - api - INFO - [api.py:337] - Response [485687af-3f29-4a22-b060-f062c4d5c1fe]: 200 - 0.002s
+2025-09-19 09:08:04,327 - api - INFO - [api.py:324] - Request [e04ac341-43ea-4734-917a-4a58251d223c]: GET /api/students
+2025-09-19 09:08:04,333 - api - INFO - [api.py:337] - Response [e04ac341-43ea-4734-917a-4a58251d223c]: 200 - 0.006s
+2025-09-19 09:08:33,706 - api - INFO - [api.py:324] - Request [dfe5f290-2435-4191-a53c-77f3622b85e5]: GET /api/students
+2025-09-19 09:08:33,709 - api - INFO - [api.py:337] - Response [dfe5f290-2435-4191-a53c-77f3622b85e5]: 200 - 0.003s
+2025-09-19 09:08:39,955 - api - INFO - [api.py:324] - Request [3a41a3ed-c31a-40fe-bd54-7a2f3353187f]: GET /api/metrics
+2025-09-19 09:08:39,956 - api - INFO - [api.py:337] - Response [3a41a3ed-c31a-40fe-bd54-7a2f3353187f]: 200 - 0.002s
+2025-09-19 09:08:42,830 - api - INFO - [api.py:324] - Request [06624cfd-8fc1-4398-8dbf-aacbe099f571]: GET /api/metrics
+2025-09-19 09:08:42,832 - api - INFO - [api.py:337] - Response [06624cfd-8fc1-4398-8dbf-aacbe099f571]: 200 - 0.002s
+2025-09-19 09:09:00,239 - api - INFO - [api.py:324] - Request [e0102053-ae93-48ab-80ee-b501f7fc14fa]: OPTIONS /api/students
+2025-09-19 09:09:00,242 - api - INFO - [api.py:324] - Request [c2683ad2-be01-447f-a947-e1ccbc645918]: OPTIONS /api/students
+2025-09-19 09:09:00,243 - api - INFO - [api.py:337] - Response [e0102053-ae93-48ab-80ee-b501f7fc14fa]: 200 - 0.004s
+2025-09-19 09:09:00,245 - api - INFO - [api.py:337] - Response [c2683ad2-be01-447f-a947-e1ccbc645918]: 200 - 0.003s
+2025-09-19 09:09:00,254 - api - INFO - [api.py:324] - Request [e8af0e8c-1b2a-4124-96b4-40424f694227]: GET /api/students
+2025-09-19 09:09:00,257 - api - INFO - [api.py:337] - Response [e8af0e8c-1b2a-4124-96b4-40424f694227]: 200 - 0.003s
+2025-09-19 09:09:00,263 - api - INFO - [api.py:324] - Request [685095d0-6411-4e20-89a0-881208e77e7f]: GET /api/students
+2025-09-19 09:09:00,266 - api - INFO - [api.py:337] - Response [685095d0-6411-4e20-89a0-881208e77e7f]: 200 - 0.003s
+2025-09-19 09:09:00,279 - api - INFO - [api.py:324] - Request [b0151e94-d7a4-41f6-bc50-34bd4e0413cd]: OPTIONS /api/status
+2025-09-19 09:09:00,282 - api - INFO - [api.py:337] - Response [b0151e94-d7a4-41f6-bc50-34bd4e0413cd]: 200 - 0.003s
+2025-09-19 09:09:00,291 - api - INFO - [api.py:324] - Request [ee371478-d47a-4b35-990f-32e30af08797]: OPTIONS /api/status
+2025-09-19 09:09:00,293 - api - INFO - [api.py:337] - Response [ee371478-d47a-4b35-990f-32e30af08797]: 200 - 0.002s
+2025-09-19 09:09:00,297 - api - INFO - [api.py:324] - Request [6f8796aa-4209-4351-ba95-a8a8f7d0b3af]: GET /api/status
+2025-09-19 09:09:00,303 - api - INFO - [api.py:337] - Response [6f8796aa-4209-4351-ba95-a8a8f7d0b3af]: 200 - 0.006s
+2025-09-19 09:09:00,307 - api - INFO - [api.py:324] - Request [9e756680-cebc-4d31-81f1-9067a5fd7a43]: GET /api/status
+2025-09-19 09:09:00,314 - api - INFO - [api.py:337] - Response [9e756680-cebc-4d31-81f1-9067a5fd7a43]: 200 - 0.007s
+2025-09-19 09:09:00,319 - api - INFO - [api.py:324] - Request [dc8c69f5-13e3-43e4-b625-80f401420be9]: OPTIONS /api/documents/stats
+2025-09-19 09:09:00,320 - api - INFO - [api.py:337] - Response [dc8c69f5-13e3-43e4-b625-80f401420be9]: 200 - 0.001s
+2025-09-19 09:09:00,331 - api - INFO - [api.py:324] - Request [1c1c0239-873e-4adc-ba24-9af09312e46e]: GET /api/documents/stats
+2025-09-19 09:09:00,334 - api - INFO - [api.py:337] - Response [1c1c0239-873e-4adc-ba24-9af09312e46e]: 200 - 0.003s
+2025-09-19 09:09:00,368 - api - INFO - [api.py:324] - Request [210f2b4c-8089-467e-a4ec-6c0221e39b1f]: GET /api/documents/stats
+2025-09-19 09:09:00,389 - api - INFO - [api.py:324] - Request [1d28578c-da0a-41f0-8ff7-5b886cb56b3f]: GET /api/metrics
+2025-09-19 09:09:00,390 - api - INFO - [api.py:337] - Response [210f2b4c-8089-467e-a4ec-6c0221e39b1f]: 200 - 0.022s
+2025-09-19 09:09:00,395 - api - INFO - [api.py:337] - Response [1d28578c-da0a-41f0-8ff7-5b886cb56b3f]: 200 - 0.006s
+2025-09-19 09:09:00,409 - api - INFO - [api.py:324] - Request [50a87476-40f4-4b37-bfc2-f3cc8639dae8]: GET /api/metrics
+2025-09-19 09:09:00,410 - api - INFO - [api.py:337] - Response [50a87476-40f4-4b37-bfc2-f3cc8639dae8]: 200 - 0.001s
+2025-09-19 09:09:00,441 - api - INFO - [api.py:324] - Request [babb25b7-4bef-4147-b91f-cf7b605c684a]: GET /api/students
+2025-09-19 09:09:00,446 - api - INFO - [api.py:337] - Response [babb25b7-4bef-4147-b91f-cf7b605c684a]: 200 - 0.004s
+2025-09-19 09:09:00,451 - api - INFO - [api.py:324] - Request [15ae12aa-64fb-4f3c-a873-9819dc42a208]: GET /api/students
+2025-09-19 09:09:00,454 - api - INFO - [api.py:337] - Response [15ae12aa-64fb-4f3c-a873-9819dc42a208]: 200 - 0.003s
+2025-09-19 09:09:33,839 - api - INFO - [api.py:324] - Request [6f9bef9f-e49d-4c50-b208-14bf9500d92b]: GET /api/students
+2025-09-19 09:09:33,847 - api - INFO - [api.py:337] - Response [6f9bef9f-e49d-4c50-b208-14bf9500d92b]: 200 - 0.009s
+2025-09-19 09:09:49,758 - api - INFO - [api.py:324] - Request [7d4c2a72-f540-4dd2-a298-f847918d89a2]: POST /api/students
+2025-09-19 09:09:49,814 - api - INFO - [api.py:337] - Response [7d4c2a72-f540-4dd2-a298-f847918d89a2]: 200 - 0.056s
+2025-09-19 09:09:49,871 - api - INFO - [api.py:324] - Request [ededd21c-c0e7-4e4b-b93b-a75ab8ee66e7]: GET /api/students
+2025-09-19 09:09:50,261 - api - INFO - [api.py:337] - Response [ededd21c-c0e7-4e4b-b93b-a75ab8ee66e7]: 200 - 0.390s
+2025-09-19 09:09:56,871 - api - INFO - [api.py:324] - Request [9d53595b-4c72-4f4c-9eb8-5888fb8bdf4f]: PUT /api/students/1
+2025-09-19 09:09:56,905 - api - INFO - [api.py:337] - Response [9d53595b-4c72-4f4c-9eb8-5888fb8bdf4f]: 200 - 0.034s
+2025-09-19 09:09:56,945 - api - INFO - [api.py:324] - Request [c93142c3-3524-43ce-9915-e572ae50d103]: GET /api/students
+2025-09-19 09:09:57,106 - api - INFO - [api.py:337] - Response [c93142c3-3524-43ce-9915-e572ae50d103]: 200 - 0.160s
+2025-09-19 09:10:38,762 - api - INFO - [api.py:324] - Request [4a78fb3b-8b5f-4a95-bd71-5fe0889b8a1f]: GET /api/students
+2025-09-19 09:10:38,764 - api - INFO - [api.py:337] - Response [4a78fb3b-8b5f-4a95-bd71-5fe0889b8a1f]: 200 - 0.002s
+2025-09-19 09:10:50,669 - api - INFO - [api.py:324] - Request [817a62a2-fa53-47f4-9a96-75ca425f8807]: GET /api/students
+2025-09-19 09:10:50,678 - api - INFO - [api.py:337] - Response [817a62a2-fa53-47f4-9a96-75ca425f8807]: 200 - 0.009s
+2025-09-19 09:10:50,687 - api - INFO - [api.py:324] - Request [d803b036-68e7-4a8c-8385-7cbd0469a003]: GET /api/students
+2025-09-19 09:10:50,690 - api - INFO - [api.py:337] - Response [d803b036-68e7-4a8c-8385-7cbd0469a003]: 200 - 0.004s
+2025-09-19 09:10:50,697 - api - INFO - [api.py:324] - Request [b23d8340-206c-4c80-8cb5-b480dc6bfb6b]: OPTIONS /api/conversations
+2025-09-19 09:10:50,698 - api - INFO - [api.py:337] - Response [b23d8340-206c-4c80-8cb5-b480dc6bfb6b]: 200 - 0.001s
+2025-09-19 09:10:50,705 - api - INFO - [api.py:324] - Request [37be004a-194a-4a6d-b1af-90af24a78614]: POST /api/conversations
+2025-09-19 09:10:50,709 - api - INFO - [api.py:337] - Response [37be004a-194a-4a6d-b1af-90af24a78614]: 200 - 0.004s
+2025-09-19 09:10:50,717 - api - INFO - [api.py:324] - Request [c21a28c2-aef5-4c9a-8fed-392cfa5dca53]: POST /api/conversations
+2025-09-19 09:10:50,720 - api - INFO - [api.py:337] - Response [c21a28c2-aef5-4c9a-8fed-392cfa5dca53]: 200 - 0.003s
+2025-09-19 09:10:50,726 - api - INFO - [api.py:324] - Request [2b067722-e6f3-44e5-9d23-449810f1a073]: POST /api/conversations
+2025-09-19 09:10:50,728 - api - INFO - [api.py:337] - Response [2b067722-e6f3-44e5-9d23-449810f1a073]: 200 - 0.003s
+2025-09-19 09:10:50,734 - api - INFO - [api.py:324] - Request [deb584f7-e552-4361-b1f0-5cbaf814f704]: POST /api/conversations
+2025-09-19 09:10:50,737 - api - INFO - [api.py:337] - Response [deb584f7-e552-4361-b1f0-5cbaf814f704]: 200 - 0.003s
+2025-09-19 09:10:50,742 - api - INFO - [api.py:324] - Request [d4099b34-375f-4c66-adb2-6d4dda1f41eb]: POST /api/conversations
+2025-09-19 09:10:50,745 - api - INFO - [api.py:337] - Response [d4099b34-375f-4c66-adb2-6d4dda1f41eb]: 200 - 0.003s
+2025-09-19 09:10:50,752 - api - INFO - [api.py:324] - Request [7b352354-aa2b-4c38-bcf5-a681ff5a6eca]: POST /api/conversations
+2025-09-19 09:10:50,756 - api - INFO - [api.py:337] - Response [7b352354-aa2b-4c38-bcf5-a681ff5a6eca]: 200 - 0.004s
+2025-09-19 09:10:50,764 - api - INFO - [api.py:324] - Request [7e49fee3-e252-4bfd-a75c-1374a6bde096]: GET /api/status
+2025-09-19 09:10:50,769 - api - INFO - [api.py:337] - Response [7e49fee3-e252-4bfd-a75c-1374a6bde096]: 200 - 0.005s
+2025-09-19 09:10:50,774 - api - INFO - [api.py:324] - Request [91957597-e9eb-4999-bb60-b457425cd618]: GET /api/status
+2025-09-19 09:10:50,778 - api - INFO - [api.py:337] - Response [91957597-e9eb-4999-bb60-b457425cd618]: 200 - 0.005s
+2025-09-19 09:10:50,783 - api - INFO - [api.py:324] - Request [ac48bfa7-5486-4bb1-b40e-67273bc6fdd1]: GET /api/documents/stats
+2025-09-19 09:10:50,786 - api - INFO - [api.py:337] - Response [ac48bfa7-5486-4bb1-b40e-67273bc6fdd1]: 200 - 0.003s
+2025-09-19 09:10:50,814 - api - INFO - [api.py:324] - Request [4e870a49-1a73-46d5-a14f-19993307c967]: OPTIONS /api/metrics
+2025-09-19 09:10:50,816 - api - INFO - [api.py:337] - Response [4e870a49-1a73-46d5-a14f-19993307c967]: 200 - 0.002s
+2025-09-19 09:10:50,824 - api - INFO - [api.py:324] - Request [291d99e8-56d3-4770-a3ec-54da1dbcc69d]: GET /api/documents/stats
+2025-09-19 09:10:50,828 - api - INFO - [api.py:337] - Response [291d99e8-56d3-4770-a3ec-54da1dbcc69d]: 200 - 0.004s
+2025-09-19 09:10:50,833 - api - INFO - [api.py:324] - Request [33bb0c36-f17e-4a01-af16-66c081f752ab]: GET /api/metrics
+2025-09-19 09:10:50,835 - api - INFO - [api.py:337] - Response [33bb0c36-f17e-4a01-af16-66c081f752ab]: 200 - 0.002s
+2025-09-19 09:10:50,848 - api - INFO - [api.py:324] - Request [a5f99e35-6ce6-41a1-af35-1044e42ac482]: GET /api/metrics
+2025-09-19 09:10:50,854 - api - INFO - [api.py:337] - Response [a5f99e35-6ce6-41a1-af35-1044e42ac482]: 200 - 0.006s
+2025-09-19 09:10:50,878 - api - INFO - [api.py:324] - Request [b1c65313-cf00-40f7-ad55-2fad3836f97b]: GET /api/students
+2025-09-19 09:10:50,881 - api - INFO - [api.py:337] - Response [b1c65313-cf00-40f7-ad55-2fad3836f97b]: 200 - 0.003s
+2025-09-19 09:10:50,885 - api - INFO - [api.py:324] - Request [6ca4ffe7-9dec-4dbc-b6cd-ff3b292e87bb]: GET /api/students
+2025-09-19 09:10:50,890 - api - INFO - [api.py:337] - Response [6ca4ffe7-9dec-4dbc-b6cd-ff3b292e87bb]: 200 - 0.004s
+2025-09-19 09:11:14,103 - api - INFO - [api.py:324] - Request [eeb76b28-e2e4-4870-87cf-6a126667f064]: OPTIONS /api/students/3
+2025-09-19 09:11:14,105 - api - INFO - [api.py:337] - Response [eeb76b28-e2e4-4870-87cf-6a126667f064]: 200 - 0.002s
+2025-09-19 09:11:14,119 - api - INFO - [api.py:324] - Request [cbbf10c0-8433-40bc-9b04-1fb5168530e1]: DELETE /api/students/3
+2025-09-19 09:11:14,127 - api - INFO - [api.py:337] - Response [cbbf10c0-8433-40bc-9b04-1fb5168530e1]: 200 - 0.008s
+2025-09-19 09:11:14,152 - api - INFO - [api.py:324] - Request [ff5f83d9-8948-43b1-ad97-11373317310d]: GET /api/students
+2025-09-19 09:11:14,250 - api - INFO - [api.py:337] - Response [ff5f83d9-8948-43b1-ad97-11373317310d]: 200 - 0.097s
+2025-09-19 09:11:33,460 - api - INFO - [api.py:324] - Request [18f11fd8-ff9c-4213-b211-b1dcb031136d]: OPTIONS /api/admin/documents
+2025-09-19 09:11:33,464 - api - INFO - [api.py:337] - Response [18f11fd8-ff9c-4213-b211-b1dcb031136d]: 200 - 0.005s
+2025-09-19 09:11:33,475 - api - INFO - [api.py:324] - Request [4a8dc114-0e51-43bc-b94c-ba97d2b3492c]: OPTIONS /api/admin/documents
+2025-09-19 09:11:33,477 - api - INFO - [api.py:337] - Response [4a8dc114-0e51-43bc-b94c-ba97d2b3492c]: 200 - 0.002s
+2025-09-19 09:11:33,489 - api - INFO - [api.py:324] - Request [1df21eec-0586-42cb-9224-0d599fd2263c]: GET /api/admin/documents
+2025-09-19 09:11:33,510 - api - INFO - [api.py:337] - Response [1df21eec-0586-42cb-9224-0d599fd2263c]: 200 - 0.019s
+2025-09-19 09:11:33,515 - api - INFO - [api.py:324] - Request [38f4c625-8390-431f-869d-87fe6d3970f9]: GET /api/admin/documents
+2025-09-19 09:11:33,534 - api - INFO - [api.py:337] - Response [38f4c625-8390-431f-869d-87fe6d3970f9]: 200 - 0.019s
+2025-09-19 09:11:53,660 - api - INFO - [api.py:324] - Request [e290fa20-ef24-446c-965f-79617b546517]: POST /api/admin/documents/upload
+2025-09-19 09:11:53,688 - api - INFO - [api.py:337] - Response [e290fa20-ef24-446c-965f-79617b546517]: 200 - 0.028s
+2025-09-19 09:11:53,706 - api - INFO - [api.py:324] - Request [ba06e0b5-773a-4943-9aec-04e82fac8370]: GET /api/admin/documents
+2025-09-19 09:11:53,717 - api - INFO - [api.py:337] - Response [ba06e0b5-773a-4943-9aec-04e82fac8370]: 200 - 0.011s
+2025-09-19 09:11:58,355 - api - INFO - [api.py:324] - Request [0ab2fc7f-399c-42e7-83ef-6979214fe0d5]: GET /api/admin/documents
+2025-09-19 09:11:58,364 - api - INFO - [api.py:337] - Response [0ab2fc7f-399c-42e7-83ef-6979214fe0d5]: 200 - 0.008s
+2025-09-19 09:12:01,623 - api - INFO - [api.py:324] - Request [3ecaa8a7-5e49-4b04-905e-426e7fadc9f4]: GET /api/students
+2025-09-19 09:12:01,629 - api - INFO - [api.py:337] - Response [3ecaa8a7-5e49-4b04-905e-426e7fadc9f4]: 200 - 0.007s
+2025-09-19 09:12:01,633 - api - INFO - [api.py:324] - Request [c1e07716-5d32-4fd9-9e5d-321692f012b5]: GET /api/students
+2025-09-19 09:12:01,636 - api - INFO - [api.py:337] - Response [c1e07716-5d32-4fd9-9e5d-321692f012b5]: 200 - 0.003s
+2025-09-19 09:12:01,724 - api - INFO - [api.py:324] - Request [20afae0d-0e66-405c-8e6b-5ab3b1317a95]: POST /api/conversations
+2025-09-19 09:12:01,727 - api - INFO - [api.py:324] - Request [b236507f-4441-4c39-a7a2-252109f2e6c2]: POST /api/conversations
+2025-09-19 09:12:01,730 - api - INFO - [api.py:337] - Response [20afae0d-0e66-405c-8e6b-5ab3b1317a95]: 200 - 0.006s
+2025-09-19 09:12:01,736 - api - INFO - [api.py:337] - Response [b236507f-4441-4c39-a7a2-252109f2e6c2]: 200 - 0.009s
+2025-09-19 09:12:01,747 - api - INFO - [api.py:324] - Request [0a72fa94-b3df-497b-880c-f7c61974de54]: POST /api/conversations
+2025-09-19 09:12:01,753 - api - INFO - [api.py:324] - Request [252739c7-34ee-4f66-9419-fa36029a54ae]: POST /api/conversations
+2025-09-19 09:12:01,762 - api - INFO - [api.py:337] - Response [0a72fa94-b3df-497b-880c-f7c61974de54]: 200 - 0.015s
+2025-09-19 09:12:01,770 - api - INFO - [api.py:337] - Response [252739c7-34ee-4f66-9419-fa36029a54ae]: 200 - 0.017s
+2025-09-19 09:12:01,782 - api - INFO - [api.py:324] - Request [ecb8e47d-74f8-4b28-9728-92006706cd39]: GET /api/status
+2025-09-19 09:12:01,795 - api - INFO - [api.py:337] - Response [ecb8e47d-74f8-4b28-9728-92006706cd39]: 200 - 0.013s
+2025-09-19 09:12:01,804 - api - INFO - [api.py:324] - Request [be8d6e36-ecb6-4fda-b7b5-83799ce9d7f8]: GET /api/status
+2025-09-19 09:12:01,819 - api - INFO - [api.py:337] - Response [be8d6e36-ecb6-4fda-b7b5-83799ce9d7f8]: 200 - 0.015s
+2025-09-19 09:12:01,823 - api - INFO - [api.py:324] - Request [db096f8f-5cf0-458a-9a88-d32d852ba3d3]: GET /api/documents/stats
+2025-09-19 09:12:01,837 - api - INFO - [api.py:337] - Response [db096f8f-5cf0-458a-9a88-d32d852ba3d3]: 200 - 0.015s
+2025-09-19 09:12:01,857 - api - INFO - [api.py:324] - Request [d15a301d-f285-43c4-b85f-276bbe261418]: GET /api/documents/stats
+2025-09-19 09:12:01,864 - api - INFO - [api.py:337] - Response [d15a301d-f285-43c4-b85f-276bbe261418]: 200 - 0.007s
+2025-09-19 09:12:01,895 - api - INFO - [api.py:324] - Request [a793ac50-64ea-4a13-ba7f-d12d52fc41a2]: GET /api/metrics
+2025-09-19 09:12:01,899 - api - INFO - [api.py:337] - Response [a793ac50-64ea-4a13-ba7f-d12d52fc41a2]: 200 - 0.003s
+2025-09-19 09:12:01,907 - api - INFO - [api.py:324] - Request [8524c603-2113-41fe-82ec-6df0f15689ae]: GET /api/metrics
+2025-09-19 09:12:01,911 - api - INFO - [api.py:337] - Response [8524c603-2113-41fe-82ec-6df0f15689ae]: 200 - 0.005s
+2025-09-19 09:12:01,933 - api - INFO - [api.py:324] - Request [462ff54b-0f67-47e0-b68c-10742e71efe7]: GET /api/students
+2025-09-19 09:12:01,937 - api - INFO - [api.py:337] - Response [462ff54b-0f67-47e0-b68c-10742e71efe7]: 200 - 0.004s
+2025-09-19 09:12:01,947 - api - INFO - [api.py:324] - Request [fbfb8c69-eafd-4b8f-945f-abf4e8ae5389]: GET /api/students
+2025-09-19 09:12:01,954 - api - INFO - [api.py:337] - Response [fbfb8c69-eafd-4b8f-945f-abf4e8ae5389]: 200 - 0.007s
+2025-09-19 09:12:07,458 - api - INFO - [api.py:324] - Request [16ae5a11-43c8-4b31-9291-b02e110ccaeb]: GET /api/students
+2025-09-19 09:12:07,462 - api - INFO - [api.py:337] - Response [16ae5a11-43c8-4b31-9291-b02e110ccaeb]: 200 - 0.003s
+2025-09-19 09:12:07,479 - api - INFO - [api.py:324] - Request [5c63bce0-1674-44d4-9d78-5f9b2d26285a]: POST /api/conversations
+2025-09-19 09:12:07,482 - api - INFO - [api.py:337] - Response [5c63bce0-1674-44d4-9d78-5f9b2d26285a]: 200 - 0.004s
+2025-09-19 09:12:07,499 - api - INFO - [api.py:324] - Request [47ff8c95-720c-45c0-826f-7394e8b8bf6a]: POST /api/conversations
+2025-09-19 09:12:07,503 - api - INFO - [api.py:337] - Response [47ff8c95-720c-45c0-826f-7394e8b8bf6a]: 200 - 0.004s
+2025-09-19 09:12:07,525 - api - INFO - [api.py:324] - Request [229310fd-c04b-4c3e-9527-66b8ac64244d]: GET /api/status
+2025-09-19 09:12:07,532 - api - INFO - [api.py:337] - Response [229310fd-c04b-4c3e-9527-66b8ac64244d]: 200 - 0.007s
+2025-09-19 09:12:07,548 - api - INFO - [api.py:324] - Request [37c00243-3bff-4101-adba-ac5110febf25]: GET /api/documents/stats
+2025-09-19 09:12:07,558 - api - INFO - [api.py:337] - Response [37c00243-3bff-4101-adba-ac5110febf25]: 200 - 0.010s
+2025-09-19 09:12:07,592 - api - INFO - [api.py:324] - Request [2365b516-e721-4446-ae08-1d4fa549ac7a]: GET /api/metrics
+2025-09-19 09:12:07,595 - api - INFO - [api.py:337] - Response [2365b516-e721-4446-ae08-1d4fa549ac7a]: 200 - 0.003s
+2025-09-19 09:12:07,641 - api - INFO - [api.py:324] - Request [74414f93-e9ae-48ba-9e74-ce24cfefebea]: GET /api/students
+2025-09-19 09:12:07,645 - api - INFO - [api.py:337] - Response [74414f93-e9ae-48ba-9e74-ce24cfefebea]: 200 - 0.004s
+2025-09-19 09:12:08,484 - api - INFO - [api.py:324] - Request [ce684f2a-6125-4ad4-998d-95fd41a09726]: GET /api/students
+2025-09-19 09:12:08,491 - api - INFO - [api.py:337] - Response [ce684f2a-6125-4ad4-998d-95fd41a09726]: 200 - 0.006s
+2025-09-19 09:12:08,529 - api - INFO - [api.py:324] - Request [38b16c82-70db-45f6-965f-0870d191db9b]: POST /api/conversations
+2025-09-19 09:12:08,533 - api - INFO - [api.py:337] - Response [38b16c82-70db-45f6-965f-0870d191db9b]: 200 - 0.005s
+2025-09-19 09:12:08,552 - api - INFO - [api.py:324] - Request [df0f5b9d-af2c-47ca-8055-f6bb725bb878]: POST /api/conversations
+2025-09-19 09:12:08,560 - api - INFO - [api.py:337] - Response [df0f5b9d-af2c-47ca-8055-f6bb725bb878]: 200 - 0.008s
+2025-09-19 09:12:08,580 - api - INFO - [api.py:324] - Request [c4006184-159b-47fa-9197-1d04b9b758d9]: GET /api/status
+2025-09-19 09:12:08,592 - api - INFO - [api.py:337] - Response [c4006184-159b-47fa-9197-1d04b9b758d9]: 200 - 0.012s
+2025-09-19 09:12:08,611 - api - INFO - [api.py:324] - Request [cd0735e2-6759-40d6-aaf6-9baad4b57513]: GET /api/documents/stats
+2025-09-19 09:12:08,617 - api - INFO - [api.py:337] - Response [cd0735e2-6759-40d6-aaf6-9baad4b57513]: 200 - 0.006s
+2025-09-19 09:12:08,663 - api - INFO - [api.py:324] - Request [27a5f969-7f83-4096-a961-6f38ca3fea0d]: GET /api/metrics
+2025-09-19 09:12:08,665 - api - INFO - [api.py:337] - Response [27a5f969-7f83-4096-a961-6f38ca3fea0d]: 200 - 0.002s
+2025-09-19 09:12:08,723 - api - INFO - [api.py:324] - Request [8ec8bcf3-7bed-49bb-9326-c774dbb68839]: GET /api/students
+2025-09-19 09:12:08,730 - api - INFO - [api.py:337] - Response [8ec8bcf3-7bed-49bb-9326-c774dbb68839]: 200 - 0.007s
+2025-09-19 09:12:30,192 - api - INFO - [api.py:324] - Request [77247d7c-762c-4e7d-b437-d36c90263000]: GET /api/students
+2025-09-19 09:12:30,216 - api - INFO - [api.py:337] - Response [77247d7c-762c-4e7d-b437-d36c90263000]: 200 - 0.023s

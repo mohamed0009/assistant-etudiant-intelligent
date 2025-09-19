@@ -161,21 +161,34 @@ export default function AdminDashboard() {
       // Create sample data if needed
       await createSampleDataIfNeeded()
       
-      // Load all real data from API endpoints
-      const [
-        status,
-        stats,
-        metricsData
-      ] = await Promise.allSettled([
-        apiService.getStatus(),
-        apiService.getStats(),
-        fetch('http://localhost:8000/api/metrics').then(res => res.json())
-      ])
+      // Defaults
+      const defaultStatus: SystemStatus = { documents_loaded: false, total_vectors: 0, model: 'unknown', llm_configured: false }
+      const defaultStats: DocumentStats = { total_documents: 0, total_chunks: 0, subjects: [], last_updated: undefined }
+      const defaultMetrics: any = { total_questions: 0, avg_response_time: 'N/A', accuracy: 'N/A', uptime: 'N/A', total_sessions: 0, most_asked_subjects: {} }
 
-      // Set the data if successful
-      if (status.status === 'fulfilled') setSystemStatus(status.value)
-      if (stats.status === 'fulfilled') setDocumentStats(stats.value)
-      if (metricsData.status === 'fulfilled') setMetrics(metricsData.value)
+      // Load system status
+      try {
+        const status = await apiService.getStatus()
+        setSystemStatus(status)
+      } catch (_) {
+        setSystemStatus(defaultStatus)
+      }
+
+      // Load document stats
+      try {
+        const stats = await apiService.getStats()
+        setDocumentStats(stats)
+      } catch (_) {
+        setDocumentStats(defaultStats)
+      }
+
+      // Load metrics
+      try {
+        const metricsData = await apiService.getMetrics()
+        setMetrics(metricsData)
+      } catch (_) {
+        setMetrics(defaultMetrics)
+      }
       
       // Load students
       await loadStudents()
@@ -241,24 +254,12 @@ export default function AdminDashboard() {
         return
       }
 
-      // Update student via API (you'll need to implement this endpoint)
-      const response = await fetch(`http://localhost:8000/api/students/${selectedStudent.id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(editFormData)
-      })
-
-      if (!response.ok) {
-        throw new Error('Erreur lors de la mise à jour')
-      }
+      // Update student via API
+      await apiService.updateStudent(selectedStudent.id, editFormData)
 
       setSuccess('Étudiant mis à jour avec succès')
       setIsEditModalOpen(false)
       await loadStudents() // Reload students list
-      
-      // Clear success message after 3 seconds
       setTimeout(() => setSuccess(null), 3000)
     } catch (error) {
       setError('Erreur lors de la mise à jour de l\'étudiant')
@@ -275,20 +276,12 @@ export default function AdminDashboard() {
       setIsSubmitting(true)
       setError(null)
 
-      // Delete student via API (you'll need to implement this endpoint)
-      const response = await fetch(`http://localhost:8000/api/students/${selectedStudent.id}`, {
-        method: 'DELETE'
-      })
-
-      if (!response.ok) {
-        throw new Error('Erreur lors de la suppression')
-      }
+      // Delete student via API
+      await apiService.deleteStudent(selectedStudent.id)
 
       setSuccess('Étudiant supprimé avec succès')
       setIsDeleteModalOpen(false)
       await loadStudents() // Reload students list
-      
-      // Clear success message after 3 seconds
       setTimeout(() => setSuccess(null), 3000)
     } catch (error) {
       setError('Erreur lors de la suppression de l\'étudiant')
@@ -303,19 +296,11 @@ export default function AdminDashboard() {
     try {
       setIsReloadingDocuments(true)
       setError(null)
-      
-      const response = await fetch('http://localhost:8000/api/documents/validate', {
-        method: 'POST'
-      })
-      
-      if (!response.ok) {
-        throw new Error('Erreur lors du rechargement')
-      }
-      
+
+      await apiService.reloadDocuments()
+
       setSuccess('Base vectorielle rechargée avec succès')
       await loadData() // Reload all data
-      
-      // Clear success message after 3 seconds
       setTimeout(() => setSuccess(null), 3000)
     } catch (error) {
       setError('Erreur lors du rechargement de la base vectorielle')
@@ -333,16 +318,9 @@ export default function AdminDashboard() {
       setError(null)
       setUploadProgress(0)
 
-      const formData = new FormData()
-      formData.append('file', uploadedFile)
-
-      const response = await fetch('http://localhost:8000/api/documents/upload', {
-        method: 'POST',
-        body: formData
-      })
-
-      if (!response.ok) {
-        throw new Error('Erreur lors du téléversement')
+      const res = await apiService.uploadAdminDocument(uploadedFile)
+      if (!res || !res.filename) {
+        throw new Error('Réponse invalide du serveur')
       }
 
       setUploadProgress(100)
@@ -351,8 +329,6 @@ export default function AdminDashboard() {
       setUploadedFile(null)
       setUploadProgress(0)
       await loadData() // Reload data to show new document
-      
-      // Clear success message after 3 seconds
       setTimeout(() => setSuccess(null), 3000)
     } catch (error) {
       setError('Erreur lors du téléversement du document')

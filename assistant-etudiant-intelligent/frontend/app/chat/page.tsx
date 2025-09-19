@@ -300,17 +300,30 @@ export default function ChatPage() {
                       <div className="mt-2">
                         <p className="text-xs font-medium text-gray-600 mb-1">Sources :</p>
                         <div className="space-y-1">
-                          {message.metadata.sources.slice(0, 3).map((source, index) => (
-                            <div key={index} className="px-2 py-1 bg-gray-50 border rounded text-xs">
-                              <div className="font-medium text-gray-800">{source.title}</div>
-                              <div className="text-gray-600">
-                                {source.metadata?.subject || 'Général'} • Score: {(source.score * 100).toFixed(0)}%
+                          {message.metadata.sources.slice(0, 3).map((rawSource, index) => {
+                            const source = (rawSource ?? {}) as any
+                            const rawMeta = source && typeof source === 'object' ? source.metadata : undefined
+                            const hasMetaObject = rawMeta && typeof rawMeta === 'object'
+                            const metadata = hasMetaObject ? rawMeta : { subject: 'Général', type: 'unknown' }
+                            const title = typeof source?.title === 'string'
+                              ? source.title
+                              : (hasMetaObject && typeof rawMeta.source === 'string' ? rawMeta.source : 'Source')
+                            const score = typeof source?.score === 'number' ? source.score : 0
+                            const safeSubject = hasMetaObject && typeof rawMeta.subject === 'string' ? rawMeta.subject : 'Général'
+                            const safeType = hasMetaObject && typeof rawMeta.type === 'string' ? rawMeta.type : 'unknown'
+                            const isCourse = safeType === 'course_document'
+                            return (
+                              <div key={index} className="px-2 py-1 bg-gray-50 border rounded text-xs">
+                                <div className="font-medium text-gray-800">{title}</div>
+                                <div className="text-gray-600">
+                                  {safeSubject} • Score: {(score * 100).toFixed(0)}%
+                                </div>
+                                {isCourse && (
+                                  <div className="text-green-600">📖 Document de cours</div>
+                                )}
                               </div>
-                              {source.metadata?.type === 'course_document' && (
-                                <div className="text-green-600">📖 Document de cours</div>
-                              )}
-                            </div>
-                          ))}
+                            )
+                          })}
                         </div>
                       </div>
                     )}

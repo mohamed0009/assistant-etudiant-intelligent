@@ -181,11 +181,26 @@ class ApiService {
       body: JSON.stringify(backendRequest),
     });
     
+    // Normalize sources to ensure metadata exists with safe defaults
+    const normalizedSources = Array.isArray(response.sources)
+      ? response.sources.map((src: any) => ({
+          title: typeof src?.title === 'string' ? src.title : (src?.metadata?.source || 'Source'),
+          content: typeof src?.content === 'string' ? src.content : '',
+          score: typeof src?.score === 'number' ? src.score : 0,
+          metadata: {
+            subject: typeof src?.metadata?.subject === 'string' ? src.metadata.subject : 'Général',
+            type: typeof src?.metadata?.type === 'string' ? src.metadata.type : (src?.metadata?.source ? 'course_document' : 'unknown'),
+            source: typeof src?.metadata?.source === 'string' ? src.metadata.source : undefined,
+            model: typeof src?.metadata?.model === 'string' ? src.metadata.model : undefined,
+          },
+        }))
+      : [];
+    
     // Map backend response to frontend format
     return {
       answer: response.answer,
       confidence: response.confidence,
-      sources: response.sources || [],
+      sources: normalizedSources,
       processing_time: response.processing_time,
       query: response.query,
       conversation_id: response.conversation_id,
@@ -216,6 +231,11 @@ class ApiService {
   // Vérification de santé
   async healthCheck(): Promise<{ status: string; documents_loaded: boolean; rag_engine_ready: boolean }> {
     return this.request('/api/status');
+  }
+
+  // -------- Metrics --------
+  async getMetrics(): Promise<any> {
+    return this.request('/api/metrics');
   }
 
   // -------- Students / Conversations / Messages --------
